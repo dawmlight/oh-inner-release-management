@@ -115,7 +115,7 @@ OpenHarmony社区版本发布计划
 | 1    | [I3NN2K](https://gitee.com/openharmony/ace_engine_lite/issues/I3NN2K) | 【ACE开发框架】支持设备侧Bytecode转换后验证应用运行正常测试跟踪 | developing | SIG_AppFramework     | [@borne](https://gitee.com/borne)                 |
 | 2    | [I3O2G8](https://gitee.com/openharmony/aafwk_aafwk_lite/issues/I3O2G8) | 【应用程序框架】按照应用粒度的存储资源使用统计               | developing | SIG_AppFramework     | [@autumn](https://gitee.com/autumn330)            |
 | 3    | [I3NN3P](https://gitee.com/openharmony/ace_engine_lite/issues/I3NN3P) | 【应用程序框架】支持在设备侧Bytecode转换                     | developing | SIG_AppFramework     | [@autumn](https://gitee.com/autumn330)            |
-| 4    | [I3NT48](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT48) | 【轻内核子系统】proc文件系统增强                             | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180              |
+| 4    | [I3NT48](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT48) | 【轻内核子系统】proc文件系统增强                             | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
 | 5    | [I3ND6Y](https://gitee.com/openharmony/kernel_liteos_a/issues/I3ND6Y) | 【性能】OS内核&驱动启动优化                                  | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
 | 6    | [I3NCB9](https://gitee.com/openharmony/third_party_Linux_Kernel/issues/I3NCB9) | 【L1 Linux开源】编译器替换后的内核代码适配                   | developing | SIG_Kernel           | [@zzzuo](https://gitee.com/zzzuo)                 |
 | 7    | [I3NBVI](https://gitee.com/openharmony/build_lite/issues/I3NBVI) | 【L1 Linux开源】clang替换                                    | developing | SIG_CompileRuntime   | [@zhuoli72](https://gitee.com/zhuoli72)           |
