@@ -1,6 +1,4 @@
-
-
-### OpenHarmony_release_1.0.1_sp1版本转测试信息：
+# OpenHarmony_release_1.0.1_sp1版本转测试信息：
 
 | **转测试版本号：OpenHarmony_release_1.0.1_sp1**              |
 | ------------------------------------------------------------ |
@@ -10,7 +8,7 @@
 | hispark_pegasus版本：<br> https://hm-verify.obs.cn-north-4.myhuaweicloud.com/version/Release_Version/OpenHarmony_release_1.0.1_sp1/2021-03-30_10-34-56/hispark_pegasus.tar.gz |
 | hispark_aries版本：<br> https://hm-verify.obs.cn-north-4.myhuaweicloud.com/version/Release_Version/OpenHarmony_release_1.0.1_sp1/2021-03-30_10-36-41/hispark_aries.tar.gz |
 
-### OpenHarmony_release_1.0.1.001版本转测试信息：
+# OpenHarmony_release_1.0.1.001版本转测试信息：
 
 | **转测试版本号：OpenHarmony_release_1.0.1.001**              |
 | ------------------------------------------------------------ |
@@ -20,7 +18,7 @@
 | hispark_pegasus版本：<br/> https://hm-verify.obs.cn-north-4.myhuaweicloud.com/version/Release_Version/OpenHarmony_release_1.0.1.001/2021-03-23-19-35/hispark_pegasus.tar.gz |
 | hispark_aries版本：<br/> https://hm-verify.obs.cn-north-4.myhuaweicloud.com/version/Release_Version/OpenHarmony_release_1.0.1.001/2021-03-23-19-36/hispark_aries.tar.gz |
 
-### OpenHarmony_2.1.1.001版本转测试信息：
+# OpenHarmony_2.1.1.001版本转测试信息：
 
 | **转测试版本号：OpenHarmony_2.1.1.001**                      |
 | ------------------------------------------------------------ |
@@ -30,7 +28,7 @@
 | hispark_pegasus版本：<br> https://hm-verify.obs.cn-north-4.myhuaweicloud.com/version/Master_Version/OpenHarmony_2.1.1.001/2021-04-14_08-38-01/hispark_pegasus.tar.gz |
 | hispark_aries版本：<br>https://hm-verify.obs.cn-north-4.myhuaweicloud.com/version/Master_Version/OpenHarmony_2.1.1.001/2021-04-14_08-39-54/hispark_aries.tar.gz |
 
-#### 针对OpenHarmony_2.1.1.001版本解决的缺陷ISSUE列表：
+## 针对OpenHarmony_2.1.1.001版本解决的缺陷ISSUE列表：
 
 | ISSUE                                                        | 问题描述                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -46,4 +44,25 @@
 | [I3EQJA](https://e.gitee.com/open_harmony/issues/list?issue=I3EQJA) | 【文件系统】cat /proc/mounts功能不可用                       |
 | [I3EQRC](https://e.gitee.com/open_harmony/issues/list?issue=I3EQRC) | 磁盘文件映射延迟测试：并发3个测试进程，系统crash             |
 | [I3HVL0](https://e.gitee.com/open_harmony/issues/list?issue=I3HVL0) | 3861编译失败，报错[OHOS ERROR] Fatal error: invalid -march= option:rv32imac |
+
+# OpenHarmony_release 2.2.2版本转测试信息：
+
+| **转测试版本号：OpenHarmony_release 2.2.2                    |
+| ------------------------------------------------------------ |
+| **版本用途：**OpenHarmony码云master迭代一第二轮α测试，验收hilog增强特性、AI子系统特性 |
+| **API变更：**：本次转测特性不涉及API变更                     |
+| **转测试时间：2021-04-28**                                   |
+| hispark_taurus版本：<br> https://hm-verify.obs.cn-north-4.myhuaweicloud.com/version/Master_Version/OpenHarmony_release_2.2.2/2021-04-28_17-33-00/hispark_taurus.tar.gz |
+| hispark_pegasus版本：<br> https://hm-verify.obs.cn-north-4.myhuaweicloud.com/version/Master_Version/OpenHarmony_release_2.2.2/2021-04-28_17-32-27/hispark_pegasus.tar.gz |
+| hispark_aries版本：<br>https://hm-verify.obs.cn-north-4.myhuaweicloud.com/version/Master_Version/OpenHarmony_release_2.2.2/2021-04-28_17-33-21/hispark_aries.tar.gz |
+
+## OpenHarmony_release 2.2.2转测特性清单：
+
+状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
+
+| no   | issue                                                        | feture description                              | status  | sig            | owner                                         |
+| :--- | ------------------------------------------------------------ | :---------------------------------------------- | :------ | :------------- | :-------------------------------------------- |
+| 1    | [I3HX0V](https://gitee.com/openharmony/hiviewdfx_hilog_lite/issues/I3HX0V) | 【HiLog】L1系统HiLog功能增强                    | Testing | SIG_BscSoftSrv | [@shenchenkai](https://gitee.com/shenchenkai) |
+| 2    | [I3NPEL](https://gitee.com/openharmony/ai_engine/issues/I3NPEL) | 【AI子系统】AI子系统添加linux内核适配，编译选项 | Testing | SIG_AI         | [@armylee0](https://gitee.com/armylee0)       |
+| 3    | [I3INEZ](https://gitee.com/openharmony/ai_engine/issues/I3INEZ) | 【AI子系统】AI引擎支持基于共享内存的数据传输    | Testing | SIG_AI         | [@armylee0](https://gitee.com/armylee0)       |
 
