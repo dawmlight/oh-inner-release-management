@@ -52,12 +52,9 @@ OpenHarmony社区版本发布计划
 
 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
 
-| no   | issue                                                        | feture description                              | status     | sig                | owner                                         |
-| :--- | ------------------------------------------------------------ | :---------------------------------------------- | :--------- | :----------------- | :-------------------------------------------- |
-| 1    | [I3ICGH](https://gitee.com/openharmony/utils_native_lite/issues/I3ICGH) | 【分布式数据管理】提供二进制Value的写入读取能力 | developing | SIG_DataManagement | [@widecode](https://gitee.com/widecode)       |
-| 2    | [I3HX0V](https://gitee.com/openharmony/hiviewdfx_hilog_lite/issues/I3HX0V) | 【HiLog】L1系统HiLog功能增强                    | developing | SIG_BscSoftSrv     | [@shenchenkai](https://gitee.com/shenchenkai) |
-| 3    | [I3NPEL](https://gitee.com/openharmony/ai_engine/issues/I3NPEL) | 【AI子系统】AI子系统添加linux内核适配，编译选项 | developing | SIG_AI             | [@armylee0](https://gitee.com/armylee0)       |
-| 4    | [I3INEZ](https://gitee.com/openharmony/ai_engine/issues/I3INEZ) | 【AI子系统】AI引擎支持基于共享内存的数据传输    | developing | SIG_AI             | [@armylee0](https://gitee.com/armylee0)       |
+| no   | issue                                                        | feture description           | status     | sig            | owner                                         |
+| :--- | ------------------------------------------------------------ | :--------------------------- | :--------- | :------------- | :-------------------------------------------- |
+| 1    | [I3HX0V](https://gitee.com/openharmony/hiviewdfx_hilog_lite/issues/I3HX0V) | 【HiLog】L1系统HiLog功能增强 | developing | SIG_BscSoftSrv | [@shenchenkai](https://gitee.com/shenchenkai) |
 
 ## OpenHarmony_release 2.2(beta1)版本特性清单：
 
