@@ -172,6 +172,8 @@ OpenHarmony社区版本发布计划
 | 42   | [I3NQUA](https://gitee.com/openharmony/communication_softbus_lite/issues/I3NQUA) | 【软总线】L1软总线支持WiFi发现连接                           | developing | SIG_SoftBus          | [@yinyouzhan](https://gitee.com/yinyouzhan)       |
 | 43   | [I3NSY0](https://gitee.com/openharmony/graphic_ui/issues/I3NSY0) | 【轻量级图形】支持A4\A8、LUT8、TSC图片格式作为输入           | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)           |
 | 44   | [I3NT0R](https://gitee.com/openharmony/graphic_ui/issues/I3NT0R) | 【轻量级图形】支持多语言字体对齐                             | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)           |
+| 45   | [I3MY2U](https://gitee.com/openharmony/third_party_mbedtls/issues/I3MY2U) | 【轻内核子系统】L0支持三方组件Mbedtls编译           | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
+| 46   | [I3MWYF](https://gitee.com/openharmony/third_party_curl/issues/I3MWYF) | 【轻内核子系统】L0支持三方组件curl编译           | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
 
 ## OpenHarmony v2.2.8版本特性清单：
 
