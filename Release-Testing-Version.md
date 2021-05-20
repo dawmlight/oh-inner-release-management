@@ -66,3 +66,26 @@
 | 2    | [I3NPEL](https://gitee.com/openharmony/ai_engine/issues/I3NPEL) | 【AI子系统】AI子系统添加linux内核适配，编译选项 | Testing | SIG_AI         | [@armylee0](https://gitee.com/armylee0)       |
 | 3    | [I3INEZ](https://gitee.com/openharmony/ai_engine/issues/I3INEZ) | 【AI子系统】AI引擎支持基于共享内存的数据传输    | Testing | SIG_AI         | [@armylee0](https://gitee.com/armylee0)       |
 
+# OpenHarmony v2.2-beta1版本转测试信息：
+
+| **转测试版本号：OpenHarmony v2.2-beta1                   |
+| ------------------------------------------------------------ |
+| **版本用途：**OpenHarmony码云master迭代一beta1测试，验收分布式数据管理、轻图形子系统特性 |
+| **API变更：**：本次转测特性涉及轻图形API变更                     |
+| **转测试时间：2021-05-20**                                   |
+| hispark_taurus版本：<br> https://hm-verify.obs.cn-north-4.myhuaweicloud.com/version/Master_Version/OpenHarmony_2.2_Beta1/20210520_145711/Master_Version-OpenHarmony_2.2_Beta1-20210520_145711-hispark_taurus.tar.gz |
+| hispark_pegasus版本：<br> https://hm-verify.obs.cn-north-4.myhuaweicloud.com/version/Master_Version/OpenHarmony_2.2_Beta1/20210520_145458/Master_Version-OpenHarmony_2.2_Beta1-20210520_145458-hispark_pegasus.tar.gz |
+| hispark_aries版本：<br> https://hm-verify.obs.cn-north-4.myhuaweicloud.com/version/Master_Version/OpenHarmony_2.2_Beta1/20210520_145630/Master_Version-OpenHarmony_2.2_Beta1-20210520_145630-hispark_aries.tar.gz |
+
+## OpenHarmony v2.2-beta1版本特性清单：
+
+ 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
+
+| no   | issue                                                        | feture description                                  | status     | sig                  | owner                                   |
+| :--- | ------------------------------------------------------------ | :-------------------------------------------------- | :--------- | :------------------- | :-------------------------------------- |
+| 1    | [I3ICFO](https://gitee.com/openharmony/utils_native_lite/issues/I3ICFO) | 【分布式数据管理】提供数据库内容的删除能力          | developing | SIG_DataManagement   | [@widecode](https://gitee.com/widecode) |
+| 2    | [I3ICH0](https://gitee.com/openharmony/utils_native_lite/issues/I3ICH0) | 【分布式数据管理】提供统一的HAL文件系统操作函数实现 | developing | SIG_DataManagement   | [@widecode](https://gitee.com/widecode) |
+| 3    | [I3ICG4](https://gitee.com/openharmony/utils_native_lite/issues/I3ICG4) | 【分布式数据管理】提供相关数据存储的原子操作能力    | developing | SIG_DataManagement   | [@widecode](https://gitee.com/widecode) |
+| 4    | [I3ICGH](https://gitee.com/openharmony/utils_native_lite/issues/I3ICGH) | 【分布式数据管理】提供二进制Value的写入读取能力     | developing | SIG_DataManagement   | [@widecode](https://gitee.com/widecode) |
+| 5    | [I3NSPB](https://gitee.com/openharmony/graphic_ui/issues/I3NSPB) | 【轻量级图形】UIKit组件支持margin/padding           | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua) |
+| 7    | [I3NSZH](https://gitee.com/openharmony/graphic_ui/issues/I3NSZH) | 【轻量级图形】圆形/胶囊按钮支持缩放和白色蒙层动效   | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua) |
