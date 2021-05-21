@@ -118,7 +118,7 @@ OpenHarmony社区版本发布计划
 
 | no   | issue                                                        | feture description                                   | status     | sig                  | owner                                   |
 | :--- | ------------------------------------------------------------ | :--------------------------------------------------- | :--------- | :------------------- | :-------------------------------------- |
-| 1    | [I3QEVG](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3QEVG) | 【【分布式调度】轻设备获取调用者APP的APPID并传输到富设备  | developing | SIG_AppFramework     | [@lijiarun](https://gitee.com/lijiarun) |
+| 1    | [I3QEVG](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3QEVG) | 【分布式调度】轻设备获取调用者APP的APPID并传输到富设备  | developing | SIG_AppFramework     | [@lijiarun](https://gitee.com/lijiarun) |
 | 2    | [I3NSQ6](https://gitee.com/openharmony/graphic_ui/issues/I3NSQ6) | 【轻量级图形】UIKit支持点阵字体产品化解耦            | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua) |
 | 3    | [I3NSZ1](https://gitee.com/openharmony/graphic_ui/issues/I3NSZ1) | 【轻量级图形】UI框架提供统一多后端框架支持多芯片平台 | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua) |
 
