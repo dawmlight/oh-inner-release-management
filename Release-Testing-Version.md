@@ -73,9 +73,9 @@
 | **版本用途：**OpenHarmony码云master迭代一beta1测试，验收分布式数据管理、轻图形子系统特性 |
 | **API变更：**：本次转测特性涉及轻图形API变更                     |
 | **转测试时间：2021-05-20**                                   |
-| hispark_taurus版本：<br> https://hm-verify.obs.cn-north-4.myhuaweicloud.com/version/Master_Version/OpenHarmony_2.2_Beta1/20210520_145711/Master_Version-OpenHarmony_2.2_Beta1-20210520_145711-hispark_taurus.tar.gz |
-| hispark_pegasus版本：<br> https://hm-verify.obs.cn-north-4.myhuaweicloud.com/version/Master_Version/OpenHarmony_2.2_Beta1/20210520_145458/Master_Version-OpenHarmony_2.2_Beta1-20210520_145458-hispark_pegasus.tar.gz |
-| hispark_aries版本：<br> https://hm-verify.obs.cn-north-4.myhuaweicloud.com/version/Master_Version/OpenHarmony_2.2_Beta1/20210520_145630/Master_Version-OpenHarmony_2.2_Beta1-20210520_145630-hispark_aries.tar.gz |
+| hispark_taurus版本：<br> https://hm-verify.obs.cn-north-4.myhuaweicloud.com/version/Master_Version/OpenHarmony_2.2_Beta1/20210521_093415/Master_Version-OpenHarmony_2.2_Beta1-20210521_093415-hispark_taurus.tar.gz |
+| hispark_pegasus版本：<br> https://hm-verify.obs.cn-north-4.myhuaweicloud.com/version/Master_Version/OpenHarmony_2.2_Beta1/20210521_093235/Master_Version-OpenHarmony_2.2_Beta1-20210521_093235-hispark_pegasus.tar.gz |
+| hispark_aries版本：<br> https://hm-verify.obs.cn-north-4.myhuaweicloud.com/version/Master_Version/OpenHarmony_2.2_Beta1/20210521_093350/Master_Version-OpenHarmony_2.2_Beta1-20210521_093350-hispark_aries.tar.gz |
 
 ## OpenHarmony v2.2-beta1版本特性清单：
 
