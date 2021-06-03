@@ -8,30 +8,34 @@ OpenHarmony社区版本发布计划
 
 | **迭代计划** | **版本**号             | **版本构建** | **版本转测试** | **版本测试完成** |
 | ------------ | ---------------------- | ------------ | -------------- | ---------------- |
-| IT1          | OpenHarmony 2.2.1     | 2021/4/21    | 2021/4/21      | 2021/5/11        |
-|              | OpenHarmony 2.2.2     | 2021/5/12    | 2021/5/12      | 2021/5/18        |
-|              | OpenHarmony 2.2 beta1 | 2021/5/19    | 2021/5/19      | **2021/6/7**  |
-| IT2          | OpenHarmony 2.2.5     | 2021/6/9     | 2021/6/9       | 2021/6/22        |
-|              | OpenHarmony 2.2.6     | 2021/6/23    | 2021/6/23      | 2021/6/29        |
-|              | OpenHarmony 2.2 beta2 | 2021/6/30    | 2021/6/30      | **2021/7/6**     |
-| IT3          | OpenHarmony 2.2.8     | 2021/7/21    | 2021/7/21      | 2021/8/3         |
-|              | OpenHarmony 2.2.9     | 2021/8/4     | 2021/8/4       | 2021/8/10        |
-|              | OpenHarmony 2.2.10    | 2021/8/11    | 2021/8/11      | **2021/8/17**    |
-| IT4          | OpenHarmony 2.2.11    | 2021/9/1     | 2021/9/1       | 2021/9/14        |
-|              | OpenHarmony 2.2.12    | 2021/9/15    | 2021/9/15      | 2021/9/21        |
-|              | OpenHarmony 2.2 LTS   | 2021/9/22    | 2021/9/22      | **2021/9/28**    |
-| IT5          | OpenHarmony 3.0.1     | 2021/10/20   | 2021/10/20     | 2021/11/2        |
-|              | OpenHarmony 3.0.2     | 2021/11/3    | 2021/11/3      | 2021/11/9        |
-|              | OpenHarmony 3.0 beta1 | 2021/11/10   | 2021/11/10     | **2021/11/16**   |
-| IT6          | OpenHarmony 3.0.5     | 2021/12/1    | 2021/12/1      | 2021/12/14       |
-|              | OpenHarmony 3.0.6     | 2021/12/15   | 2021/12/15     | 2021/12/21       |
-|              | OpenHarmony 3.0.7     | 2021/12/21   | 2021/12/21     | **2021/12/28**   |
+| IT1          | OpenHarmony 2.2.0.1  | 2021/4/21 | 2021/4/21      | 2021/5/11        |
+|              | OpenHarmony 2.2.0.2  | 2021/5/12    | 2021/5/12      | 2021/5/18        |
+|              | OpenHarmony 2.2.0.3 | 2021/5/19    | 2021/5/19      | 2021/5/25 |
+| | OpenHarmony 2.2 Beta | 2021/6/2 | 2021/6/2 | **2021/6/7** |
+| IT2          | OpenHarmony 2.3.0.1 | 2021/6/23   | 2021/6/23     | 2021/7/6      |
+|              | OpenHarmony 2.3.0.2 | 2021/7/7  | 2021/7/7    | 2021/7/13     |
+|              | OpenHarmony 2.3.0.3 | 2021/7/14 | 2021/7/14   | 2021/7/20 |
+| | OpenHarmony 2.3 Beta | 2021/7/21 | 2021/7/21 | **2021/7/27** |
+| IT3          | OpenHarmony 2.3.0.6 | 2021/7/28   | 2021/7/28     | 2021/8/3         |
+|              | OpenHarmony 2.3.0.7 | 2021/8/4     | 2021/8/4       | 2021/8/10        |
+| IT4          | OpenHarmony 3.0.0.1 | 2021/8/25  | 2021/8/25    | 2021/9/7       |
+|              | OpenHarmony 3.0.0.2 | 2021/9/8   | 2021/9/8     | 2021/9/14      |
+|              | OpenHarmony 3.0.0.3 | 2021/9/15  | 2021/9/15    | 2021/9/21   |
+| | OpenHarmony 3.0 LTS | 2021/9/22 | 2021/9/22 | **2021/9/28** |
+| IT5          | OpenHarmony 3.1.0.1 | 2021/10/20   | 2021/10/20     | 2021/11/2        |
+|              | OpenHarmony 3.1.0.2 | 2021/11/3    | 2021/11/3      | 2021/11/9        |
+|              | OpenHarmony 3.1.0.3 | 2021/11/10   | 2021/11/10     | 2021/11/16   |
+|           | OpenHarmony 3.1 Beta1 | 2021/11/17  | 2021/11/17 | **2021/11/23** |
+| IT6 | OpenHarmony 3.1.1.1   | 2021/12/8    | 2021/12/8      | 2021/12/21       |
+|              | OpenHarmony 3.1.1.2   | 2021/12/22   | 2021/12/22     | 2021/12/28       |
+|              | OpenHarmony 3.1.1.3   | 2021/12/29   | 2021/12/29     | 2021/1/5         |
+|              | OpenHarmony 3.1 Beta2 | 2022/1/10    | 2022/1/10      | **2022/1/17**    |
 
 # 各版本特性交付清单：
 
-## OpenHarmony 2.2.1版本特性清单：
+## OpenHarmony 2.2.0.1版本特性清单：
 
-针对OpenHarmony 2.2.1版本解决的缺陷ISSUE列表：
+针对OpenHarmony 2.2.0.1版本解决的缺陷ISSUE列表：
 
 | ISSUE                                                        | 问题描述                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -48,7 +52,7 @@ OpenHarmony社区版本发布计划
 | [I3EQRC](https://e.gitee.com/open_harmony/issues/list?issue=I3EQRC) | 磁盘文件映射延迟测试：并发3个测试进程，系统crash             |
 | [I3HVL0](https://e.gitee.com/open_harmony/issues/list?issue=I3HVL0) | 3861编译失败，报错[OHOS ERROR] Fatal error: invalid -march= option:rv32imac |
 
-## OpenHarmony 2.2.2版本特性清单：
+## OpenHarmony 2.2.0.2版本特性清单：
 
 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
 
@@ -57,7 +61,11 @@ OpenHarmony社区版本发布计划
 | 1    | [I3HX0V](https://gitee.com/openharmony/hiviewdfx_hilog_lite/issues/I3HX0V) | 【HiLog】L1系统HiLog功能增强                 | developing | SIG_BscSoftSrv | [@shenchenkai](https://gitee.com/shenchenkai) |
 | 2    | I3INEZ                                                       | 【AI子系统】AI引擎支持基于共享内存的数据传输 | developing | SIG_AI         | [@armylee0](https://gitee.com/armylee0)       |
 
-## OpenHarmony 2.2 beta1版本特性清单：
+## OpenHarmony 2.2.0.3版本特性清单：
+
+暂无
+
+## OpenHarmony 2.2 Beta版本特性清单：
 
  状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
 
@@ -70,7 +78,7 @@ OpenHarmony社区版本发布计划
 | 5    | [I3NSPB](https://gitee.com/openharmony/graphic_ui/issues/I3NSPB) | 【轻量级图形】UIKit组件支持margin/padding           | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua) |
 | 7    | [I3NSZH](https://gitee.com/openharmony/graphic_ui/issues/I3NSZH) | 【轻量级图形】圆形/胶囊按钮支持缩放和白色蒙层动效   | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua) |
 
-## OpenHarmony 2.2.5版本特性清单：
+## OpenHarmony 2.3.0.1版本特性清单：
 
 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
 
@@ -113,19 +121,12 @@ OpenHarmony社区版本发布计划
 | 35   | [I3NSVQ](https://gitee.com/openharmony/graphic_ui/issues/I3NSVQ) | 【轻量级图形】DFX维测能力：UIKit支持显示控件轮廓             | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
 | 36   | [I3NSWY](https://gitee.com/openharmony/graphic_ui/issues/I3NSWY) | 【轻量级图形】ScrollView/List支持通过弧形进度条展示滑动进度  | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
 | 37   | [I3NSZZ](https://gitee.com/openharmony/graphic_ui/issues/I3NSZZ) | 【轻量级图形】支持开关按钮/复选框/单选按钮动效               | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
+| 38   | [I3QEVG](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3QEVG) | 【【分布式调度】轻量设备启动富设备Ability的安全校验          | developing | SIG_AppFramework     | [@lijiarun](https://gitee.com/lijiarun)             |
+| 39   | [I3NSQ6](https://gitee.com/openharmony/graphic_ui/issues/I3NSQ6) | 【轻量级图形】UIKit支持点阵字体产品化解耦                    | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
+| 40   | [I3NSZ1](https://gitee.com/openharmony/graphic_ui/issues/I3NSZ1) | 【轻量级图形】UI框架提供统一多后端框架支持多芯片平台         | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
+| 41   | [I3SMI1](https://gitee.com/openharmony/distributeddatamgr_appdatamgr/issues/I3SMI1) | 【分布式数据管理】支持轻量级设备上分布式数据对象跨设备同步到手机/PAD | developing | SIG_DataManagement   | [@widecode](https://gitee.com/widecode)             |
 
-## OpenHarmony 2.2.6版本特性清单：
-
-状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
-
-| no   | issue                                                        | feture description                                           | status     | sig                  | owner                                   |
-| :--- | ------------------------------------------------------------ | :----------------------------------------------------------- | :--------- | :------------------- | :-------------------------------------- |
-| 1    | [I3QEVG](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3QEVG) | 【【分布式调度】轻量设备启动富设备Ability的安全校验          | developing | SIG_AppFramework     | [@lijiarun](https://gitee.com/lijiarun) |
-| 2    | [I3NSQ6](https://gitee.com/openharmony/graphic_ui/issues/I3NSQ6) | 【轻量级图形】UIKit支持点阵字体产品化解耦                    | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua) |
-| 3    | [I3NSZ1](https://gitee.com/openharmony/graphic_ui/issues/I3NSZ1) | 【轻量级图形】UI框架提供统一多后端框架支持多芯片平台         | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua) |
-| 4    | [I3SMI1](https://gitee.com/openharmony/distributeddatamgr_appdatamgr/issues/I3SMI1) | 【分布式数据管理】支持轻量级设备上分布式数据对象跨设备同步到手机/PAD | developing | SIG_DataManagement   | [@widecode](https://gitee.com/widecode) |
-
-## OpenHarmony 2.2 beta2版本特性清单：	
+## OpenHarmony 2.3.0.2 版本特性清单：	
 
 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
 
@@ -179,11 +180,19 @@ OpenHarmony社区版本发布计划
 | 46   | [I3MWYF](https://gitee.com/openharmony/third_party_curl/issues/I3MWYF) | 【轻内核子系统】L0支持三方组件curl编译                       | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
 | 47   | [I3SNGO](https://gitee.com/openharmony/build_lite/issues/I3SNGO) | 【编译子系统】build_lite支持开源软件的通用patch框架          | developing | SIG_CompileRuntime   | [@taiyipei](https://gitee.com/taiyipei)           |
 
-## OpenHarmony 2.2.8版本特性清单：
+## OpenHarmony 2.3.0.3版本特性清单：
 
 暂无
 
-## OpenHarmony 2.2.9版本特性清单：
+## OpenHarmony 2.3 Beta版本特性清单：
+
+暂无
+
+## OpenHarmony 2.3.0.6版本特性清单：
+
+暂无
+
+## OpenHarmony 2.3.0.7版本特性清单：
 
 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
 
@@ -192,7 +201,7 @@ OpenHarmony社区版本发布计划
 | 1    | [I3NIN8](https://gitee.com/openharmony/communication_softbus_lite/issues/I3NIN8) | 【软总线】【RPC】支持RPC对象跨进程串行化              | developing | SIG_SoftBus    | [@yinyouzhan](https://gitee.com/yinyouzhan) |
 | 2    | [I3NN7V](https://gitee.com/openharmony/hiviewdfx_hiview_lite/issues/I3NN7V) | 【DFX子系统】【BBoxDetector】LiteOS_A死机重启维测框架 | developing | SIG_BscSoftSrv | [@kkup180](https://gitee.com/kkup180)       |
 
-## OpenHarmony 2.2.10版本特性清单：
+## OpenHarmony 3.0.0.1版本特性清单：
 
 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
 
@@ -200,7 +209,7 @@ OpenHarmony社区版本发布计划
 | :--- | ------------------------------------------------------------ | :--------------------------------------- | :--------- | :--------------- | :--------- |
 | 1    | [I3O2G8](https://gitee.com/openharmony/aafwk_aafwk_lite/issues/I3O2G8?from=project-issue) | 【应用程序框架】轻量级应用实现entity标签 | developing | SIG_AppFramework | [@autumn]( |
 
-## OpenHarmony 2.2.11版本特性清单：
+## OpenHarmony 3.0.0.2版本特性清单：
 
 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
 
@@ -215,11 +224,7 @@ OpenHarmony社区版本发布计划
 | 7    | [I3NT63](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT63) | 【轻内核子系统】pagecache功能完善                            | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)               |
 | 8    | [I3NTAZ](https://gitee.com/openharmony/security_huks/issues/I3NTAZ) | 【安全】轻量级实现弹窗授权动态授权机制                       | developing | SIG_Security         | [@scuteehuangjun](https://gitee.com/scuteehuangjun) |
 
-## OpenHarmony 2.2.12版本特性清单：
-
-暂无
-
-## OpenHarmony 2.2 LTS版本特性清单：
+## OpenHarmony 3.0.0.3版本特性清单：
 
 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
 
@@ -232,11 +237,15 @@ OpenHarmony社区版本发布计划
 | 5    | [I3NMQ8](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NMQ8) | 【媒体子系统】支持音视频编解码，适配硬解插件        | developing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang) |
 | 6    | [I3NN5Y](https://gitee.com/openharmony/hiviewdfx_hiview_lite/issues/I3NN5Y) | 【DFX子系统】【HiEvent】L1系统HiSysEvent功能        | developing | SIG_BscSoftSrv       | [@shenchenkai](https://gitee.com/shenchenkai)     |
 
-## OpenHarmony 3.0.1版本特性清单：
+## OpenHarmony 3.0 LTS版本特性清单：
 
 暂无
 
-## OpenHarmony 3.0.2版本特性清单：
+## OpenHarmony 3.1.0.1版本特性清单：
+
+暂无
+
+## OpenHarmony 3.1.0.2版本特性清单：
 
 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
 
@@ -261,19 +270,27 @@ OpenHarmony社区版本发布计划
 | 17   | [I3NTFH](https://gitee.com/openharmony/communication_wifi_aware/issues/I3NTFH) | 【电话服务】WIFI管理服务支持AP模式                        | developing | SIG_SoftBus          | [@rain_myf](https://gitee.com/rain_myf) |
 | 18   | [I3NTG9](https://gitee.com/openharmony/communication_wifi_aware/issues/I3NTG9) | 【电话服务】WIFI服务支持LINUX内核                         | developing | SIG_SoftBus          | [@rain_myf](https://gitee.com/rain_myf) |
 
-## OpenHarmony 3.0 beta1版本特性清单：
+## OpenHarmony 3.1.0.3 版本特性清单：
 
 暂无
 
-## OpenHarmony 3.0.5版本特性清单：
+## OpenHarmony 3.1 Beta1版本特性清单：
 
 暂无
 
-## OpenHarmony 3.0.6版本特性清单：
+## OpenHarmony 3.1.1.1版本特性清单：
 
 暂无
 
-## OpenHarmony 3.0.7版本特性清单：
+## OpenHarmony 3.1.1.2版本特性清单：
+
+暂无
+
+## OpenHarmony 3.1.1.3版本特性清单：
+
+暂无
+
+## OpenHarmony 3.1 Beta2版本特性清单：
 
 暂无
 
