@@ -98,23 +98,22 @@ OpenHarmony社区版本发布计划
 | 12   | [I3NT78](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT78) | 【轻内核子系统】liteos-a小系统三方芯片适配                   | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)               |
 | 13   | [I3SNIP](https://gitee.com/openharmony/kernel_liteos_m/issues/I3SNIP) | 【轻内核子系统】L0支持三方组件Mbedtls编译                    | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)               |
 | 14   | [I3SNKK](https://gitee.com/openharmony/kernel_liteos_m/issues/I3SNKK) | 【轻内核子系统】L0支持三方组件curl编译                       | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)               |
-| 15   | [I3ND6P](https://gitee.com/openharmony/kernel_liteos_a/issues/I3ND6P) | 【性能】安全启动优化                                         | developing | SIG_Security         | [@jiang-xiaofeng](https://gitee.com/jiang-xiaofeng) |
-| 16   | [I3NIME](https://gitee.com/openharmony/startup_appspawn_lite/issues/I3NIME) | 【启动恢复子系统】支持恢复出厂设置                           | developing | SIG_BscSoftSrv       | [@handyohos](https://gitee.com/handyohos)           |
-| 17   | [I3NTBC](https://gitee.com/openharmony/startup_appspawn_lite/issues/I3NTBC) | 【启动恢复子系统】L0/L1/L2接口优化                           | developing | SIG_BscSoftSrv       | [@handyohos](https://gitee.com/handyohos)           |
-| 18   | [I3NN4H](https://gitee.com/openharmony/hiviewdfx_hiview_lite/issues/I3NN4H) | 【DFX子系统】【HiLog】L0系统HiLog功能增强                    | developing | SIG_BscSoftSrv       | [@shenchenkai](https://gitee.com/shenchenkai)       |
-| 19   | [I3NN53](https://gitee.com/openharmony/hiviewdfx_hiview_lite/issues/I3NN53) | 【DFX子系统】【HiEvent】L0系统HiEvent功能增强                | developing | SIG_BscSoftSrv       | [@shenchenkai](https://gitee.com/shenchenkai)       |
-| 20   | [I3ID9Q](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3ID9Q) | 【分布式调度】建立轻量设备DMS与富设备DMS通信通道             | developing | SIG_AppFramework     | [@lijiarun](https://gitee.com/lijiarun)             |
-| 21   | [I3ID9V](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3ID9V) | 【分布式调度】轻量设备启动富设备上的Ability                  | developing | SIG_AppFramework     | [@lijiarun](https://gitee.com/lijiarun)             |
-| 32   | I3I1V8                                                       | 【全球化子系统】构建应用资源解析和加载机制                   | developing | SIG_AppFramework     | [@zhengbin5](https://gitee.com/zhengbin5)           |
-| 33   | [I3I1VJ](https://gitee.com/openharmony/global_resmgr_lite/issues/I3I1VJ) | 【全球化子系统】构建资源回溯机制                             | developing | SIG_AppFramework     | [@zhengbin5](https://gitee.com/zhengbin5)           |
-| 34   | [I3QE85](https://gitee.com/openharmony/drivers_framework/issues/I3QE85) | 【驱动子系统】L0支持HDF框架                                  | developing | SIG_DriverFramework  | [@zianed](https://gitee.com/zianed)                 |
-| 35   | [I3NSVQ](https://gitee.com/openharmony/graphic_ui/issues/I3NSVQ) | 【轻量级图形】DFX维测能力：UIKit支持显示控件轮廓             | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
-| 36   | [I3NSWY](https://gitee.com/openharmony/graphic_ui/issues/I3NSWY) | 【轻量级图形】ScrollView/List支持通过弧形进度条展示滑动进度  | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
-| 37   | [I3NSZZ](https://gitee.com/openharmony/graphic_ui/issues/I3NSZZ) | 【轻量级图形】支持开关按钮/复选框/单选按钮动效               | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
-| 38   | [I3QEVG](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3QEVG) | 【【分布式调度】轻量设备启动富设备Ability的安全校验          | developing | SIG_AppFramework     | [@lijiarun](https://gitee.com/lijiarun)             |
-| 39   | [I3NSQ6](https://gitee.com/openharmony/graphic_ui/issues/I3NSQ6) | 【轻量级图形】UIKit支持点阵字体产品化解耦                    | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
-| 40   | [I3NSZ1](https://gitee.com/openharmony/graphic_ui/issues/I3NSZ1) | 【轻量级图形】UI框架提供统一多后端框架支持多芯片平台         | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
-| 41   | [I3SMI1](https://gitee.com/openharmony/distributeddatamgr_appdatamgr/issues/I3SMI1) | 【分布式数据管理】支持轻量级设备上分布式数据对象跨设备同步到手机/PAD | developing | SIG_DataManagement   | [@widecode](https://gitee.com/widecode)             |
+| 15  | [I3NIME](https://gitee.com/openharmony/startup_appspawn_lite/issues/I3NIME) | 【启动恢复子系统】支持恢复出厂设置                           | developing | SIG_BscSoftSrv       | [@handyohos](https://gitee.com/handyohos)           |
+| 16   | [I3NTBC](https://gitee.com/openharmony/startup_appspawn_lite/issues/I3NTBC) | 【启动恢复子系统】L0/L1/L2接口优化                           | developing | SIG_BscSoftSrv       | [@handyohos](https://gitee.com/handyohos)           |
+| 17   | [I3NN4H](https://gitee.com/openharmony/hiviewdfx_hiview_lite/issues/I3NN4H) | 【DFX子系统】【HiLog】L0系统HiLog功能增强                    | developing | SIG_BscSoftSrv       | [@shenchenkai](https://gitee.com/shenchenkai)       |
+| 18  | [I3NN53](https://gitee.com/openharmony/hiviewdfx_hiview_lite/issues/I3NN53) | 【DFX子系统】【HiEvent】L0系统HiEvent功能增强                | developing | SIG_BscSoftSrv       | [@shenchenkai](https://gitee.com/shenchenkai)       |
+| 19   | [I3ID9Q](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3ID9Q) | 【分布式调度】建立轻量设备DMS与富设备DMS通信通道             | developing | SIG_AppFramework     | [@lijiarun](https://gitee.com/lijiarun)             |
+| 20  | [I3ID9V](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3ID9V) | 【分布式调度】轻量设备启动富设备上的Ability                  | developing | SIG_AppFramework     | [@lijiarun](https://gitee.com/lijiarun)             |
+| 21  | [I3I1V8](https://gitee.com/openharmony/global_resmgr_lite/issues/I3I1V8)         | 【全球化子系统】构建应用资源解析和加载机制                   | developing | SIG_AppFramework     | [@zhengbin5](https://gitee.com/zhengbin5)           |
+| 22  | [I3I1VJ](https://gitee.com/openharmony/global_resmgr_lite/issues/I3I1VJ) | 【全球化子系统】构建资源回溯机制                             | developing | SIG_AppFramework     | [@zhengbin5](https://gitee.com/zhengbin5)           |
+| 23   | [I3QE85](https://gitee.com/openharmony/drivers_framework/issues/I3QE85) | 【驱动子系统】L0支持HDF框架                                  | developing | SIG_DriverFramework  | [@zianed](https://gitee.com/zianed)                 |
+| 24   | [I3NSVQ](https://gitee.com/openharmony/graphic_ui/issues/I3NSVQ) | 【轻量级图形】DFX维测能力：UIKit支持显示控件轮廓             | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
+| 25   | [I3NSWY](https://gitee.com/openharmony/graphic_ui/issues/I3NSWY) | 【轻量级图形】ScrollView/List支持通过弧形进度条展示滑动进度  | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
+| 26   | [I3NSZZ](https://gitee.com/openharmony/graphic_ui/issues/I3NSZZ) | 【轻量级图形】支持开关按钮/复选框/单选按钮动效               | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
+| 27   | [I3QEVG](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3QEVG) | 【【分布式调度】轻量设备启动富设备Ability的安全校验          | developing | SIG_AppFramework     | [@lijiarun](https://gitee.com/lijiarun)             |
+| 28   | [I3NSQ6](https://gitee.com/openharmony/graphic_ui/issues/I3NSQ6) | 【轻量级图形】UIKit支持点阵字体产品化解耦                    | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
+| 29   | [I3NSZ1](https://gitee.com/openharmony/graphic_ui/issues/I3NSZ1) | 【轻量级图形】UI框架提供统一多后端框架支持多芯片平台         | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
+| 30   | [I3SMI1](https://gitee.com/openharmony/distributeddatamgr_appdatamgr/issues/I3SMI1) | 【分布式数据管理】支持轻量级设备上分布式数据对象跨设备同步到手机/PAD | developing | SIG_DataManagement   | [@widecode](https://gitee.com/widecode)             |
 
 ## OpenHarmony 2.3.0.2 版本特性清单：	
 
@@ -162,6 +161,7 @@ OpenHarmony社区版本发布计划
 | :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
 | 1    | [I3NN88](https://gitee.com/openharmony/hiviewdfx_hiview_lite/issues/I3NN88) | 【DFX子系统】【HiDumper】LiteOS_M系统信息dump工具 | developing | SIG_BscSoftSrv | [@kkup180](https://gitee.com/kkup180) |
 | 2    | [I3NN7D](https://gitee.com/openharmony/hiviewdfx_hiview_lite/issues/I3NN7D) | 【DFX子系统】【HiDumper】LiteOS_A系统信息dump工具 | developing | SIG_BscSoftSrv | [@kkup180](https://gitee.com/kkup180) |
+| 3    | [I3ND6P](https://gitee.com/openharmony/kernel_liteos_a/issues/I3ND6P) | 【性能】安全启动优化       | developing | SIG_Security         | [@jiang-xiaofeng](https://gitee.com/jiang-xiaofeng) |
 
 ## OpenHarmony 2.3 Beta版本特性清单：
 
