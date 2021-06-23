@@ -110,10 +110,8 @@ OpenHarmony社区版本发布计划
 | 24   | [I3NSVQ](https://gitee.com/openharmony/graphic_ui/issues/I3NSVQ) | 【轻量级图形】DFX维测能力：UIKit支持显示控件轮廓             | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
 | 25   | [I3NSWY](https://gitee.com/openharmony/graphic_ui/issues/I3NSWY) | 【轻量级图形】ScrollView/List支持通过弧形进度条展示滑动进度  | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
 | 26   | [I3NSZZ](https://gitee.com/openharmony/graphic_ui/issues/I3NSZZ) | 【轻量级图形】支持开关按钮/复选框/单选按钮动效               | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
-| 27   | [I3QEVG](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3QEVG) | 【【分布式调度】轻量设备启动富设备Ability的安全校验          | developing | SIG_AppFramework     | [@lijiarun](https://gitee.com/lijiarun)             |
-| 28   | [I3NSQ6](https://gitee.com/openharmony/graphic_ui/issues/I3NSQ6) | 【轻量级图形】UIKit支持点阵字体产品化解耦                    | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
-| 29   | [I3NSZ1](https://gitee.com/openharmony/graphic_ui/issues/I3NSZ1) | 【轻量级图形】UI框架提供统一多后端框架支持多芯片平台         | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
-| 30   | [I3SMI1](https://gitee.com/openharmony/distributeddatamgr_appdatamgr/issues/I3SMI1) | 【分布式数据管理】支持轻量级设备上分布式数据对象跨设备同步到手机/PAD | developing | SIG_DataManagement   | [@widecode](https://gitee.com/widecode)             |
+| 27   | [I3NSQ6](https://gitee.com/openharmony/graphic_ui/issues/I3NSQ6) | 【轻量级图形】UIKit支持点阵字体产品化解耦                    | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
+| 28   | [I3NSZ1](https://gitee.com/openharmony/graphic_ui/issues/I3NSZ1) | 【轻量级图形】UI框架提供统一多后端框架支持多芯片平台         | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |           |
 
 ## OpenHarmony 2.3.0.2 版本特性清单：	
 
