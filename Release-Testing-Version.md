@@ -101,6 +101,7 @@
 | hispark_taurus版本：<br> hispark-taurus版本：http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.1/20210623_114632/version-Master_Version-OpenHarmony_2.3.0.1-20210623_114632-hispark_taurus.tar.gz
 | hispark_pegasus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.1/20210623_114013/version-Master_Version-OpenHarmony_2.3.0.1-20210623_114013-hispark_pegasus.tar.gz|
 | hispark_aries版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.1/20210623_114314/version-Master_Version-OpenHarmony_2.3.0.1-20210623_114314-hispark_aries.tar.gz |
+| hi3516dv300-L2版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.1/20210625_090828/version-Master_Version-OpenHarmony_2.3.0.1-20210625_090828-L2_hi3516dv300.tar.gz |
 
 ## OpenHarmony 2.3.0.1版本特性清单：
 
