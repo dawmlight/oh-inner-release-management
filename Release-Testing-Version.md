@@ -95,9 +95,9 @@
 
 | **转测试版本号：OpenHarmony 2.3.0.1                   |
 | ------------------------------------------------------------ |
-| **版本用途：**OpenHarmony码云master迭代一beta1测试，验收分布式数据管理、轻图形子系统特性 |
-| **API变更：**：本次转测特性涉及轻图形API变更                     |
-| **转测试时间：2021-05-20**                                   |
+| **版本用途：**OpenHarmony码云master迭代二第一轮测试，验收内核、DFX子系统、分布式调度、全球化子系统，轻图像子系统等特性 |
+| **API变更：**：本次转测特性涉及启动子系统，全球化子系统，轻图形子系统的API变更，均通过法务评审                     |
+| **转测试时间：2021-06-24**                                   |
 | hispark_taurus版本：<br> hispark-taurus版本：http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.1/20210623_114632/version-Master_Version-OpenHarmony_2.3.0.1-20210623_114632-hispark_taurus.tar.gz
 | hispark_pegasus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.1/20210623_114013/version-Master_Version-OpenHarmony_2.3.0.1-20210623_114013-hispark_pegasus.tar.gz|
 | hispark_aries版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.1/20210623_114314/version-Master_Version-OpenHarmony_2.3.0.1-20210623_114314-hispark_aries.tar.gz |
