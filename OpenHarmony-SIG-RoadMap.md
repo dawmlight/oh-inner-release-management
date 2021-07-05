@@ -157,10 +157,10 @@ OpenHarmony社区版本发布计划
 | :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
 | 1    | [I3NN88](https://gitee.com/openharmony/hiviewdfx_hiview_lite/issues/I3NN88) | 【DFX子系统】【HiDumper】LiteOS_M系统信息dump工具 | developing | SIG_BscSoftSrv | [@kkup180](https://gitee.com/kkup180) |
 | 2    | [I3NN7D](https://gitee.com/openharmony/hiviewdfx_hiview_lite/issues/I3NN7D) | 【DFX子系统】【HiDumper】LiteOS_A系统信息dump工具 | developing | SIG_BscSoftSrv | [@kkup180](https://gitee.com/kkup180) |
-| 3    | [I3ND6P](https://gitee.com/openharmony/kernel_liteos_a/issues/I3ND6P) | 【性能】安全启动优化       | developing | SIG_Security         | [@jiang-xiaofeng](https://gitee.com/jiang-xiaofeng) |
-| 4    | [I3NT48](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT48) | 【轻内核子系统】proc文件系统增强                             | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
-| 5    | [I3WLDI](https://gitee.com/openharmony/kernel_liteos_m/issues/I3WLDI) | 【轻内核子系统】L0支持轻量级shell框架和常用调测命令           | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
-| 6    | [I3WLCN](https://gitee.com/openharmony/kernel_liteos_m/issues/I3WLCN) | 【轻内核子系统】L0 LiteOS-M支持ARM9架构                     | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
+| 3    | [I3NT48](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT48) | 【轻内核子系统】proc文件系统增强                             | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
+| 4    | [I3WLDI](https://gitee.com/openharmony/kernel_liteos_m/issues/I3WLDI) | 【轻内核子系统】L0支持轻量级shell框架和常用调测命令           | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
+| 5    | [I3WLCN](https://gitee.com/openharmony/kernel_liteos_m/issues/I3WLCN) | 【轻内核子系统】L0 LiteOS-M支持ARM9架构                     | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
+| 6    | [I3QEVG](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3QEVG) | 【分布式调度】轻设备获取调用者APP的APPID并传输到富设备      | developing | SIG_AppFramework     | [@lijiarun](https://gitee.com/lijiarun)            |
 
 ## OpenHarmony 2.3 Beta版本特性清单：
 | no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
