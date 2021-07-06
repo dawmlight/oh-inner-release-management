@@ -138,3 +138,18 @@
 | 26   | [I3NSZZ](https://gitee.com/openharmony/graphic_ui/issues/I3NSZZ) | 【轻量级图形】支持开关按钮/复选框/单选按钮动效               | testing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
 | 27   | [I3NSQ6](https://gitee.com/openharmony/graphic_ui/issues/I3NSQ6) | 【轻量级图形】UIKit支持点阵字体产品化解耦                    | testing  | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
 | 28   | [I3NSZ1](https://gitee.com/openharmony/graphic_ui/issues/I3NSZ1) | 【轻量级图形】UI框架提供统一多后端框架支持多芯片平台         | testing  | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)             |
+
+# OpenHarmony 2.3.0.2 版本转测试信息：
+
+| **转测试版本号：OpenHarmony 2.3.0.2                   |
+| ------------------------------------------------------------ |
+| **版本用途：**OpenHarmony码云master迭代二第二轮测试，验收内核、DFX子系统、分布式调度、全球化子系统，轻图像子系统等特性 |
+| **API变更：**：本次转测特性涉及启动子系统，全球化子系统，轻图形子系统的API变更，均通过法务评审                     |
+| **L0L1转测试时间：2021-07-07**                                   |
+| **L0L1转测试版本获取路径：**                                   |
+| hispark_taurus版本：<br> hispark-taurus版本：http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.1/20210623_114632/version-Master_Version-OpenHarmony_2.3.0.1-20210623_114632-hispark_taurus.tar.gz
+| hispark_pegasus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.1/20210623_114013/version-Master_Version-OpenHarmony_2.3.0.1-20210623_114013-hispark_pegasus.tar.gz|
+| hispark_aries版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.1/20210623_114314/version-Master_Version-OpenHarmony_2.3.0.1-20210623_114314-hispark_aries.tar.gz |
+| **L2转测试时间：2021-07-07**                                   |
+ **L2转测试版本获取路径：**                                   |
+| hi3516dv300-L2版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.1/20210625_090828/version-Master_Version-OpenHarmony_2.3.0.1-20210625_090828-L2_hi3516dv300.tar.gz |
