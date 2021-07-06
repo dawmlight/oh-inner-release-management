@@ -148,6 +148,7 @@
 | **L0L1转测试时间：2021-07-07**                                   |
 | **L0L1转测试版本获取路径：**                                   |
 | hispark_taurus版本：<br> |
+| hispark_taurus_linux版本：<br> |
 | hispark_pegasus版本：<br>|
 | hispark_aries版本：<br>  |
 | **L2转测试时间：2021-07-07**                                   |
