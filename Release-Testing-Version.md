@@ -6,10 +6,10 @@
 | **API变更：**：本次转测特性涉及xxxxAPI变更，均通过法务评审                     |
 | **L0L1转测试时间：2021-07-07**                                   |
 | **L0L1转测试版本获取路径：**                                   |
-| hispark_taurus版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.2/20210707_092546/version-Master_Version-OpenHarmony_2.3.0.2-20210707_092546-hispark_taurus.tar.gz    |
-| hispark_taurus_linux版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.2/20210707_092158/version-Master_Version-OpenHarmony_2.3.0.2-20210707_092158-hispark_taurus_linux.tar.gz  |
+| hispark_taurus版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.2/20210707_092546/version-Master_Version-OpenHarmony_2.3.0.2-20210707_092546-hispark_taurus.tar.gz|
+| hispark_taurus_linux版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.2/20210707_092158/version-Master_Version-OpenHarmony_2.3.0.2-20210707_092158-hispark_taurus_linux.tar.gz|
 | hispark_pegasus版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.2/20210707_092259/version-Master_Version-OpenHarmony_2.3.0.2-20210707_092259-hispark_pegasus.tar.gz |
-| hispark_aries版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.2/20210707_092352/version-Master_Version-OpenHarmony_2.3.0.2-20210707_092352-hispark_aries.tar.gz     |
+| hispark_aries版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.2/20210707_092352/version-Master_Version-OpenHarmony_2.3.0.2-20210707_092352-hispark_aries.tar.gz|
 | **L2转测试时间：2021-07-07**                                   |
  **L2转测试版本获取路径：**                                   |
 | hi3516dv300-L2版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.2/20210707_092305/version-Master_Version-OpenHarmony_2.3.0.2-20210707_092305-L2_hi3516dv300.tar.gz|
