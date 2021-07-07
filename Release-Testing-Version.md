@@ -144,7 +144,7 @@
 | **转测试版本号：OpenHarmony 2.3.0.2                   |
 | ------------------------------------------------------------ |
 | **版本用途：**OpenHarmony码云master迭代二第二轮测试，验收内核、轻图形、电源管理、DFX子系统、编译构建、全球化子系统、多媒体、L1 LINUX开源等特性 |
-| **API变更：**：本次转测特性涉及启动子系统，全球化子系统，轻图形子系统的API变更，均通过法务评审                     |
+| **API变更：**：本次转测特性涉及xxxxAPI变更，均通过法务评审                     |
 | **L0L1转测试时间：2021-07-07**                                   |
 | **L0L1转测试版本获取路径：**                                   |
 | hispark_taurus版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.2/20210707_092546/version-Master_Version-OpenHarmony_2.3.0.2-20210707_092546-hispark_taurus.tar.gz    |
