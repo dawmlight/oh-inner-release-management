@@ -119,7 +119,6 @@ OpenHarmony社区版本发布计划
 
 | no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
 | :--- | ------------------------------------------------------------ | :----------------------------------------------------------- | :--------- | :------------------- | :------------------------------------------------ |
-
 | 1    | [I3NCB9](https://gitee.com/openharmony/third_party_Linux_Kernel/issues/I3NCB9) | 【L1 Linux开源】编译器替换后的内核代码适配                   | developing | SIG_Kernel           | [@zzzuo](https://gitee.com/zzzuo)                 |
 | 2   | [I3NBVI](https://gitee.com/openharmony/build_lite/issues/I3NBVI) | 【L1 Linux开源】clang替换                                    | developing | SIG_CompileRuntime   | [@zhuoli72](https://gitee.com/zhuoli72)           |
 | 3   | [I3NC8H](https://gitee.com/openharmony/build_lite/issues/I3NC8H) | 【L1 Linux开源】musl库替换                                   | developing | SIG_CompileRuntime   | [@zhuoli72](https://gitee.com/zhuoli72)           |
