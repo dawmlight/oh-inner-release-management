@@ -127,23 +127,18 @@ OpenHarmony社区版本发布计划
 | 6   | [I3NCG0](https://gitee.com/openharmony/build_lite/issues/I3NCG0) | 【L1 Linux开源】镜像制作工具替换                             | developing | SIG_CompileRuntime   | [@taiyipei](https://gitee.com/taiyipei)           |
 | 7   | [I3NCGM](https://gitee.com/openharmony/build_lite/issues/I3NCGM) | 【L1 Linux开源】开源编译构建                                 | developing | SIG_CompileRuntime   | [@taiyipei](https://gitee.com/taiyipei)           |
 | 8   | [I3NCCT](https://gitee.com/openharmony/drivers_adapter/issues/I3NCCT) | 【L1 Linux开源】编译器替换后的HDF适配                        | developing | SIG_DriverFramework  | [@zianed](https://gitee.com/zianed)               |
-| 9   | [I3NE8P](https://gitee.com/openharmony/powermgr_powermgr_lite/issues/I3NE8P) | 【电源管理】充放电状态查询接口                               | developing | SIG_HardwareMng      | [@zianed](https://gitee.com/zianed)               |
-| 10  | [I3NIEJ)](https://gitee.com/openharmony/powermgr_powermgr_lite/issues/I3NIEJ) | 【电源管理】电量查询接口                                     | developing | SIG_HardwareMng      | [@zianed](https://gitee.com/zianed)               |
-| 11   | [I3NIFG](https://gitee.com/openharmony/powermgr_powermgr_lite/issues/I3NIFG) | 【电源管理】实现并提供低功耗模式                             | developing | SIG_HardwareMng      | [@zianed](https://gitee.com/zianed)               |
-| 12   | [I3NIFR](https://gitee.com/openharmony/powermgr_powermgr_lite/issues/I3NIFR) | 【电源管理】提供低功耗模式统一API                            | developing | SIG_HardwareMng      | [@zianed](https://gitee.com/zianed)               |
-| 13   | [I3N0LP](https://gitee.com/openharmony/global_i18n_lite/issues/I3N0LP?from=project-issue) | 【全球化子系统】构建自定义数据编译能力                       | developing | SIG_AppFramework     | [@zhengbin5](https://gitee.com/zhengbin5)         |
-| 14   | [I3N0OP](https://gitee.com/openharmony/global_i18n_lite/issues/I3N0OP?from=project-issue) | 【全球化子系统】构建星期、单复数、数字开关国际化能力         | developing | SIG_AppFramework     | [@zhengbin5](https://gitee.com/zhengbin5)         |
-| 15   | [I3NK7D](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NK7D) | 【多媒体子系统】适配新南向接口                               | developing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang) |
-| 16   | [I3NM60](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NM60) | 【多媒体子系统】相机metadata管理及相机静态能力查询           | developing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang) |
-| 17   | [I3NM6F](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NM6F) | 【多媒体子系统】相机设备管理                                 | developing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang) |
-| 18   | [I3NM73](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NM73) | 【多媒体子系统】相机图像帧管理                               | developing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang) |
-| 19   | [I3NM8J](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NM8J) | 【媒体子系统】本地mp3播放支持                                | developing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang) |
-| 20   | [I3NMMU](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NMMU) | 【媒体子系统】编码视频流和音频流处理支持                     | developing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang) |
-| 21   | [I3NSY0](https://gitee.com/openharmony/graphic_ui/issues/I3NSY0) | 【轻量级图形】支持A4\A8、LUT8、TSC图片格式作为输入           | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)           |
-| 22   | [I3NT0R](https://gitee.com/openharmony/graphic_ui/issues/I3NT0R) | 【轻量级图形】支持多语言字体对齐                             | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)           |
-| 23   | [I3SNGO](https://gitee.com/openharmony/build_lite/issues/I3SNGO) | 【编译子系统】build_lite支持开源软件的通用patch框架          | developing | SIG_CompileRuntime   | [@taiyipei](https://gitee.com/taiyipei)           |
-| 24   | [I3NN7V](https://gitee.com/openharmony/hiviewdfx_hiview_lite/issues/I3NN7V) | 【DFX子系统】【BBoxDetector】LiteOS_A死机重启维测框架        | developing | SIG_BscSoftSrv       | [@kkup180](https://gitee.com/kkup180)             |
-| 25   | [I3NN9B](https://gitee.com/openharmony/hiviewdfx_hiview_lite/issues/I3NN9B) | 【DFX子系统】【BBoxDetector】LiteOS_M死机重启维测框架        | developing | SIG_BscSoftSrv       | [@kkup180](https://gitee.com/kkup180)             |
+| 9   | [I3N0LP](https://gitee.com/openharmony/global_i18n_lite/issues/I3N0LP?from=project-issue) | 【全球化子系统】构建自定义数据编译能力                       | developing | SIG_AppFramework     | [@zhengbin5](https://gitee.com/zhengbin5)         |
+| 10   | [I3N0OP](https://gitee.com/openharmony/global_i18n_lite/issues/I3N0OP?from=project-issue) | 【全球化子系统】构建星期、单复数、数字开关国际化能力         | developing | SIG_AppFramework     | [@zhengbin5](https://gitee.com/zhengbin5)         |
+| 11   | [I3NK7D](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NK7D) | 【多媒体子系统】适配新南向接口                               | developing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang) |
+| 12   | [I3NM60](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NM60) | 【多媒体子系统】相机metadata管理及相机静态能力查询           | developing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang) |
+| 13   | [I3NM6F](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NM6F) | 【多媒体子系统】相机设备管理                                 | developing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang) |
+| 14   | [I3NM73](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NM73) | 【多媒体子系统】相机图像帧管理                               | developing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang) |
+| 15   | [I3NM8J](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NM8J) | 【媒体子系统】本地mp3播放支持                                | developing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang) |
+| 16   | [I3NMMU](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NMMU) | 【媒体子系统】编码视频流和音频流处理支持                     | developing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang) |
+| 17   | [I3NSY0](https://gitee.com/openharmony/graphic_ui/issues/I3NSY0) | 【轻量级图形】支持A4\A8、LUT8、TSC图片格式作为输入           | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)           |
+| 18   | [I3NT0R](https://gitee.com/openharmony/graphic_ui/issues/I3NT0R) | 【轻量级图形】支持多语言字体对齐                             | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)           |
+| 19   | [I3SNGO](https://gitee.com/openharmony/build_lite/issues/I3SNGO) | 【编译子系统】build_lite支持开源软件的通用patch框架          | developing | SIG_CompileRuntime   | [@taiyipei](https://gitee.com/taiyipei)           |
+
 
 ## OpenHarmony 2.3.0.3版本特性清单：
 
@@ -155,6 +150,13 @@ OpenHarmony社区版本发布计划
 | 4    | [I3WLDI](https://gitee.com/openharmony/kernel_liteos_m/issues/I3WLDI) | 【轻内核子系统】L0支持轻量级shell框架和常用调测命令           | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
 | 5    | [I3WLCN](https://gitee.com/openharmony/kernel_liteos_m/issues/I3WLCN) | 【轻内核子系统】L0 LiteOS-M支持ARM9架构                     | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
 | 6    | [I3QEVG](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3QEVG) | 【分布式调度】轻设备获取调用者APP的APPID并传输到富设备      | developing | SIG_AppFramework     | [@lijiarun](https://gitee.com/lijiarun)            |
+| 7    | [I3NE8P](https://gitee.com/openharmony/powermgr_powermgr_lite/issues/I3NE8P) | 【电源管理】充放电状态查询接口                               | developing | SIG_HardwareMng      | [@zianed](https://gitee.com/zianed)               |
+| 8    | [I3NIEJ)](https://gitee.com/openharmony/powermgr_powermgr_lite/issues/I3NIEJ) | 【电源管理】电量查询接口                                     | developing | SIG_HardwareMng      | [@zianed](https://gitee.com/zianed)               |
+| 9    | [I3NIFG](https://gitee.com/openharmony/powermgr_powermgr_lite/issues/I3NIFG) | 【电源管理】实现并提供低功耗模式                             | developing | SIG_HardwareMng      | [@zianed](https://gitee.com/zianed)               |
+| 10   | [I3NIFR](https://gitee.com/openharmony/powermgr_powermgr_lite/issues/I3NIFR) | 【电源管理】提供低功耗模式统一API                            | developing | SIG_HardwareMng      | [@zianed](https://gitee.com/zianed)               |
+| 11   | [I3NN7V](https://gitee.com/openharmony/hiviewdfx_hiview_lite/issues/I3NN7V) | 【DFX子系统】【BBoxDetector】LiteOS_A死机重启维测框架        | developing | SIG_BscSoftSrv       | [@kkup180](https://gitee.com/kkup180)             |
+| 12   | [I3NN9B](https://gitee.com/openharmony/hiviewdfx_hiview_lite/issues/I3NN9B) | 【DFX子系统】【BBoxDetector】LiteOS_M死机重启维测框架        | developing | SIG_BscSoftSrv       | [@kkup180](https://gitee.com/kkup180)             |
+
 
 ## OpenHarmony 2.3 Beta版本特性清单：
 | no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
