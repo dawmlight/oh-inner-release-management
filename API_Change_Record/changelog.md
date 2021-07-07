@@ -27,4 +27,52 @@ sample code
 ## xxx子系统
 每个子系统有且只能有一个子系统章节。
 
+## 全球化子系统
 
+### cl.global.1 新增WeekInfo、小数单复数和数字体系设置功能
+
+**变更影响**
+
+新增星期相关数据、小数单复数接口和数字体系设置功能。
+
+**关键的接口/组件变更**
+
+新增以下接口：
+
+*LocaleInfo类：*
+static LocaleInfo ForLanguageTag(const char *languageTag, I18nStatus &status);
+
+const char *GetExtension(const char *key);
+
+```
+LocaleInfo locale = LocaleInfo::ForLanguageTag("zh-Hant-CN-u-nu-arab", status);
+const char *numberDigits = locale.GetExtension("nu");
+```
+
+*WeekInfo类：*
+WeekInfo(const LocaleInfo &localeInfo, I18nStatus &status);
+uint8_t GetFirstDayOfWeek();
+uint8_t GetMinimalDaysInFirstWeek();
+uint8_t GetFirstDayOfWeekend();
+uint8_t GetLastDayOfWeekend();
+
+```
+WeekInfo weekInfo(locale, status);
+uint8_t ret1 = weekInfo.GetFirstDayOfWeek(); // Return 1
+uint8_t ret2 = weekInfo.GetMinimalDaysInFirstWeek(); // Return 1
+uint8_t ret3 = weekInfo.GetFirstDayOfWeekend(); // Return 7
+uint8_t ret4 = weekInfo.GetLastDayOfWeekend(); // Return 1
+```
+
+*PluralFormat类：*
+int GetPluralRuleIndex(double number, I18nStatus status);
+
+```
+LocaleInfo locale("hr", "", "");
+I18nStatus status = I18nStatus::ISUCCESS;
+PluralFormat formatter(locale, status);
+double number = 2.3;
+int out = formatter.GetPluralRuleIndex(number, status); // Return 3
+```
+
+### 
