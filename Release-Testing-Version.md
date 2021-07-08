@@ -73,10 +73,8 @@ L2需求列表：
 | 31 | [I3ZMW4](https://gitee.com/open_harmony/dashboard?issue_id=I3ZMW4) | 【分布式数据管理子系统】【本地数据库】提供RDB和PREFERENCES的能力 | Testing | SIG_DataManagement | [@widecode](https://gitee.com/widecode) |
 | 32 | [I3ZMX5](https://gitee.com/open_harmony/dashboard?issue_id=I3ZMX5) | 【分布式数据管理子系统】【本地数据库】 支持ResultSet滑动窗口能力 | Testing | SIG_DataManagement | [@widecode](https://gitee.com/widecode) |
 | 33 | [I3YC8O](https://gitee.com/open_harmony/dashboard?issue_id=I3YC8O) | 【分布式数据管理】【分布式数据库】支持JS接口创建分布式数据库 | Testing | SIG_DataManagement | [@widecode](https://gitee.com/widecode) |
-| 34 | [I3ZMY9](https://gitee.com/open_harmony/dashboard?issue_id=I3ZMY9) | 【分布式数据管理子系统】【本地数据库】 XTS测试用例 | Testing | SIG_DataManagement | [@widecode](https://gitee.com/widecode) |
-| 35 | [I3ZN3M](https://gitee.com/open_harmony/dashboard?issue_id=I3ZN3M) | 【分布式数据管理子系统】【分布式数据库】鸿蒙单框架支持分布式数据管理能力 | Testing | SIG_DataManagement | [@widecode](https://gitee.com/widecode) |
-| 36 | [I3WHJS](https://gitee.com/open_harmony/dashboard?issue_id=I3WHJS) | 基于HDF驱动框架提供马达驱动程序适配 | Testing | SIG_DriverFramework | [@chenfeng469](https://gitee.com/chenfeng469) |
-| 37 | [I3ZRA7](https://gitee.com/open_harmony/dashboard?issue_id=I3ZRA7) | 基于HDF驱动框架提供加速度传感器驱动程序适配 | Testing | SIG_DriverFramework | [@chenfeng469](https://gitee.com/chenfeng469) |
+| 34 | [I3WHJS](https://gitee.com/open_harmony/dashboard?issue_id=I3WHJS) | 基于HDF驱动框架提供马达驱动程序适配 | Testing | SIG_DriverFramework | [@chenfeng469](https://gitee.com/chenfeng469) |
+| 35 | [I3ZRA7](https://gitee.com/open_harmony/dashboard?issue_id=I3ZRA7) | 基于HDF驱动框架提供加速度传感器驱动程序适配 | Testing | SIG_DriverFramework | [@chenfeng469](https://gitee.com/chenfeng469) |
 
 
 # OpenHarmony 2.3.0.1 版本转测试信息：
