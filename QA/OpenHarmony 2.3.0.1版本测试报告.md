@@ -62,6 +62,8 @@ XXX子系统：特性质量良好
 | 序号 | 特性名称    | 特性质量评估                             | 备注 |
 | ---- | ----------- | ---------------------------------------- | ---- |
 | *1*  | *启动恢复子系统* | *没有新增特性，测试用例执行通过，基本功能可用* |      |
+| 2 | 轻内核子系统 | 1、L0上支持POSIX接口和littlefs文件系统特性无法测试，不对这些特性进行评估<br />2、L1上shell相关特性和文件系统维测增强特性没有合入2.3.0.1版本，特性不可用<br />3、其余特性质量良好，遗留少量问题 | |
+| 3 | 驱动子系统 | L1基本功能良好，L0支持HDF框架无法测试，不对该特性进行评估 | |
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
@@ -73,10 +75,23 @@ XXX子系统：特性质量良好
 | ------- | -------- | ------------ | ------------ | ---- |
 | I3I1V8  | 【全球化子系统】构建应用资源解析和加载机制    | 特性质量良好     | 不涉及             |      |
 | I3I1VJ  | 【全球化子系统】构建资源回溯机制             | 特性质量良好     | 不涉及             |      |
-|         |          |              |              |      |
-|         |          |              |              |      |
-|         |          |              |              |      |
-|         |          |              |              |      |
+| [I3NCKH](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NCKH) | 【轻内核子系统】L0上支持基于NOR Flash的littlefs文件系统 | 无法测试 |              | wifiiot_hispark_pegasus上不支持，无法测试 |
+| [I3NCTE](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NCTE) | 【轻内核子系统】L0上对外提供统一的文件系统操作接口 | 无法测试 |              | wifiiot_hispark_pegasus上不支持，无法测试 |
+| [I3NCX2](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NCX2) | 【轻内核子系统】L0 补充120个POSIX接口 | 无法测试 |              | wifiiot_hispark_pegasus上不支持，无法测试 |
+| [I3NT2C](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT2C) | 【轻内核子系统】移植mksh命令解析器 | 特性不可用 |              | 特性在2.3.0.1版本没有合入 |
+| [I3NT2K](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT2K) | 【轻内核子系统】shell交互友好性提升 | 特性不可用 | | 特性在2.3.0.1版本没有合入 |
+| [I3NT2V](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT2V) | 【轻内核子系统】移植toybox命令集 | 特性不可用 | | 特性在2.3.0.1版本没有合入 |
+| [I3NT4N](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT4N) | 【轻内核子系统】Namecache模块 | 特性质量良好 | | |
+| [I3NT58](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT58) | 【轻内核子系统】Vnode管理 | 特性质量良好 | | |
+| [I3NT5Q](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT5Q) | 【轻内核子系统】Lookup模块 | 特性质量良好 | | |
+| [I3NT6H](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT6H) | 【轻内核子系统】文件系统维测增强 | 特性不可用 | | 特性在2.3.0.1版本没有合入 |
+| [I3NT6U](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT6U) | 【轻内核子系统】liteos-a內核模块可配置 | 特性质量良好 | | |
+| [I3NT78](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT78) | 【轻内核子系统】liteos-a小系统三方芯片适配 | 特性质量良好 | | |
+| [ I3SNIP](https://gitee.com/openharmony/kernel_liteos_m/issues/I3SNIP) | 【轻内核子系统】L0支持三方组件Mbedtls编译 | 遗留少量问题 | | |
+| [I3SNKK](https://gitee.com/openharmony/kernel_liteos_m/issues/I3SNKK) | 【轻内核子系统】L0支持三方组件curl编译 | 遗留少量问题 | | |
+| [ I3QE85](https://gitee.com/openharmony/drivers_framework/issues/I3QE85) | 【驱动子系统】L0支持HDF框架 | 无法测试 | | wifiiot_hispark_pegasus上不支持，无法测试 |
+| | | | | |
+| | | | | |
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
@@ -129,4 +144,16 @@ XXX子系统：特性质量良好
 
 # 5   问题单统计
 
-NA
+【OpenHarmony】【2.3.0.1】【轻内核子系统】 L0支持三方组件curl编译失败 https://gitee.com/openharmony/kernel_liteos_m/issues/I3YJU8
+
+【OpenHarmony】【2.3.0.1】【轻内核子系统】liteos-a內核模块可配置编译失败https://gitee.com/openharmony/kernel_liteos_m/issues/I3YJRO
+
+【OpenHarmony】【2.3.0.1】【轻内核子系统】文件系统维测增强功能在该版本有问题https://gitee.com/openharmony/kernel_liteos_a/issues/I3YNWM
+
+【OpenHarmony】【2.3.0.1】【轻内核子系统】bin目录下没有mksh和toybox，导致已转测的toybox命令集和shell交互友好性提升无法测试https://gitee.com/openharmony/kernel_liteos_a/issues/I3VEOG
+
+【OpenHarmony】【2.3.0.1】【轻内核子系统】 clock_getres 函数传入非法ID值-29，会返回0 https://gitee.com/openharmony/kernel_liteos_m/issues/I3YVPB
+
+【轻内核子系统集成测试】关于在mq_open失败后，会占用消息队列符，使用mq_close也会失败，最终导致xml文件打不开https://gitee.com/openharmony/kernel_liteos_a/issues/I3ZQDA
+
+【轻内核子系统集成测试】发送两个不同的信号，sigwait第二次等到的仍是第一个信号https://gitee.com/openharmony/kernel_liteos_a/issues/I3M12H
