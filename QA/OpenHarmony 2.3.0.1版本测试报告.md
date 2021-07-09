@@ -92,6 +92,11 @@ XXX子系统：特性质量良好
 | [ I3SNIP](https://gitee.com/openharmony/kernel_liteos_m/issues/I3SNIP) | 【轻内核子系统】L0支持三方组件Mbedtls编译 | 遗留少量问题 | | |
 | [I3SNKK](https://gitee.com/openharmony/kernel_liteos_m/issues/I3SNKK) | 【轻内核子系统】L0支持三方组件curl编译 | 遗留少量问题 | | |
 | [ I3QE85](https://gitee.com/openharmony/drivers_framework/issues/I3QE85) | 【驱动子系统】L0支持HDF框架 | 无法测试 | | wifiiot_hispark_pegasus上不支持，无法测试 |
+|[I3NSVQ](https://gitee.com/openharmony/graphic_ui/issues/I3NSVQ) | 【轻量级图形】DFX维测能力：UIKit支持显示控件轮廓 | 特性质量良好 | | |
+|[I3NSWY](https://gitee.com/openharmony/graphic_ui/issues/I3NSWY) | 【轻量级图形】ScorollView/List支持通过弧形进度条展示滑动进度 | 特性质量良好 | | |
+|[I3NSZZ](https://gitee.com/openharmony/graphic_ui/issues/I3NSZZ) | 【轻量级图形】支持开关按钮/复选框/单选按钮动效 | 特性质量良好 | | |
+|[I3NSQ6](https://gitee.com/openharmony/graphic_ui/issues/I3NSQ6) | 【轻量级图形】UIKit支持点阵字体产品化解耦 | 特性质量良好 | | |
+|[I3NSZ1](https://gitee.com/openharmony/graphic_ui/issues/I3NSZ1) | 【轻量级图形】UI框架提供统一多后端框架支持多芯片平台 | 特性质量良好 | | |
 | | | | | |
 | | | | | |
 
