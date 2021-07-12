@@ -156,6 +156,7 @@
 | no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
 | :--- | ------------------------------------------------------------ | :----------------------------------------------------------- | :--------- | :------------------- | :------------------------------------------------ |
 | 1    | [I3ND6Y](https://gitee.com/openharmony/kernel_liteos_a/issues/I3ND6Y) | 【性能】OS内核&驱动启动优化                           | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
+| 2    | [I3ZZD0](https://gitee.com/openharmony/aafwk_aafwk_lite/issues/I3ZZD0) | 【鸿蒙轻量级】【元能力】轻量设备元能力支持跨设备拉起富设备Ability                          | developing | SIG_AppFramework           | [@autumn](https://gitee.com/autumn330)             |
 
 ## OpenHarmony 2.3.0.6版本特性清单：
 
