@@ -1,3 +1,21 @@
+# OpenHarmony 2.3.0.3 版本转测试信息：
+
+| **转测试版本号：OpenHarmony 2.3.0.3                   |
+| ------------------------------------------------------------ |
+| **版本用途：**OpenHarmony码云master迭代二第三轮测试，验收:|
+|L0L1:轻图形、编译构建、全球化子系统特性 |
+|L2:Demo&应用子系统、分布式数据管理子系统、电源管理子系统、驱动子系统特性 |
+| **API变更：**：本次转测特性涉及全球化API变更（新增），均通过法务评审，L2本次不涉及。具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
+| **L0L1转测试时间：2021-07-14**                                   |
+| **L0L1转测试版本获取路径：**                                   |
+| hispark_taurus版本：<br>|
+| hispark_taurus_linux版本：<br> |
+| hispark_pegasus版本：<br> |
+| hispark_aries版本：<br> |
+| **L2转测试时间：2021-07-14**                                   |
+ **L2转测试版本获取路径：**                                   |
+| hi3516dv300-L2版本：<br> |
+
 # OpenHarmony 2.3.0.2 版本转测试信息：
 
 | **转测试版本号：OpenHarmony 2.3.0.2                   |

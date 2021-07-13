@@ -117,7 +117,6 @@
 
 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
 
-L0L1需求列表：
 | no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
 | :--- | ------------------------------------------------------------ | :----------------------------------------------------------- | :--------- | :------------------- | :------------------------------------------------ |
 | 1    | [I3NCB9](https://gitee.com/openharmony/third_party_Linux_Kernel/issues/I3NCB9) | 【L1 Linux开源】编译器替换后的内核代码适配                   | developing | SIG_Kernel           | [@zzzuo](https://gitee.com/zzzuo)                 |
@@ -134,44 +133,6 @@ L0L1需求列表：
 | 12   | [I3NT0R](https://gitee.com/openharmony/graphic_ui/issues/I3NT0R) | 【轻量级图形】支持多语言字体对齐                             | developing | SIG_GraphicsandMedia | [@niulihua](https://gitee.com/niulihua)           |
 | 13   | [I3SNGO](https://gitee.com/openharmony/build_lite/issues/I3SNGO) | 【编译子系统】build_lite支持开源软件的通用patch框架          | developing | SIG_CompileRuntime   | [@taiyipei](https://gitee.com/taiyipei)           |
 
-L2需求列表：
-| no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
-| :--- | ------------------------------------------------------------ | :----------------------------------------------------------- | :--------- | :------------------- | :------------------------------------------------ |
-| 1 | [I3ZDIF](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDIF) | RQ-[Demo&应用子系统][JSUI]【通用】JS动画（动画样式、渐变样式、转场样式、自定义字体样式） | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 2 | [I3ZDIG](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDIG) | RQ-[Demo&应用子系统][JSUI]【通用】原子布局 | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 3 | [I3ZDIH](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDIH) | RQ-[Demo&应用子系统][JSUI]【容器组件】新事件提醒（badge） | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 4 | [I3ZDII](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDII) | RQ-[Demo&应用子系统][JAVA UI]【HarmonyOS】自定义组件（CustomComponent） | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 5 | [I3ZDIJ](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDIJ) | RQ-[Demo&应用子系统][JAVA UI]【HarmonyOS】自定义布局（CustomLayout） | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 6 | [I3ZDIK](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDIK) | RQ-[Demo&应用子系统][JS UI]【HarmonyOS】FA卡片（JsFACard） | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 7 | [I3ZDIL](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDIL) | RQ-[Demo&应用子系统][多模]【HarmonyOS】多模输入（MultiModeInput） | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 8 | [I3ZDIM](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDIM) | RQ-[Demo&应用子系统][多模]【HarmonyOS】多模输入事件标准化（MultimodalEvent） | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 9 | [I3ZDIN](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDIN) | RQ-[Demo&应用子系统][JAVA UI]【HarmonyOS】Fraction | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 10 | [I3ZDIO](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDIO) | RQ-[Demo&应用子系统][ServiceAbility]【HarmonyOS】前台服务（ForegroundService） | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 11 | [I3ZDIP](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDIP) | RQ-[Demo&应用子系统][Ability测试]【HarmonyOS】Ability的自动化测试（Delegator） | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 12 | [I3ZDIQ](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDIQ) | RQ-[Demo&应用子系统][无障碍]【HarmonyOS】accessibility | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 13 | [I3ZDIR](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDIR) | RQ-[Demo&应用子系统][JAVA UI]【HarmonyOS】AbilityForm | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 14 | [I3ZDIS](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDIS) | RQ-[Demo&应用子系统][AI]【HarmonyOS】AI | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 15 | [I3ZDIT](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDIT) | RQ-[Demo&应用子系统][媒体]【HarmonyOS】Audio | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 16 | [I3ZDIU](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDIU) | RQ-[Demo&应用子系统][媒体]【HarmonyOS】AudioPlayer | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 17 | [I3ZDIW](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDIW) | RQ-[Demo&应用子系统][设备]【HarmonyOS】BatteryInfo | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 18 | [I3ZDIX](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDIX) | RQ-[Demo&应用子系统][设备]【HarmonyOS】指南针Compass | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 19 | [I3ZDIY](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDIY) | RQ-[Demo&应用子系统][安全]【HarmonyOS】DataSecurity | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 20 | [I3ZDIZ](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDIZ) | RQ-[Demo&应用子系统][网络]【HarmonyOS】DistributedAbility | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 21 | [I3ZDJ0](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDJ0) | RQ-[Demo&应用子系统][通用]【HarmonyOS】DistributedCommonEvent | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 22 | [I3ZDJ1](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDJ1) | RQ-[Demo&应用子系统][数据]【HarmonyOS】DistributedPictures | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 23 | [I3ZDJ3](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDJ3) | RQ-[Demo&应用子系统][安全]【HarmonyOS】FaceRecognition | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 24 | [I3ZDJ4](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDJ4) | RQ-[Demo&应用子系统][设备]【HarmonyOS】NFC | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 25 | [I3ZDJ5](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDJ5) | RQ-[Demo&应用子系统][数据]【HarmonyOS】关系型数据库 | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 26 | [I3ZDJ6](https://gitee.com/open_harmony/dashboard?issue_id=I3ZDJ6) | RQ-[Demo&应用子系统][数据]【HarmonyOS】对象关系映射数据库 | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
-| 27 | [I3ZRBA](https://gitee.com/open_harmony/dashboard?issue_id=I3ZRBA) | 提供系统电源状态机管理能力 | Testing | SIG_DistributedHardwareManagement | [@hhh2](https://gitee.com/hhh2) |
-| 28 | [I3ZRBV](https://gitee.com/open_harmony/dashboard?issue_id=I3ZRBV) | 提供休眠运行锁（RunningLock）管理能力 | Testing | SIG_DistributedHardwareManagement | [@hhh2](https://gitee.com/hhh2) |
-| 29 | [I3ZRCV](https://gitee.com/open_harmony/dashboard?issue_id=I3ZRCV) | 提供休眠、唤醒流程管理及实现 | Testing | SIG_DistributedHardwareManagement | [@hhh2](https://gitee.com/hhh2) |
-| 30 | [I3ZMUM](https://gitee.com/open_harmony/dashboard?issue_id=I3ZMUM) | 【分布式数据管理子系统】【本地数据库】 轻量级数据库JS API交付，对标开源+小程序 | Testing | SIG_DataManagement | [@widecode](https://gitee.com/widecode) |
-| 31 | [I3ZMW4](https://gitee.com/open_harmony/dashboard?issue_id=I3ZMW4) | 【分布式数据管理子系统】【本地数据库】提供RDB和PREFERENCES的能力 | Testing | SIG_DataManagement | [@widecode](https://gitee.com/widecode) |
-| 32 | [I3ZMX5](https://gitee.com/open_harmony/dashboard?issue_id=I3ZMX5) | 【分布式数据管理子系统】【本地数据库】 支持ResultSet滑动窗口能力 | Testing | SIG_DataManagement | [@widecode](https://gitee.com/widecode) |
-| 33 | [I3YC8O](https://gitee.com/open_harmony/dashboard?issue_id=I3YC8O) | 【分布式数据管理】【分布式数据库】支持JS接口创建分布式数据库 | Testing | SIG_DataManagement | [@widecode](https://gitee.com/widecode) |
-| 34 | [I3WHJS](https://gitee.com/open_harmony/dashboard?issue_id=I3WHJS) | 基于HDF驱动框架提供马达驱动程序适配 | Testing | SIG_DriverFramework | [@chenfeng469](https://gitee.com/chenfeng469) |
-| 35 | [I3ZRA7](https://gitee.com/open_harmony/dashboard?issue_id=I3ZRA7) | 基于HDF驱动框架提供加速度传感器驱动程序适配 | Testing | SIG_DriverFramework | [@chenfeng469](https://gitee.com/chenfeng469) |
 
 ## OpenHarmony 2.3.0.3版本特性清单：
 
@@ -195,7 +156,7 @@ L2需求列表：
 | no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
 | :--- | ------------------------------------------------------------ | :----------------------------------------------------------- | :--------- | :------------------- | :------------------------------------------------ |
 | 1    | [I3ND6Y](https://gitee.com/openharmony/kernel_liteos_a/issues/I3ND6Y) | 【性能】OS内核&驱动启动优化                           | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
-| 2    | [I3ZZD0](https://gitee.com/openharmony/aafwk_aafwk_lite/issues/I3ZZD0) | 【鸿蒙轻量级】【元能力】轻量设备元能力支持跨设备拉起富设备Ability                          | developing | SIG_AppFramework           | [@autumn](https://gitee.com/autumn330)             |
+| 1    | [I3ND6Y](https://gitee.com/openharmony/kernel_liteos_a/issues/I3ND6Y) | 【性能】OS内核&驱动启动优化                           | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
 
 ## OpenHarmony 2.3.0.6版本特性清单：
 
