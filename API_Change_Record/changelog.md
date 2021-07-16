@@ -75,4 +75,58 @@ double number = 2.3;
 int out = formatter.GetPluralRuleIndex(number, status); // Return 3
 ```
 
+
+## 电源管理子系统
+
+### powermgr_lite 新增增休眠唤醒锁管理，包括所的创建、持有、释放、销毁等功能。
+
+**变更影响**
+
+新增休眠唤醒锁管理，包括所的创建、持有、释放、销毁等功能。
+
+**关键的接口/组件变更**
+
+新增以下接口：
+
+typedef enum {
+    /**
+     * RunningLock type: used to keep screen on.
+     */
+    RUNNINGLOCK_SCREEN,
+    /**
+     * RunningLock type: used to keep cpu running.
+     */
+    RUNNINGLOCK_BACKGROUND,
+    /**
+     * RunningLock type: used to keep the screen on/off when the proximity sensor is active.
+     */
+    RUNNINGLOCK_PROXIMITY_SCREEN_CONTROL,
+    RUNNINGLOCK_BUTT
+} RunningLockType;
+
+```
+typedef enum {
+    RUNNINGLOCK_FLAG_NONE = 0,
+
+    /**
+     * Wakeup device when running lock is acquired.
+     */
+    RUNNINGLOCK_FLAG_WAKEUP_WHEN_ACQUIRED = 1 << 0,
+} RunningLockFlag;
+
+```
+typedef struct {
+    char name[RUNNING_LOCK_NAME_LEN];
+    RunningLockType type;
+    RunningLockFlag flag;
+} RunningLock;
+
+```
+const RunningLock *CreateRunningLock(const char *name, RunningLockType type, RunningLockFlag flag);
+void DestroyRunningLock(const RunningLock *lock);
+BOOL AcquireRunningLock(const RunningLock *lock);
+BOOL ReleaseRunningLock(const RunningLock *lock);
+BOOL IsRunningLockHolding(const RunningLock *lock);
+```
+
 ### 
