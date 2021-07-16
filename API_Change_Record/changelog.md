@@ -75,4 +75,41 @@ double number = 2.3;
 int out = formatter.GetPluralRuleIndex(number, status); // Return 3
 ```
 
+
+## 电源管理子系统
+
+### powermgr_lite 新增增休眠唤醒锁管理，包括所的创建、持有、释放、销毁等功能。
+
+**变更影响**
+
+新增休眠唤醒锁管理，包括所的创建、持有、释放、销毁等功能。
+
+**关键的接口/组件变更**
+
+新增以下接口：
+
+const RunningLock *CreateRunningLock(const char *name, RunningLockType type, RunningLockFlag flag);
+
+void DestroyRunningLock(const RunningLock *lock);
+
+BOOL AcquireRunningLock(const RunningLock *lock);
+
+BOOL ReleaseRunningLock(const RunningLock *lock);
+
+BOOL IsRunningLockHolding(const RunningLock *lock);
+
+```
+const RunningLock *lock = CreateRunningLock("runinglock_example", RUNNINGLOCK_BACKGROUND, RUNNINGLOCK_FLAG_NONE);
+if (lock == NULL) {   
+   return;
+}
+BOOL ret = AcquireRunningLock(lock);
+if (ret == FLASE) {
+   DestroyRunningLock(lock);
+   return;
+}
+ReleaseRunningLock(lock);
+DestroyRunningLock(lock); // Must release runninglock before destroyed
+```
+
 ### 
