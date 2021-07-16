@@ -89,9 +89,13 @@ int out = formatter.GetPluralRuleIndex(number, status); // Return 3
 新增以下接口：
 
 const RunningLock *CreateRunningLock(const char *name, RunningLockType type, RunningLockFlag flag);
+
 void DestroyRunningLock(const RunningLock *lock);
+
 BOOL AcquireRunningLock(const RunningLock *lock);
+
 BOOL ReleaseRunningLock(const RunningLock *lock);
+
 BOOL IsRunningLockHolding(const RunningLock *lock);
 
 ```
