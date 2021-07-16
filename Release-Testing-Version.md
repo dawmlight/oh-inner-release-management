@@ -3,7 +3,7 @@
 | **转测试版本号：OpenHarmony 2.3.0.3                   |
 | ------------------------------------------------------------ |
 | **版本用途：**OpenHarmony码云master迭代二第三轮测试，验收:|
-|L0L1:DFX子系统、轻内核子系统、分布式调度、电源管理等特性 |
+|L0L1:DFX子系统、轻内核子系统、电源管理等特性 |
 |L2:Demo&应用子系统、分布式数据管理子系统、应用子系统 |
 | **API变更：**：本次转测特性涉及电源管理API变更（新增），均通过法务评审，L2本次不涉及。具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
 | **L0L1转测试时间：2021-07-16**                                   |
@@ -16,9 +16,34 @@
  **L2转测试版本获取路径：**                                   |
 | hi3516dv300-L2版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.3/20210714_011351/version-Master_Version-OpenHarmony_2.3.0.3-20210714_011351-L2_hi3516dv300.tar.gz|
 
+
+## 针对OpenHarmony 2.3.0.3版本解决的缺陷ISSUE列表：
+| ISSUE                                                        | 问题描述                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [I3TS1Y](https://gitee.com/openharmony/kernel_liteos_a/issues/I3TS1Y) | 压力场景下文件相关胡VnodeAlloc资源耗尽                             |
+| [I3TXT8](https://gitee.com/openharmony/startup_init_lite/issues/I3TXT8) | 孤儿进程无法回收，压力场景下TCB资源耗尽                                               |
+| [I3UWXI](https://gitee.com/openharmony/applications_sample_wifi_iot/issues/I3UWXI) |libwap.so 存在已知一般漏洞： CVE-2021-30004，CVSS：5.3；漏洞发布日期：2021-04-02，不符合产品发布要求，需要解决。 |
+| [I3SWY2](https://gitee.com/openharmony/kernel_liteos_a/issues/I3SWY2) | 高概率出现KProcess进程挂死，质量不达标 |
+| [I3YJRO](https://gitee.com/openharmony/kernel_liteos_m/issues/I3YJRO) | liteos-a內核模块可配置编译失败  |
+| [I3YNWM](https://gitee.com/openharmony/kernel_liteos_a/issues/I3YNWM) | 文件系统维测增强功能在该版本有问题               |
+| [I3VEOG](https://gitee.com/openharmony/kernel_liteos_a/issues/I3VEOG) | bin目录下没有mksh和toybox，导致已转测的toybox命令集和shell交互友好性提升无法测试 |
+
 ## OpenHarmony 2.3.0.3 版本特性清单：	
 
 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
+| no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
+| :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
+| 1    | [I3NN88](https://gitee.com/openharmony/hiviewdfx_hiview_lite/issues/I3NN88) | 【DFX子系统】【HiDumper】LiteOS_M系统信息dump工具 | testing | SIG_BscSoftSrv | [@kkup180](https://gitee.com/kkup180) |
+| 2    | [I3NN7D](https://gitee.com/openharmony/hiviewdfx_hiview_lite/issues/I3NN7D) | 【DFX子系统】【HiDumper】LiteOS_A系统信息dump工具 | testing | SIG_BscSoftSrv | [@kkup180](https://gitee.com/kkup180) |
+| 3    | [I3NT48](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT48) | 【轻内核子系统】proc文件系统增强                             | testing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
+| 4    | [I3WLDI](https://gitee.com/openharmony/kernel_liteos_m/issues/I3WLDI) | 【轻内核子系统】L0支持轻量级shell框架和常用调测命令           | testing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
+| 5    | [I3WLCN](https://gitee.com/openharmony/kernel_liteos_m/issues/I3WLCN) | 【轻内核子系统】L0 LiteOS-M支持ARM9架构                     | testing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
+| 6    | [I3NE8P](https://gitee.com/openharmony/powermgr_powermgr_lite/issues/I3NE8P) | 【电源管理】充放电状态查询接口                               | testing | SIG_HardwareMng      | [@zianed](https://gitee.com/zianed)               |
+| 7    | [I3NIEJ)](https://gitee.com/openharmony/powermgr_powermgr_lite/issues/I3NIEJ) | 【电源管理】电量查询接口                                     | testing | SIG_HardwareMng      | [@zianed](https://gitee.com/zianed)               |
+| 8    | [I3NIFG](https://gitee.com/openharmony/powermgr_powermgr_lite/issues/I3NIFG) | 【电源管理】实现并提供低功耗模式                             | testing | SIG_HardwareMng      | [@zianed](https://gitee.com/zianed)               |
+| 9    | [I3NIFR](https://gitee.com/openharmony/powermgr_powermgr_lite/issues/I3NIFR) | 【电源管理】提供低功耗模式统一API                            | testing | SIG_HardwareMng      | [@zianed](https://gitee.com/zianed)               |
+| 10   | [I3NN7V](https://gitee.com/openharmony/hiviewdfx_hiview_lite/issues/I3NN7V) | 【DFX子系统】【BBoxDetector】LiteOS_A死机重启维测框架        | testing | SIG_BscSoftSrv       | [@kkup180](https://gitee.com/kkup180)             |
+| 11   | [I3NN9B](https://gitee.com/openharmony/hiviewdfx_hiview_lite/issues/I3NN9B) | 【DFX子系统】【BBoxDetector】LiteOS_M死机重启维测框架        | testing | SIG_BscSoftSrv       | [@kkup180](https://gitee.com/kkup180)             |
 
 L2需求列表：
 | no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
