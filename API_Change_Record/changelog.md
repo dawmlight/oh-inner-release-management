@@ -88,45 +88,24 @@ int out = formatter.GetPluralRuleIndex(number, status); // Return 3
 
 新增以下接口：
 
-typedef enum {
-    /**
-     * RunningLock type: used to keep screen on.
-     */
-    RUNNINGLOCK_SCREEN,
-    /**
-     * RunningLock type: used to keep cpu running.
-     */
-    RUNNINGLOCK_BACKGROUND,
-    /**
-     * RunningLock type: used to keep the screen on/off when the proximity sensor is active.
-     */
-    RUNNINGLOCK_PROXIMITY_SCREEN_CONTROL,
-    RUNNINGLOCK_BUTT
-} RunningLockType;
-
-```
-typedef enum {
-    RUNNINGLOCK_FLAG_NONE = 0,
-
-    /**
-     * Wakeup device when running lock is acquired.
-     */
-    RUNNINGLOCK_FLAG_WAKEUP_WHEN_ACQUIRED = 1 << 0,
-} RunningLockFlag;
-
-```
-typedef struct {
-    char name[RUNNING_LOCK_NAME_LEN];
-    RunningLockType type;
-    RunningLockFlag flag;
-} RunningLock;
-
-```
 const RunningLock *CreateRunningLock(const char *name, RunningLockType type, RunningLockFlag flag);
 void DestroyRunningLock(const RunningLock *lock);
 BOOL AcquireRunningLock(const RunningLock *lock);
 BOOL ReleaseRunningLock(const RunningLock *lock);
 BOOL IsRunningLockHolding(const RunningLock *lock);
+
+```
+const RunningLock *lock = CreateRunningLock("runinglock_example", RUNNINGLOCK_BACKGROUND, RUNNINGLOCK_FLAG_NONE);
+if (lock == NULL) {   
+   return;
+}
+BOOL ret = AcquireRunningLock(lock);
+if (ret == FLASE) {
+   DestroyRunningLock(lock);
+   return;
+}
+ReleaseRunningLock(lock);
+DestroyRunningLock(lock); // Must release runninglock before destroyed
 ```
 
 ### 
