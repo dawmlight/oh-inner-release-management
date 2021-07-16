@@ -18,6 +18,8 @@
 
 
 ## 针对OpenHarmony 2.3.0.3版本解决的缺陷ISSUE列表：
+
+L0L1 issue问题单列表：
 | ISSUE                                                        | 问题描述                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [I3TS1Y](https://gitee.com/openharmony/kernel_liteos_a/issues/I3TS1Y) | 压力场景下文件相关胡VnodeAlloc资源耗尽                             |
@@ -31,6 +33,8 @@
 ## OpenHarmony 2.3.0.3 版本特性清单：	
 
 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
+
+L0L1需求列表：
 | no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
 | :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
 | 1    | [I3NN88](https://gitee.com/openharmony/hiviewdfx_hiview_lite/issues/I3NN88) | 【DFX子系统】【HiDumper】LiteOS_M系统信息dump工具 | testing | SIG_BscSoftSrv | [@kkup180](https://gitee.com/kkup180) |
