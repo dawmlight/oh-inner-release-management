@@ -11,8 +11,11 @@
 | global_i18n_lite                                   | uint8_t WeekInfo::GetFirstDayOfWeekend();                    | 新增                                       | 新增接口                                                     |
 | global_i18n_lite                                   | uint8_t WeekInfo::GetLastDayOfWeekend();                     | 新增                                       | 新增接口                                                     |
 | global_i18n_lite                                   | int PluralFormat::GetPluralRuleIndex(double number, I18nStatus status); | 新增                                       | 新增接口                                                     |
-
-
+| powermgr_powermgr_lite                                   | const RunningLock *CreateRunningLock(const char *name, RunningLockType type, RunningLockFlag flag); | 新增                                       | 新增接口                                                     |
+| powermgr_powermgr_lite                                   | void DestroyRunningLock(const RunningLock *lock); | 新增                                       | 新增接口                                                     |
+| powermgr_powermgr_lite                                   | BOOL AcquireRunningLock(const RunningLock *lock); | 新增                                       | 新增接口                                                     |
+| powermgr_powermgr_lite                                   | BOOL ReleaseRunningLock(const RunningLock *lock); | 新增                                       | 新增接口                                                     |
+| powermgr_powermgr_lite                                   | BOOL IsRunningLockHolding(const RunningLock *lock); | 新增                                       | 新增接口                                                     |
 
 # L2 Native API Diff
 
