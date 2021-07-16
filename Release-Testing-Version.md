@@ -4,7 +4,7 @@
 | ------------------------------------------------------------ |
 | **版本用途：**OpenHarmony码云master迭代二第三轮测试，验收:|
 |L0L1:DFX子系统、轻内核子系统、分布式调度、电源管理等特性 |
-|L2:Demo&应用子系统、分布式数据管理子系统、电源管理子系统、驱动子系统特性 |
+|L2:Demo&应用子系统、分布式数据管理子系统、应用子系统 |
 | **API变更：**：本次转测特性涉及全球化API变更（新增），均通过法务评审，L2本次不涉及。具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
 | **L0L1转测试时间：2021-07-14**                                   |
 | **L0L1转测试版本获取路径：**                                   |
@@ -12,9 +12,23 @@
 | hispark_taurus_linux版本：<br> |
 | hispark_pegasus版本：<br> |
 | hispark_aries版本：<br> |
-| **L2转测试时间：2021-07-14**                                   |
+| **L2转测试时间：2021-07-16**                                   |
  **L2转测试版本获取路径：**                                   |
-| hi3516dv300-L2版本：<br> |
+| hi3516dv300-L2版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.3/20210714_011351/version-Master_Version-OpenHarmony_2.3.0.3-20210714_011351-L2_hi3516dv300.tar.gz|
+
+## OpenHarmony 2.3.0.3 版本特性清单：	
+
+状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
+
+L2需求列表：
+| no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
+| :--- | ------------------------------------------------------------ | :----------------------------------------------------------- | :--------- | :------------------- | :------------------------------------------------ |
+|	1	|	[I3ZN3M](https://gitee.com/open_harmony/dashboard?issue_id=I3ZN3M)	|	【分布式数据管理】鸿蒙单框架L2分布式数据管理开源	|	Testing	|	SIG_DataManagement	|	[@widecode](https://gitee.com/widecode)	|
+|	2	|	[I40K12](https://gitee.com/open_harmony/dashboard?issue_id=I40K12)	|	【Samples】【JSUI】【容器组件】JS气泡（popup）	|	Testing	|	SIG_Samples	|	[@illybyy](https://gitee.com/illybyy)	|
+|	3	|	[I40K1P](https://gitee.com/open_harmony/dashboard?issue_id=I40K1P)	|	【Samples】【JSUI】【容器组件】下拉刷新容器（refresh）	|	Testing	|	SIG_Samples	|	[@illybyy](https://gitee.com/illybyy)	|
+|	4	|	[I40K2A](https://gitee.com/open_harmony/dashboard?issue_id=I40K2A)	|	【Samples】【数据】【HarmonyOS】轻量级偏好数据库	|	Testing	|	SIG_Samples	|	[@illybyy](https://gitee.com/illybyy)	|
+|	5	|	[I40NBW](https://gitee.com/open_harmony/dashboard?issue_id=I40NBW)	|	【应用子系统】鸿蒙单框架L2系统应用-设置开源-WLAN	|	Testing	|	SIG_SysApplication	|	[@nicolaswang](https://gitee.com/nicolaswang)	|
+
 
 # OpenHarmony 2.3.0.2 版本转测试信息：
 
