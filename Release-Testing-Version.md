@@ -8,10 +8,10 @@
 | **API变更：**：本次转测特性涉及全球化API变更（新增），均通过法务评审，L2本次不涉及。具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
 | **L0L1转测试时间：2021-07-14**                                   |
 | **L0L1转测试版本获取路径：**                                   |
-| hispark_taurus版本：<br>|
-| hispark_taurus_linux版本：<br> |
-| hispark_pegasus版本：<br> |
-| hispark_aries版本：<br> |
+| hispark_taurus版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.3/20210716_112829/version-Master_Version-OpenHarmony_2.3.0.3-20210716_112829-hispark_taurus.tar.gz|
+| hispark_taurus_linux版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.3/20210716_112547/version-Master_Version-OpenHarmony_2.3.0.3-20210716_112547-hispark_taurus_linux.tar.gz |
+| hispark_pegasus版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.3/20210716_112819/version-Master_Version-OpenHarmony_2.3.0.3-20210716_112819-hispark_pegasus.tar.gz |
+| hispark_aries版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.3/20210716_112700/version-Master_Version-OpenHarmony_2.3.0.3-20210716_112700-hispark_aries.tar.gz |
 | **L2转测试时间：2021-07-16**                                   |
  **L2转测试版本获取路径：**                                   |
 | hi3516dv300-L2版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.3/20210714_011351/version-Master_Version-OpenHarmony_2.3.0.3-20210714_011351-L2_hi3516dv300.tar.gz|
