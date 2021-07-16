@@ -5,8 +5,8 @@
 | **版本用途：**OpenHarmony码云master迭代二第三轮测试，验收:|
 |L0L1:DFX子系统、轻内核子系统、分布式调度、电源管理等特性 |
 |L2:Demo&应用子系统、分布式数据管理子系统、应用子系统 |
-| **API变更：**：本次转测特性涉及全球化API变更（新增），均通过法务评审，L2本次不涉及。具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
-| **L0L1转测试时间：2021-07-14**                                   |
+| **API变更：**：本次转测特性涉及电源管理API变更（新增），均通过法务评审，L2本次不涉及。具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
+| **L0L1转测试时间：2021-07-16**                                   |
 | **L0L1转测试版本获取路径：**                                   |
 | hispark_taurus版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.3/20210716_112829/version-Master_Version-OpenHarmony_2.3.0.3-20210716_112829-hispark_taurus.tar.gz|
 | hispark_taurus_linux版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.3/20210716_112547/version-Master_Version-OpenHarmony_2.3.0.3-20210716_112547-hispark_taurus_linux.tar.gz |
