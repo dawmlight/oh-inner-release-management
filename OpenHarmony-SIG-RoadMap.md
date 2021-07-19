@@ -197,10 +197,7 @@ L2需求列表:
 | 5 | [I40NBW](https://gitee.com/open_harmony/dashboard?issue_id=I40NBW) | 【应用子系统】鸿蒙单框架L2系统应用-设置开源-WLAN | Testing | SIG_SysApplication | [@nicolaswang](https://gitee.com/nicolaswang) |
 
 ## OpenHarmony 2.3 Beta版本特性清单：
-| no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
-| :--- | ------------------------------------------------------------ | :----------------------------------------------------------- | :--------- | :------------------- | :------------------------------------------------ |
-| 1    | [I3ND6Y](https://gitee.com/openharmony/kernel_liteos_a/issues/I3ND6Y) | 【性能】OS内核&驱动启动优化                           | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
-| 1    | [I3ND6Y](https://gitee.com/openharmony/kernel_liteos_a/issues/I3ND6Y) | 【性能】OS内核&驱动启动优化                           | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
+暂无
 
 ## OpenHarmony 2.3.0.6版本特性清单：
 | no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
@@ -213,8 +210,9 @@ L2需求列表:
 
 
 ## OpenHarmony 3.0.0.1版本特性清单：
-
-暂无
+| no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
+| :--- | ------------------------------------------------------------ | :----------------------------------------------------------- | :--------- | :------------------- | :------------------------------------------------ |
+| 1    | [I3ND6Y](https://gitee.com/openharmony/kernel_liteos_a/issues/I3ND6Y) | 【性能】OS内核&驱动启动优化                           | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
 
 ## OpenHarmony 3.0.0.2版本特性清单：
 
