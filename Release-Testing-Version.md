@@ -16,6 +16,59 @@
  **L2转测试版本获取路径：**                                   |
 | hi3516dv300-L2版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3_Beta/20210721_010948/version-Master_Version-OpenHarmony_2.3_Beta-20210721_010948-L2_hi3516dv300.tar.gz  |
 
+## 针对OpenHarmony 2.3 Beta版本解决的缺陷ISSUE列表：
+
+L0L1 issue问题单列表：
+| ISSUE                                                        | 问题描述                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [I3I31W](	https://gitee.com/open_harmony/dashboard?issue_id=I3I31W) | 【OpenHarmony】【20210409】【轻内核子系统】集成测试ActsNFSTest.bin会引起内核crash |
+| [I3IE6L](	https://gitee.com/open_harmony/dashboard?issue_id=I3IE6L) | 需求test |
+| [I3ILIK](	https://gitee.com/open_harmony/dashboard?issue_id=I3ILIK) | 	音视频播放时，设置audio source 或者 设置 player source出现crash |
+| [I3IPB8](	https://gitee.com/open_harmony/dashboard?issue_id=I3IPB8) | 	【OpenHarmony】【20210414】【轻内核子系统】集成测试osThreadNew函数attr为NULL时创建线程失败 |
+| [I3IPQ3](	https://gitee.com/open_harmony/dashboard?issue_id=I3IPQ3) | 	DAC测试用例中rmdir操作失败 |
+| [I3J2O3](	https://gitee.com/open_harmony/dashboard?issue_id=I3J2O3) | 	3516 执行umount指令概率出现栈溢出 |
+| [I3J2XE](	https://gitee.com/open_harmony/dashboard?issue_id=I3J2XE) | 	在jffs2上umount文件夹后，再删除该文件夹，概率出现内核崩溃 |
+| [I3N06L](	https://gitee.com/open_harmony/dashboard?issue_id=I3N06L) | 	【OpenHarmony】【20210420】【轻内核子系统】集成测试FsStatTest.cpp在3518 master跑不过，但是在release上可以跑通 |
+| [I3N1E4](	https://gitee.com/open_harmony/dashboard?issue_id=I3N1E4) | 	【OpenHarmony】【20210420】【轻内核子系统】集成测试：IO模块在相关接口的测试中会导致设备crash |
+| [I3OSYA](	https://gitee.com/open_harmony/dashboard?issue_id=I3OSYA) | 【内核子系统集成测试】无法单独编译内核组件 |
+| [I3QQA9](	https://gitee.com/open_harmony/dashboard?issue_id=I3QQA9) | 	【OpenHarmony】【20210511】【轻内核子系统】集成测试pthread_cancel发送的信号可能会对别的用例中父进程对子进程中发送信号产生影响 |
+| [I3R3ZR](	https://gitee.com/open_harmony/dashboard?issue_id=I3R3ZR) | 	【OpenHarmony】【20210511】【轻内核子系统】集成测试NET模块的用例testDnCompExpandAbnormal Faield |
+| [I3R61Y](	https://gitee.com/open_harmony/dashboard?issue_id=I3R61Y) | 	优化L1 测试执行时长 |
+| [I3RCQZ](	https://gitee.com/open_harmony/dashboard?issue_id=I3RCQZ) | 	【OpenHarmony】【20210514】【轻内核子系统】集成测试：usleep精度测试中当usleep(100)，usleep(1000)测试概率性失败 |
+| [I3RLSJ](	https://gitee.com/open_harmony/dashboard?issue_id=I3RLSJ) | 	ActsUiInterfaceTest测试套在3516master分支出现系统崩溃 |
+| [I3S6IZ](	https://gitee.com/open_harmony/dashboard?issue_id=I3S6IZ) | 	支持hb -t notest不编译全部的测试用例，提高开发者编译速度 |
+| [I3SNG3](	https://gitee.com/open_harmony/dashboard?issue_id=I3SNG3) | 	【OpenHarmony】【20210521】【轻内核子系统】集成测试：clock_nanosleep异常测试（不支持的clock_id测试）失败 |
+| [I3SNS1](	https://gitee.com/open_harmony/dashboard?issue_id=I3SNS1) | 	3518和3516release分支media模块 ActsAudioPlayerTest 用例失败 |
+| [I3SYGZ](	https://gitee.com/open_harmony/dashboard?issue_id=I3SYGZ) | 	aafwk_lite/ability_posix测试套ldflags项增加-ldl选项，提交master |
+| [I3TDBK](	https://gitee.com/open_harmony/dashboard?issue_id=I3TDBK) | 	3516release分支 ActsVFATCapabilityTest#CapabilityTestSuite#CapabilityTest2300用例失败 |
+| [I3TH1U](	https://gitee.com/open_harmony/dashboard?issue_id=I3TH1U) | 	 轻量ace tdd门禁用例偶现崩溃 |
+| [I3TYOA](	https://gitee.com/open_harmony/dashboard?issue_id=I3TYOA) | 	aafwk_lite/ability_posix测试套ldflags项增加-ldl选项，提交release |
+| [I3TYVR](	https://gitee.com/open_harmony/dashboard?issue_id=I3TYVR) | 	xts_acts仓下，图片没有正常显示 |
+| [I3U959](	https://gitee.com/open_harmony/dashboard?issue_id=I3U959) | 	player_sample无法播放aac音频文件 |
+| [I3U95A](	https://gitee.com/open_harmony/dashboard?issue_id=I3U95A) | 	player_sample无法播放MP4视频 |
+| [I3UCY2](	https://gitee.com/open_harmony/dashboard?issue_id=I3UCY2) | 	libwpa.so存在漏洞CVE-2021-30004未修复 |
+| [I3UOOX](	https://gitee.com/open_harmony/dashboard?issue_id=I3UOOX) | 	3516master分支用例概率失败 ActsVFATCapabilityTest/CapabilityTestSuite/CapabilityTest2200  |
+| [I3UOZH](	https://gitee.com/open_harmony/dashboard?issue_id=I3UOZH) | 	 3516master用例概率失败ActsAiEngineTest/AieClientPrepareFunctionTest/ |
+| [I3V0RP](	https://gitee.com/open_harmony/dashboard?issue_id=I3V0RP) | 	3516DV300开机后整机内存占用超标 |
+| [I3V0V3](	https://gitee.com/open_harmony/dashboard?issue_id=I3V0V3) | 	3518EV300开机后整机内存占用超标 |
+| [I3V91E](	https://gitee.com/open_harmony/dashboard?issue_id=I3V91E) | 	horizonprogress用例重复执行崩溃 |
+| [I3VA5D](	https://gitee.com/open_harmony/dashboard?issue_id=I3VA5D) | 	3861 XTS压测CmsisTaskFuncTestSuite必现13条用例失败 |
+| [I3VD3M](	https://gitee.com/open_harmony/dashboard?issue_id=I3VD3M) | 	L1_3518_TDD graphic_test_utils_door.bin模块用例异常 |
+| [I3VDC1](	https://gitee.com/open_harmony/dashboard?issue_id=I3VDC1) | 	L1_3518 ActsMediaRecorderTest#ActsMediaRecorderNDKTest#Test_GetSurface01用例fail |
+| [I3VEF8](	https://gitee.com/open_harmony/dashboard?issue_id=I3VEF8) | 	ActsNetTest.bin在3516 XTS压测中crash |
+| [I3VJEI](	https://gitee.com/open_harmony/dashboard?issue_id=I3VJEI) | 	js_frameworks_tdd_door.bin在测试框架中执行无法获取结果 |
+| [I3ZG62](	https://gitee.com/open_harmony/dashboard?issue_id=I3ZG62) | 	L1_XTS_3518&3516 ActsSamgrTest模块 LiteIPCClientTest 测试套6条用例必现失败 |
+| [I40QOM](	https://gitee.com/open_harmony/dashboard?issue_id=I40QOM) | 	【OpenHarmony】【20210701】【轻内核子系统】集成测试testBarrierAlwaysWait在执行时会挂住，不往下执行 |
+| [I3D49E](	https://gitee.com/open_harmony/dashboard?issue_id=I3D49E) | 	uboot的路径不对 |
+| [I3EH4E](	https://gitee.com/open_harmony/dashboard?issue_id=I3EH4E) | 【OpenHarmony】【master】【流水线问题】高概率出现：uname无响应，然后执行reset也无响应 |
+| [I3EQJA](	https://gitee.com/open_harmony/dashboard?issue_id=I3EQJA) | 	【OpenHarmony】【20210402】【轻内核子系统】集成测试文件系统：cat /proc/mounts功能不可用 |
+| [I3EQRC](	https://gitee.com/open_harmony/dashboard?issue_id=I3EQRC) | 	【OpenHarmony】【20210402】【轻内核子系统】集成测试磁盘文件映射延迟测试：并发3个测试进程，系统crash |
+| [I3HVL0](	https://gitee.com/open_harmony/dashboard?issue_id=I3HVL0) | 	3861编译失败，报错[OHOS ERROR] Fatal error: invalid -march= option: `rv32imac' |
+| [I3W0NS](	https://gitee.com/open_harmony/dashboard?issue_id=I3W0NS) | 	hap包第一次卸载失败 |
+| [I3YWSQ](	https://gitee.com/open_harmony/dashboard?issue_id=I3YWSQ) | 	【OpenHarmony 2.3.0.1】【驱动子系统】L1 l单板上进行sensor驱动压力测试，概率性出现sensor数据无上报现象 |
+
+
+
 # OpenHarmony 2.3.0.3 版本转测试信息：
 
 | **转测试版本号：OpenHarmony 2.3.0.3                   |
