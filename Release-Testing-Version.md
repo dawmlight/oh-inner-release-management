@@ -5,7 +5,7 @@
 | **版本用途：**OpenHarmony码云master迭代二第四轮测试，验收:|
 |L0L1: |
 |L2:应用子系统、全球化 |
-| **API变更：**：本次转测特性不涉及API变更，具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
+| **API变更：**：本次转测特性L2 API有变更，具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
 | **L0L1转测试时间：2021-07-23**                                   |
 | **L0L1转测试版本获取路径：**                                   |
 | hispark_taurus版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3_Beta/20210721_011042/version-Master_Version-OpenHarmony_2.3_Beta-20210721_011042-hispark_taurus.tar.gz|
@@ -70,6 +70,7 @@ L0L1 issue问题单列表：
 ## OpenHarmony 2.3 Beta 版本特性清单：	
 
 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
+
 L2需求列表：
 | no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
 | :--- | ------------------------------------------------------------ | :----------------------------------------------------------- | :--------- | :------------------- | :------------------------------------------------ |
