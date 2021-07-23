@@ -197,7 +197,13 @@ L2需求列表:
 | 5 | [I40NBW](https://gitee.com/open_harmony/dashboard?issue_id=I40NBW) | 【应用子系统】鸿蒙单框架L2系统应用-设置开源-WLAN | Testing | SIG_SysApplication | [@nicolaswang](https://gitee.com/nicolaswang) |
 
 ## OpenHarmony 2.3 Beta版本特性清单：
-暂无
+
+L2需求列表：
+| no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
+| :--- | ------------------------------------------------------------ | :----------------------------------------------------------- | :--------- | :------------------- | :------------------------------------------------ |
+| 1 | [I41LYF](https://gitee.com/open_harmony/dashboard?issue_id=I41LYF) | 导航栏支持显示BACK、HOME、RECENT菜单 | Testing | SIG_SysApplication | [@liuzhenyu2021](https://gitee.com/liuzhenyu2021) |
+| 2 | [I41LSC](https://gitee.com/open_harmony/dashboard?issue_id=I41LSC) | 【SystemUI】SystemUI权限系统弹窗能力 | Testing | SIG_SysApplication | [@liuzhenyu2021](https://gitee.com/liuzhenyu2021) |
+| 3 | [I3XY72](https://gitee.com/open_harmony/dashboard?issue_id=I3XY72) | c++与 js时间\日期和数字国际化能力构建 | Testing | SIG_ApplicationFramework | [@meaty-bag-and-wangwang-meat](https://gitee.com/meaty-bag-and-wangwang-meat) |
 
 ## OpenHarmony 2.3.0.6版本特性清单：
 | no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
