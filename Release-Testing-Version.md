@@ -4,17 +4,17 @@
 | ------------------------------------------------------------ |
 | **版本用途：**OpenHarmony码云master迭代二第四轮测试，验收:|
 |L0L1: |
-|L2:Demo&应用子系统、分布式数据管理子系统、应用子系统 |
-| **API变更：**：本次转测特性不涉及API变更，L2本次不涉及。具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
-| **L0L1转测试时间：2021-07-21**                                   |
+|L2:应用子系统、全球化 |
+| **API变更：**：本次转测特性不涉及API变更，具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
+| **L0L1转测试时间：2021-07-23**                                   |
 | **L0L1转测试版本获取路径：**                                   |
 | hispark_taurus版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3_Beta/20210721_011042/version-Master_Version-OpenHarmony_2.3_Beta-20210721_011042-hispark_taurus.tar.gz|
 | hispark_taurus_linux版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3_Beta/20210721_011017/version-Master_Version-OpenHarmony_2.3_Beta-20210721_011017-hispark_taurus_linux.tar.gz    |
 | hispark_pegasus版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3_Beta/20210721_010513/version-Master_Version-OpenHarmony_2.3_Beta-20210721_010513-hispark_pegasus.tar.gz |
 | hispark_aries版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3_Beta/20210721_011130/version-Master_Version-OpenHarmony_2.3_Beta-20210721_011130-hispark_aries.tar.gz  |
-| **L2转测试时间：2021-07-21**                                   |
+| **L2转测试时间：2021-07-23**                                   |
  **L2转测试版本获取路径：**                                   |
-| hi3516dv300-L2版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3_Beta/20210721_010948/version-Master_Version-OpenHarmony_2.3_Beta-20210721_010948-L2_hi3516dv300.tar.gz  |
+| hi3516dv300-L2版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3_Beta/20210723_085435/version-Master_Version-OpenHarmony_2.3_Beta-20210723_085435-L2_hi3516dv300.tar.gz  |
 
 ## 针对OpenHarmony 2.3 Beta版本解决的缺陷ISSUE列表：
 
@@ -67,7 +67,15 @@ L0L1 issue问题单列表：
 | [I3W0NS](	https://gitee.com/open_harmony/dashboard?issue_id=I3W0NS) | 	hap包第一次卸载失败 |
 | [I3YWSQ](	https://gitee.com/open_harmony/dashboard?issue_id=I3YWSQ) | 	【OpenHarmony 2.3.0.1】【驱动子系统】L1 l单板上进行sensor驱动压力测试，概率性出现sensor数据无上报现象 |
 
+## OpenHarmony 2.3 Beta 版本特性清单：	
 
+状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
+L2需求列表：
+| no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
+| :--- | ------------------------------------------------------------ | :----------------------------------------------------------- | :--------- | :------------------- | :------------------------------------------------ |
+| 1 | [I41LYF](https://gitee.com/open_harmony/dashboard?issue_id=I41LYF) | 导航栏支持显示BACK、HOME、RECENT菜单 | Testing | SIG_SysApplication | [@liuzhenyu2021](https://gitee.com/liuzhenyu2021) |
+| 2 | [I41LSC](https://gitee.com/open_harmony/dashboard?issue_id=I41LSC) | 【SystemUI】SystemUI权限系统弹窗能力 | Testing | SIG_SysApplication | [@liuzhenyu2021](https://gitee.com/liuzhenyu2021) |
+| 3 | [I3XY72](https://gitee.com/open_harmony/dashboard?issue_id=I3XY72) | c++与 js时间\日期和数字国际化能力构建 | Testing | SIG_ApplicationFramework | [@meaty-bag-and-wangwang-meat](https://gitee.com/meaty-bag-and-wangwang-meat) |
 
 # OpenHarmony 2.3.0.3 版本转测试信息：
 
