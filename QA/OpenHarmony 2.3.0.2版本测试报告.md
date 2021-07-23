@@ -74,8 +74,8 @@ XXX子系统：特性质量良好
 |   I3NCCT      |  【L1 Linux开源】编译器替换后的HDF适配        |   特性质量良好           |    不涉及          |      |
 |   I3WHJS      |   基于HDF驱动框架提供马达驱动程序适配       |  特性质量良好            |   L2 3516DV300           |      |
 |   I3ZRA7      |   基于HDF驱动框架提供加速度传感器驱动程序适配       |  特性质量良好            |  L2 3516DV300            |      |
-|         |          |              |              |      |
-|         |          |              |              |      |
+|   I3N0LP      |   【全球化子系统】构建自定义数据编译能力       |  遗留少量问题            |              |      |
+|   I3N0OP      |   【全球化子系统】构建星期、单复数、数字开关国际化能力       |  遗留少量问题            |              |      |
 |         |          |              |              |      |
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
@@ -129,4 +129,5 @@ XXX子系统：特性质量良好
 
 # 5   问题单统计
 
-NA
+【OpenHarmony 2.3.0.2】【全球化子系统】阿拉伯语言下逗号返回不正确 https://gitee.com/openharmony/global_i18n_lite/issues/I3ZBG0
+【OpenHarmony 2.3.0.2】【全球化子系统】uk,lv语言下，double类型参数调用GetPluralRuleIndex接口返回值不正确，请修改 https://gitee.com/openharmony/global_i18n_lite/issues/I3ZBER
