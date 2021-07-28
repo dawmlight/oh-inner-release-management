@@ -65,8 +65,9 @@ L2需求列表：
 |46|[I3XY72](https://gitee.com/open_harmony/dashboard?issue_id=I3XY72)|c++与 js时间\日期和数字国际化能力构建|Testing|SIG_ApplicationFramework|[@meaty-bag-and-wangwang-meat](https://gitee.com/meaty-bag-and-wangwang-meat)|
 |47|[I42IMT](https://gitee.com/open_harmony/dashboard?issue_id=I42IMT)|RQ-[Demo&应用子系统][分布式]OpenHarmony版本分布式计算器|Testing|SIG_SystemApplication|[@purple-ding-gags](https://gitee.com/purple-ding-gags)|
 |48|[I42IKN](https://gitee.com/open_harmony/dashboard?issue_id=I42IKN)|RQ-[Demo&应用子系统][分布式]OpenHarmony版本分布式音乐播放器|Testing|SIG_SystemApplication|[@purple-ding-gags](https://gitee.com/purple-ding-gags)|
-|49|[I424HV](https://gitee.com/open_harmony/dashboard?issue_id=I424HV)|【应用子系统】【相机】基础相机|Testing|SIG_SystemApplication|[@blancwu](https://gitee.com/blancwu)|
-
+|49|[I41JB1](https://gitee.com/openharmony/applications_photos/issues/I41JB1)|【应用子系统】【图库】图库基础功能-大图浏览|Testing|SIG_SystemApplication|[@sunjunxiong](https://gitee.com/sunjunxiong)|
+|50|[I41J2Y](https://gitee.com/openharmony/applications_photos/issues/I41J2Y)|【应用子系统】【图库】图库基础功能-相册管理|Testing|SIG_SystemApplication|[@sunjunxiong](https://gitee.com/sunjunxiong)|
+|51|[I41JBB](https://gitee.com/openharmony/applications_photos/issues/I41JBB)|【应用子系统】【图库】图库基础功能-Toolbar操作|Testing|SIG_SystemApplication|[@sunjunxiong](https://gitee.com/sunjunxiong)|
 
 # OpenHarmony 2.3 Beta 版本转测试信息：
 
