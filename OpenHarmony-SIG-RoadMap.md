@@ -248,20 +248,19 @@ L2需求列表：
 |36|[I41HBT](https://gitee.com/open_harmony/dashboard?issue_id=I41HBT)|【驱动子系统】基于HDF驱动框架提供Camera设备驱动模型框架层设备管理DeviceManager|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
 |37|[I41HBO](https://gitee.com/open_harmony/dashboard?issue_id=I41HBO)|【驱动子系统】基于HDF驱动框架提供相机标准南向接口Camera设备管理（CameraHost）|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
 |38|[I3ZVIO](https://gitee.com/open_harmony/dashboard?issue_id=I3ZVIO)|Hi3516DV300开发板上，提供账号无关的设备认证能力|Testing|SIG_DistributedHardwareManagement|[@locheng7](https://gitee.com/locheng7)|
-|39|[I40PB6](https://gitee.com/open_harmony/dashboard?issue_id=I40PB6)|应用侧增加slot|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
-|40|[I40PB7](https://gitee.com/open_harmony/dashboard?issue_id=I40PB7)|应用侧删除slot|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
-|41|[I40PB8](https://gitee.com/open_harmony/dashboard?issue_id=I40PB8)|应用侧取消本地所有通知|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
-|42|[I40PB0](https://gitee.com/open_harmony/dashboard?issue_id=I40PB0)|应用侧发布本地多行类型通知|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
-|43|[I40PB1](https://gitee.com/open_harmony/dashboard?issue_id=I40PB1)|应用侧发布本地长文本通知|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
-|44|[I40PB2](https://gitee.com/open_harmony/dashboard?issue_id=I40PB2)|应用侧发布本地内容资讯类型的普通文本通知|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
-|45|[I40PB3](https://gitee.com/open_harmony/dashboard?issue_id=I40PB3)|应用侧发布本地其他类型的普通文本通知|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
-|46|[I40PB4](https://gitee.com/open_harmony/dashboard?issue_id=I40PB4)|应用侧发布本地服务提醒类型的普通文本通知|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
-|47|[I40PB5](https://gitee.com/open_harmony/dashboard?issue_id=I40PB5)|应用侧发布本地社交通讯类型的普通文本通知|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
-|48|[I3XY72](https://gitee.com/open_harmony/dashboard?issue_id=I3XY72)|c++与 js时间\日期和数字国际化能力构建|Testing|SIG_ApplicationFramework|[@meaty-bag-and-wangwang-meat](https://gitee.com/meaty-bag-and-wangwang-meat)|
-|49|[I42IMT](https://gitee.com/open_harmony/dashboard?issue_id=I42IMT)|RQ-[Demo&应用子系统][分布式]OpenHarmony版本分布式计算器|Testing|SIG_SystemApplication|[@purple-ding-gags](https://gitee.com/purple-ding-gags)|
-|50|[I42IKN](https://gitee.com/open_harmony/dashboard?issue_id=I42IKN)|RQ-[Demo&应用子系统][分布式]OpenHarmony版本分布式音乐播放器|Testing|SIG_SystemApplication|[@purple-ding-gags](https://gitee.com/purple-ding-gags)|
-|51|[I424HV](https://gitee.com/open_harmony/dashboard?issue_id=I424HV)|【应用子系统】【相机】基础相机|Testing|SIG_SystemApplication|[@blancwu](https://gitee.com/blancwu)|
-
+|39|[I40PB8](https://gitee.com/open_harmony/dashboard?issue_id=I40PB8)|应用侧取消本地所有通知|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
+|40|[I40PB0](https://gitee.com/open_harmony/dashboard?issue_id=I40PB0)|应用侧发布本地多行类型通知|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
+|41|[I40PB1](https://gitee.com/open_harmony/dashboard?issue_id=I40PB1)|应用侧发布本地长文本通知|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
+|42|[I40PB2](https://gitee.com/open_harmony/dashboard?issue_id=I40PB2)|应用侧发布本地内容资讯类型的普通文本通知|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
+|43|[I40PB3](https://gitee.com/open_harmony/dashboard?issue_id=I40PB3)|应用侧发布本地其他类型的普通文本通知|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
+|44|[I40PB4](https://gitee.com/open_harmony/dashboard?issue_id=I40PB4)|应用侧发布本地服务提醒类型的普通文本通知|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
+|45|[I40PB5](https://gitee.com/open_harmony/dashboard?issue_id=I40PB5)|应用侧发布本地社交通讯类型的普通文本通知|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
+|46|[I3XY72](https://gitee.com/open_harmony/dashboard?issue_id=I3XY72)|c++与 js时间\日期和数字国际化能力构建|Testing|SIG_ApplicationFramework|[@meaty-bag-and-wangwang-meat](https://gitee.com/meaty-bag-and-wangwang-meat)|
+|47|[I42IMT](https://gitee.com/open_harmony/dashboard?issue_id=I42IMT)|RQ-[Demo&应用子系统][分布式]OpenHarmony版本分布式计算器|Testing|SIG_SystemApplication|[@purple-ding-gags](https://gitee.com/purple-ding-gags)|
+|48|[I42IKN](https://gitee.com/open_harmony/dashboard?issue_id=I42IKN)|RQ-[Demo&应用子系统][分布式]OpenHarmony版本分布式音乐播放器|Testing|SIG_SystemApplication|[@purple-ding-gags](https://gitee.com/purple-ding-gags)|
+|49|[I41JB1](https://gitee.com/openharmony/applications_photos/issues/I41JB1)|【应用子系统】【图库】图库基础功能-大图浏览|Testing|SIG_SystemApplication|[@sunjunxiong](https://gitee.com/sunjunxiong)|
+|50|[I41J2Y](https://gitee.com/openharmony/applications_photos/issues/I41J2Y)|【应用子系统】【图库】图库基础功能-相册管理|Testing|SIG_SystemApplication|[@sunjunxiong](https://gitee.com/sunjunxiong)|
+|51|[I41JBB](https://gitee.com/openharmony/applications_photos/issues/I41JBB)|【应用子系统】【图库】图库基础功能-Toolbar操作|Testing|SIG_SystemApplication|[@sunjunxiong](https://gitee.com/sunjunxiong)|
 
 
 ## OpenHarmony 2.3.0.6版本特性清单：
