@@ -1,3 +1,24 @@
+# OpenHarmony 2.3.0.6 版本转测试信息：
+
+| **转测试版本号：OpenHarmony 2.3.0.6                   |
+| ------------------------------------------------------------ |
+| **版本用途：**OpenHarmony码云master迭代三第一轮测试，验收:分布式调度、安全校验等特性|
+|L2:|
+| **API变更：**：本次转测特性不涉及API变更，具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
+| **L0L1转测试版本获取路径：**                                   |
+| hispark_taurus版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210728_092412/version-Master_Version-OpenHarmony_2.3.0.6-20210728_092412-hispark_taurus.tar.gz  |
+| hispark_taurus_linux版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210728_092206/version-Master_Version-OpenHarmony_2.3.0.6-20210728_092206-hispark_taurus_linux.tar.gz     |
+| hispark_pegasus版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210728_092200/version-Master_Version-OpenHarmony_2.3.0.6-20210728_092200-hispark_pegasus.tar.gz |
+| hispark_aries版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210728_092314/version-Master_Version-OpenHarmony_2.3.0.6-20210728_092314-hispark_aries.tar.gz   |
+| **L2转测试时间：2021-07-29**                                   |
+ **L2转测试版本获取路径：**                                   |
+| hi3516dv300-L2版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210728_092319/version-Master_Version-OpenHarmony_2.3.0.6-20210728_092319-L2_hi3516dv300.tar.gz   |
+
+## OpenHarmony 2.3.0.6 版本特性清单：
+状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
+| no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
+| :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
+| 1    | [I3QEVG](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3QEVG) | 【分布式调度】轻设备获取调用者APP的APPID并传输到富设备      | developing | SIG_AppFramework     | [@lijiarun](https://gitee.com/lijiarun)            |
 
 # OpenHarmony 2.2 Beta2 版本转测试信息：
 
