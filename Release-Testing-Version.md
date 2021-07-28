@@ -1,3 +1,75 @@
+
+# OpenHarmony 2.2 Beta2 版本转测试信息：
+
+| **转测试版本号：OpenHarmony 2.2 Beta2                   |
+| ------------------------------------------------------------ |
+| **版本用途：**OpenHarmony码云master迭代二第四轮测试，验收:|
+|L2:应用子系统、全球化、多媒体、文件系统、分布式硬件、电源、HDF驱动等 |
+| **API变更：**：本次转测特性L2 API有变更，具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
+| **L2转测试时间：2021-07-28**                                   |
+ **L2转测试版本获取路径：**                                   |
+| hi3516dv300-L2版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.2_Beta2/20210728_100015/version-Master_Version-OpenHarmony_2.2_Beta2-20210728_100015-L2_hi3516dv300.tar.gz  |
+
+## OpenHarmony 2.2 Beta2 版本特性清单：
+
+状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
+
+L2需求列表：
+| no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
+| :--- | ------------------------------------------------------------ | :----------------------------------------------------------- | :--------- | :------------------- | :------------------------------------------------ |
+|1|[I3XLZR](https://gitee.com/open_harmony/dashboard?issue_id=I3XLZR)|AudioService音频服务|Testing|SIG_GraphicsandMedia|[@magekkkk](https://gitee.com/magekkkk)|
+|2|[I3XM04](https://gitee.com/open_harmony/dashboard?issue_id=I3XM04)|Audio音频管理模块及API|Testing|SIG_GraphicsandMedia|[@magekkkk](https://gitee.com/magekkkk)|
+|3|[I3XM2C](https://gitee.com/open_harmony/dashboard?issue_id=I3XM2C)|CameraService 相机服务|Testing|SIG_GraphicsandMedia|[@magekkkk](https://gitee.com/magekkkk)|
+|4|[I3XM1U](https://gitee.com/open_harmony/dashboard?issue_id=I3XM1U)|Camera相机处理模块及API|Testing|SIG_GraphicsandMedia|[@magekkkk](https://gitee.com/magekkkk)|
+|5|[I3XM34](https://gitee.com/open_harmony/dashboard?issue_id=I3XM34)|MediaService播放录制服务|Testing|SIG_GraphicsandMedia|[@magekkkk](https://gitee.com/magekkkk)|
+|6|[I3XM2V](https://gitee.com/open_harmony/dashboard?issue_id=I3XM2V)|Media媒体处理模块及API|Testing|SIG_GraphicsandMedia|[@magekkkk](https://gitee.com/magekkkk)|
+|7|[I41GOS ](https://gitee.com/open_harmony/dashboard?issue_id=I41GOS)|【分布式文件子系统】（需求）基于JS语言实现system.file接口|Testing|SIG_DataManagement|[@panqinxu](https://gitee.com/panqinxu)|
+|8|[I426IN](https://gitee.com/open_harmony/dashboard?issue_id=I426IN)|【组网】自组网管理|Testing|SIG_SoftBus|[@maerlii](https://gitee.com/maerlii)|
+|9|[I40NBW](https://gitee.com/open_harmony/dashboard?issue_id=I40NBW)|WLAN设置项|Testing|SIG_SystemApplication|[@xiongshiyi](https://gitee.com/xiongshiyi)|
+|10|[I400ZM](https://gitee.com/open_harmony/dashboard?issue_id=I400ZM)|【应用子系统】【Launcher】桌面设置界面UX优化，Grid布局桌面支持图标拖动|Testing|SIG_SystemApplication|[@xiongshiyi](https://gitee.com/xiongshiyi)|
+|11|[I41J7Q](https://gitee.com/open_harmony/dashboard?issue_id=I41J7Q)|支持Video组件|Testing|SIG_ApplicationFramework|[@zhanghaibo0](https://gitee.com/zhanghaibo0)|
+|12|[I41JBF](https://gitee.com/open_harmony/dashboard?issue_id=I41JBF)|支持Camera组件|Testing|SIG_ApplicationFramework|[@zhanghaibo0](https://gitee.com/zhanghaibo0)|
+|13|[I41JG4](https://gitee.com/open_harmony/dashboard?issue_id=I41JG4)|支持JS与NAPI混合开发接口|Testing|SIG_ApplicationFramework|[@zhanghaibo0](https://gitee.com/zhanghaibo0)|
+|14|[I3ZRBA](https://gitee.com/open_harmony/dashboard?issue_id=I3ZRBA)|提供系统电源状态机管理能力|Testing|SIG_DistributedHardwareManagement|[@zianed](https://gitee.com/zianed)|
+|15|[I3ZRBV](https://gitee.com/open_harmony/dashboard?issue_id=I3ZRBV)|提供休眠运行锁（RunningLock）管理能力|Testing|SIG_DistributedHardwareManagement|[@zianed](https://gitee.com/zianed)|
+|16|[I3ZRCV](https://gitee.com/open_harmony/dashboard?issue_id=I3ZRCV)|提供休眠、唤醒流程管理及实现|Testing|SIG_DistributedHardwareManagement|[@zianed](https://gitee.com/zianed)|
+|17|[I3WHJS](https://gitee.com/open_harmony/dashboard?issue_id=I3WHJS)|基于HDF驱动框架提供马达驱动程序适配|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|18|[I3ZRA7](https://gitee.com/open_harmony/dashboard?issue_id=I3ZRA7)|基于HDF驱动框架提供加速度传感器驱动程序适配|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|19|[I41HBJ](https://gitee.com/open_harmony/dashboard?issue_id=I41HBJ)|【驱动子系统】提供Audio HDI接口实现|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|20|[I41HBK](https://gitee.com/open_harmony/dashboard?issue_id=I41HBK)|【驱动子系统】Audio 驱动框架用户态接口库|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|21|[I41HBM](https://gitee.com/open_harmony/dashboard?issue_id=I41HBM)|【驱动子系统】提供支持MPI接口的用户态接口库|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|22|[I41HBN](https://gitee.com/open_harmony/dashboard?issue_id=I41HBN)|【驱动子系统】HDI接口支持跨进程通信|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|23|[I41HBH](https://gitee.com/open_harmony/dashboard?issue_id=I41HBH)|【驱动子系统】基于HDF驱动框架提供WIFI支持HDI接口能力|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|24|[I41HBG](https://gitee.com/open_harmony/dashboard?issue_id=I41HBG)|【驱动子系统】基于HDF驱动框架提供WIFI支持P2P驱动能力|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|25|[I41HBI](https://gitee.com/open_harmony/dashboard?issue_id=I41HBI)|【驱动子系统】提供Audio Driver Model驱动模型框架|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|26|[I41HBA](https://gitee.com/open_harmony/dashboard?issue_id=I41HBA)|【驱动子系统】基于HDF驱动框架提供keyboard驱动能力|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|27|[I41HBZ](https://gitee.com/open_harmony/dashboard?issue_id=I41HBZ)|【驱动子系统】基于HDF框架提供USB device DDK|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|28|[I41HBU](https://gitee.com/open_harmony/dashboard?issue_id=I41HBU)|【驱动子系统】基于HDF驱动框架提供Camera设备驱动模型框架层BufferManager|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|29|[I41HBV](https://gitee.com/open_harmony/dashboard?issue_id=I41HBV)|【驱动子系统】基于HDF驱动框架提供Camera设备驱动模型框架层utils通用组件(thread、event、watchdog)r|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|30|[I41HBX](https://gitee.com/open_harmony/dashboard?issue_id=I41HBX)|【驱动子系统】基于HDF驱动框架提供Camera驱动多平台扩展平台适配|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|31|[I41HBY](https://gitee.com/open_harmony/dashboard?issue_id=I41HBY)|【驱动子系统】基于HDF框架提供USB host DDK|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|32|[I41HBP](https://gitee.com/open_harmony/dashboard?issue_id=I41HBP)|【驱动子系统】基于HDF驱动框架提供相机标准南向接口Camera设备控制（CameraDevice）|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|33|[I41HBQ](https://gitee.com/open_harmony/dashboard?issue_id=I41HBQ)|【驱动子系统】基于HDF驱动框架提供相机标准南向接口Image流控制（StreamOperator）|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|34|[I41HBR](https://gitee.com/open_harmony/dashboard?issue_id=I41HBR)|【驱动子系统】基于HDF驱动框架提供相机标准南向接口Camera HDI接口|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|35|[I41HBS](https://gitee.com/open_harmony/dashboard?issue_id=I41HBS)|【驱动子系统】基于HDF驱动框架提供Pipeline管理 |Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|36|[I41HBT](https://gitee.com/open_harmony/dashboard?issue_id=I41HBT)|【驱动子系统】基于HDF驱动框架提供Camera设备驱动模型框架层设备管理DeviceManager|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|37|[I41HBO](https://gitee.com/open_harmony/dashboard?issue_id=I41HBO)|【驱动子系统】基于HDF驱动框架提供相机标准南向接口Camera设备管理（CameraHost）|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|38|[I3ZVIO](https://gitee.com/open_harmony/dashboard?issue_id=I3ZVIO)|Hi3516DV300开发板上，提供账号无关的设备认证能力|Testing|SIG_DistributedHardwareManagement|[@locheng7](https://gitee.com/locheng7)|
+|39|[I40PB6](https://gitee.com/open_harmony/dashboard?issue_id=I40PB6)|应用侧增加slot|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
+|40|[I40PB7](https://gitee.com/open_harmony/dashboard?issue_id=I40PB7)|应用侧删除slot|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
+|41|[I40PB8](https://gitee.com/open_harmony/dashboard?issue_id=I40PB8)|应用侧取消本地所有通知|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
+|42|[I40PB0](https://gitee.com/open_harmony/dashboard?issue_id=I40PB0)|应用侧发布本地多行类型通知|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
+|43|[I40PB1](https://gitee.com/open_harmony/dashboard?issue_id=I40PB1)|应用侧发布本地长文本通知|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
+|44|[I40PB2](https://gitee.com/open_harmony/dashboard?issue_id=I40PB2)|应用侧发布本地内容资讯类型的普通文本通知|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
+|45|[I40PB3](https://gitee.com/open_harmony/dashboard?issue_id=I40PB3)|应用侧发布本地其他类型的普通文本通知|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
+|46|[I40PB4](https://gitee.com/open_harmony/dashboard?issue_id=I40PB4)|应用侧发布本地服务提醒类型的普通文本通知|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
+|47|[I40PB5](https://gitee.com/open_harmony/dashboard?issue_id=I40PB5)|应用侧发布本地社交通讯类型的普通文本通知|Testing|SIG_SystemApplication|[@autumn330](https://gitee.com/autumn330)|
+|48|[I3XY72](https://gitee.com/open_harmony/dashboard?issue_id=I3XY72)|c++与 js时间\日期和数字国际化能力构建|Testing|SIG_ApplicationFramework|[@meaty-bag-and-wangwang-meat](https://gitee.com/meaty-bag-and-wangwang-meat)|
+|49|[I42IMT](https://gitee.com/open_harmony/dashboard?issue_id=I42IMT)|RQ-[Demo&应用子系统][分布式]OpenHarmony版本分布式计算器|Testing|SIG_SystemApplication|[@purple-ding-gags](https://gitee.com/purple-ding-gags)|
+|50|[I42IKN](https://gitee.com/open_harmony/dashboard?issue_id=I42IKN)|RQ-[Demo&应用子系统][分布式]OpenHarmony版本分布式音乐播放器|Testing|SIG_SystemApplication|[@purple-ding-gags](https://gitee.com/purple-ding-gags)|
+|51|[I424HV](https://gitee.com/open_harmony/dashboard?issue_id=I424HV)|【应用子系统】【相机】基础相机|Testing|SIG_SystemApplication|[@blancwu](https://gitee.com/blancwu)|
+
+
 # OpenHarmony 2.3 Beta 版本转测试信息：
 
 | **转测试版本号：OpenHarmony 2.3 Beta                   |
