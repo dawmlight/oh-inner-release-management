@@ -134,7 +134,8 @@ XXX子系统：特性质量良好
 | [ I41HBS](https://gitee.com/open_harmony/dashboard?issue_id=I41HBS) | 【驱动子系统】基于HDF驱动框架提供Pipeline管理 | 特性基本可用 | | |
 | [I41HBT](https://gitee.com/open_harmony/dashboard?issue_id=I41HBT) | 【驱动子系统】基于HDF驱动框架提供Camera设备驱动模型框架层设备管理DeviceManager | 特性基本可用 | | |
 | [I41HBO](https://gitee.com/open_harmony/dashboard?issue_id=I41HBO) | 【驱动子系统】基于HDF驱动框架提供相机标准南向接口Camera设备管理（CameraHost） | 特性基本可用 | | |
-
+| 无  | 软总线-支持自组网 | 特性基本可用,特定场景下风险高 |                                                      | 1、开发自测：在wlan（网线直连）连接下，自组网功能稳定，重启设备/开关网络典型场景可以成功自组网；  2、在wifi组网下，基本功能可用，但是在开关网络/重启设备典型场景下自组网失败，涉及4个缺陷issue：[I4312A](https://gitee.com/openharmony/communication_dsoftbus/issues/I4312A), [I4311S](https://gitee.com/openharmony/communication_dsoftbus/issues/I4311S) , [I43118](https://gitee.com/openharmony/communication_dsoftbus/issues/I43118), [I43107](https://gitee.com/openharmony/communication_dsoftbus/issues/I43107)                                                 |
+| 无  | 软总线-支持IPC/RPC | 特性质量良好 |                                 |  1、本特性代码复用富鸿蒙代码，当前开发自测用例全部pass，上层分布式音乐使用RPC特性，无RPC遗留问题；2、特性的JS API未交付，测试侧将基于JS API进行特性测试                   |
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
 ## 4.2   兼容性测试结论
