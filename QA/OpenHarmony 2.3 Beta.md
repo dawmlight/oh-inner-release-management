@@ -104,6 +104,8 @@ XXX子系统：特性质量良好
 | [I3NT48](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT48) | 【轻内核子系统】proc文件系统增强 |特性基本可用，遗留少量问题 | | 由于toybox相关需求未合入,top/ps/free命令不可用 |
 | [I3WLDI](https://gitee.com/openharmony/kernel_liteos_m/issues/I3WLDI) | 【轻内核子系统】轻量系统支持轻量级shell框架和常用调测命令 |无法测试 | | wifiiot_hispark_pegasus不支持，无法测试 |
 | [I3WLCN](https://gitee.com/openharmony/kernel_liteos_m/issues/I3WLCN) | 【轻内核子系统】轻量系统LiteOS-M支持ARM9架构 |特性不稳定，风险高 | | |
+| [I3ID9Q](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3ID9Q) | 【分布式调度】建立轻量设备DMS与富设备DMS通信通道 |特性基本功能良好，但端到端流程不通，风险高 | | |
+| [I3ID9V](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3ID9Q) | 【分布式调度】轻量设备启动富设备上的Ability |特性基本功能良好，但端到端流程不通，风险高 | | |
 |  |  | | | |
 
 ​      
