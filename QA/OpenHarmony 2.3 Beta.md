@@ -65,7 +65,7 @@ XXX子系统：特性质量良好
 | *2*  | 轻内核子系统 | 1、轻量系统的特性和变更由于wifiiot_hispark_pegasus不支持，暂时无法测试，不对轻量系统进行评估<br />2、小型系统特性基本功能可用，新增shell及命令集特性该版本不稳定，新增其他特性基本可用<br />3、标准系统无新增特性，特性基本可用 |      |
 | *3*  | 泛sensor服务子系统 | 没有新增特性，XTS用例测试通过，特性质量良好 |   小型系统   |
 | *4* | 电源子系统 | 无新增特性，测试用例执行通过，特性质量良好 | |
-| *5*  | 启动恢复子系统 | 没有新增特性，L0L1设备XTS测试用例测试通过，特性质量良好，L2设备XTS用例测试通过（设备信息获取和系统数学获取特性质量良好），恢复出厂和清除用户数据的两个api（因调用api，设备会重启，用例不在xts，本地手动编译hap包测试）测试不通过，api调用设备未重启，用户数据未清除，已提严重单 | https://gitee.com/openharmony/community/issues/I430Z5?from=project-issue     |
+| *5*  | 启动恢复子系统 | 没有新增特性，L0L1设备XTS测试用例测试通过，特性质量良好，L2设备XTS用例测试通过（设备信息获取和系统属性获取测试通过，特性质量良好），恢复出厂和清除用户数据的两个api（因调用api，设备会重启，用例不在xts，本地手动编译hap包测试）测试不通过，api调用设备未重启，用户数据未清除，已提严重单 | https://gitee.com/openharmony/community/issues/I430Z5?from=project-issue     |
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
@@ -214,4 +214,4 @@ shell命令相关问题单：
 [【OpenHarmony】【20210726】【轻内核子系统】集成测试直接执行cat后无法退出，需要重启设备恢复](https://gitee.com/openharmony/third_party_mksh/issues/I42N33)
 
 [【OpenHarmony】【20210706】【轻内核子系统】集成测试exec执行bin文件后界面卡死，无法继续使用](
-[【startup_standard】【master】L2-Beta2版本测试恢复出厂和清楚用户数据的api测试失败](https://gitee.com/openharmony/community/issues/I430Z5?from=project-issue)
+[【startup_standard】【master】L2-Beta2版本测试恢复出厂和清除用户数据的api测试失败](https://gitee.com/openharmony/community/issues/I430Z5?from=project-issue)
