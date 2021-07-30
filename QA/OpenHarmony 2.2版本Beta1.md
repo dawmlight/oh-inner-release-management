@@ -162,6 +162,8 @@ DFX子系统：特性质量良好
 | I3ICFO  | 分布式数据管理子系统                                   | 特性质量良好 | 提供数据的单条和批量删除的接口，对于指定路径支持一个数据库实例，全部为innerkit，特性未打开，需要开发者根据产品自行配置打开编译开关 |                                                 |
 | I3NSP8  | 【JS UI框架子系统】UIKit组件支持margin/padding         | 特性质量良好 | 不涉及                                                       |                                                 |
 | I3NSZH  | 【JS UI框架子系统】圆形/胶囊按钮支持缩放和白色蒙层动效 | 特性质量良好 | 不涉及                                                       |                                                 |
+| 无  | 软总线支持自组网 | 特性基本可用,特定场景下风险高 | 1、开发自测：在wlan（网线直连）连接下，自组网功能稳定，重启设备/开关网络典型场景可以成功自组网；  2、在wifi组网下，基本功能可用，但是在开关网络/重启设备典型场景下自组网失败，涉及4个缺陷issue：[I4312A](https://gitee.com/openharmony/communication_dsoftbus/issues/I4312A), [I4311S](https://gitee.com/openharmony/communication_dsoftbus/issues/I4311S) , [I43118](https://gitee.com/openharmony/communication_dsoftbus/issues/I43118), [I43107](https://gitee.com/openharmony/communication_dsoftbus/issues/I43107)                                                      |                                                 |
+| 无  | IPC/RPC | 特性质量良好 | 本特性移植富鸿蒙代码，当前开发自测用例全部pass，上层分布式音乐使用RPC特性，无RPC遗留问题                                |                     |
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
