@@ -82,7 +82,7 @@ XXX子系统：特性质量良好
 | [ I40PB3](https://gitee.com/open_harmony/dashboard?issue_id=I40PB3) | 应用侧发布本地其他类型的普通文本通知     | 特性基本可用 |              |      |
 | [I40PB4](https://gitee.com/open_harmony/dashboard?issue_id=I40PB4) | 应用侧发布本地服务提醒类型的普通文本通知 | 特性基本可用 |              |      |
 | [I40PB5](https://gitee.com/open_harmony/dashboard?issue_id=I40PB5) | 应用侧发布本地社交通讯类型的普通文本通知 | 特性基本可用 |              |      |
-|                                                              |                                          |              |              |      |
+| I3XY72                                                             | c++与 js时间\日期和数字国际化能力构建                                         |特性质量良好              |              |      |
 
 ​      
 
