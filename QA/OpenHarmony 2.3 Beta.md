@@ -107,8 +107,10 @@ XXX子系统：特性质量良好
 | [I3ID9Q](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3ID9Q) | 【分布式调度】建立轻量设备DMS与富设备DMS通信通道 |特性基本功能良好，但端到端流程不通，风险高 | | |
 | [I3ID9V](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3ID9Q) | 【分布式调度】轻量设备启动富设备上的Ability |特性基本功能良好，但端到端流程不通，风险高 | | |
 |  |  | | | |
-
-​      
+| [I3XM04](https://gitee.com/openharmony/multimedia_audio_standard/issues/I3XM04) | 【多媒体子系统】Audio音频管理模块及API |特性质量良好 | | |
+| [I3XLZR](https://gitee.com/openharmony/multimedia_audio_standard/issues/I3XLZR) | 【多媒体子系统】AudioService音频服务 |特性不稳定，风险高 | |播放功能可用，录制功能缺乏三方插件无法使用 |
+| [I3XM34](https://gitee.com/openharmony/multimedia_media_standard/issues/I3XM34) | 【多媒体子系统】MediaService播放服务 |特性基本可用，遗留少量问题 | |（1）Media模块功能测试场景下设置音量异常（2）Media模块执行hstmediatest /data/1.mp4 win报错：player is null（3）Media模块执行ActsMedia模块用例报错Segmentation fault|
+| [I3XM2V](https://gitee.com/openharmony/multimedia_media_standard/issues/I3XM2V) | 【多媒体子系统】Media媒体处理模块及API |特性质量良好 | | |
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
@@ -223,3 +225,9 @@ shell命令相关问题单：
 
 [【OpenHarmony】【20210706】【轻内核子系统】集成测试exec执行bin文件后界面卡死，无法继续使用](
 [【startup_standard】【master】L2-Beta2版本测试恢复出厂和清除用户数据的api测试失败](https://gitee.com/openharmony/community/issues/I430Z5?from=project-issue)
+
+[【OpenHarmony】【2.3 beta】【多媒体子系统】Media模块功能测试场景下设置音量异常](https://gitee.com/openharmony/multimedia_media_standard/issues/I4342U?from=project-issue)
+
+[【OpenHarmony】【2.3 beta】【多媒体子系统】Media模块执行hstmediatest /data/1.mp4 win报错：player is null](https://gitee.com/openharmony/multimedia_media_standard/issues/I4344Z?from=project-issue)
+
+[【OpenHarmony】【2.3 beta】【多媒体子系统】Media模块执行ActsMedia模块用例报错Segmentation fault](https://gitee.com/openharmony/multimedia_media_standard/issues/I43489?from=project-issue)
