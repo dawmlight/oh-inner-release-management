@@ -109,10 +109,12 @@ XXX子系统：特性质量良好
 | [I3ID9Q](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3ID9Q) | 【分布式调度】建立轻量设备DMS与富设备DMS通信通道 |特性基本功能良好，但端到端流程不通，风险高 | | |
 | [I3ID9V](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3ID9Q) | 【分布式调度】轻量设备启动富设备上的Ability |特性基本功能良好，但端到端流程不通，风险高 | | |
 |  |  | | | |
-| [I3XM04](https://gitee.com/openharmony/multimedia_audio_standard/issues/I3XM04) | 【多媒体子系统】Audio音频管理模块及API |特性质量良好 | | |
+| [I3XM04](https://gitee.com/openharmony/multimedia_audio_standard/issues/I3XM04) | 【多媒体子系统】Audio音频管理模块及API |特性基本可用 | |基本功能无问题，性能稳定性，安全待验证 |
 | [I3XLZR](https://gitee.com/openharmony/multimedia_audio_standard/issues/I3XLZR) | 【多媒体子系统】AudioService音频服务 |特性不稳定，风险高 | |播放功能可用，录制功能缺乏三方插件无法使用 |
 | [I3XM34](https://gitee.com/openharmony/multimedia_media_standard/issues/I3XM34) | 【多媒体子系统】MediaService播放服务 |特性基本可用，遗留少量问题 | |（1）Media模块功能测试场景下设置音量异常（2）Media模块执行hstmediatest /data/1.mp4 win报错：player is null（3）Media模块执行ActsMedia模块用例报错Segmentation fault|
-| [I3XM2V](https://gitee.com/openharmony/multimedia_media_standard/issues/I3XM2V) | 【多媒体子系统】Media媒体处理模块及API |特性质量良好 | | |
+| [I3XM2V](https://gitee.com/openharmony/multimedia_media_standard/issues/I3XM2V) | 【多媒体子系统】Media媒体处理模块及API |特性基本可用  | |基本功能无问题，性能稳定性，安全待验证 |
+| [I3XM2C](https://gitee.com/openharmony/multimedia_camera_standard/issues/I3XM2C) | 【多媒体子系统】CameraService 相机服务 |特性基本可用  | |基本功能无问题，性能稳定性，安全待验证 |
+| [I3XM1U](https://gitee.com/openharmony/multimedia_camera_standard/issues/I3XM1U) | 【多媒体子系统】Camera相机处理模块及API |特性不稳定，风险高  | |相机拍照预览基本功能可用， 稳定性较差，存在预览黑屏问题。闪光灯、曝光、对焦、调焦设置不生效。 |
 | [I41GOS](https://gitee.com/openharmony/distributeddatamgr_file/issues/I41GOS) |【分布式文件子系统】（需求）基于JS语言实现system.file接口|特性基本功能可用，遗留少量问题|              |缺少完整的稳定性测试，待后续阶段补充验证|
 | [I3WHJS](https://gitee.com/open_harmony/dashboard?issue_id=I3WHJS) | 基于HDF驱动框架提供马达驱动程序适配 | 特性质量良好 | | |
 | [I3ZRA7](https://gitee.com/open_harmony/dashboard?issue_id=I3ZRA7) | 基于HDF驱动框架提供加速度传感器驱动程序适配                  | 特性质量良好 | | |
@@ -277,7 +279,13 @@ shell命令相关问题单：
 
 [【OpenHarmony】【2.3 beta】【多媒体子系统】Media模块执行hstmediatest /data/1.mp4 win报错：player is null](https://gitee.com/openharmony/multimedia_media_standard/issues/I4344Z?from=project-issue)
 
-[【OpenHarmony】【2.3 beta】【多媒体子系统】Media模块执行ActsMedia模块用例报错Segmentation fault](https://gitee.com/openharmony/multimedia_media_standard/issues/I43489?from=project-issue)
+[【OpenHarmony】【2.3 beta】【多媒体子系统】Media模块执行ActsMedia模块用例报错Segmentation fault](https://gitee.com/openharmony/multimedia_camera_standard/issues/I43699?from=project-issue)
+
+[【OpenHarmony】【2.3 beta】【多媒体子系统】L2-Beta2版本 使用JSDemo测试，相机拍照结束后，点击缩率查看照片，相机Crash，再次打开相机黑屏](https://gitee.com/openharmony/multimedia_media_standard/issues/I43489?from=project-issue)
+
+[【OpenHarmony】【2.3 beta】【多媒体子系统】L2-Beta2版本 使用JSDemo测试，打开应用，home切回后台，重复几次, 预览黑屏](https://gitee.com/openharmony/multimedia_camera_standard/issues/I4364S?from=project-issue)
+
+[【OpenHarmony】【2.3 beta】【多媒体子系统】L2-Beta2版本 camera用例执行失败](https://gitee.com/openharmony/multimedia_camera_standard/issues/I435E5?from=project-issue)
 
 [【OpenHarmony 2.2 Beta2】【驱动子系统】L2单板camera DFx测试用例失败](https://gitee.com/openharmony/drivers_peripheral/issues/I43339?from=project-issue)
 
