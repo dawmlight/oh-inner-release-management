@@ -61,6 +61,7 @@ XXX子系统：特性质量良好
 
 | 序号 | 特性名称    | 特性质量评估                             | 备注 |
 | ---- | ----------- | ---------------------------------------- | ---- |
+| *1*  | 标准系统DFX子系统 | 没有新增特性，XTS测试用例测试通过同，XTS用例并发压测场景异常，Hilogd异常退且卡死，开发已定位，解决当中 |https://gitee.com/openharmony/hiviewdfx_hilog/issues/I42B9Y      |
 | *1*  | *XXX子系统* | *没有新增特性，XX测试通过，基本功能可用* |      |
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
@@ -107,14 +108,14 @@ XXX子系统：特性质量良好
 ## 4.4   稳定性专项测试结论
 
 *a）执行反复开关机压力测试，运行5000次，无不开机问题；*
-稳定性评估结论：无法达到连续开关机5000次的标准，最长的一次维持了56次，并且开关机过程中出现以下几个问题
+标准系统稳定性评估结论：无法达到连续开关机5000次的标准，最长的一次维持了56次，并且开关机过程中出现以下几个问题
 
 | 测试分类 | 测试评估项 | 质量目标 | 是否满足 | 测试结果及关键遗留问题/风险 | 备注issue |
 | -------- | ---------- | -------- | -------- | --------------------------- | --------- |
-|稳定性测试 | 开关机测试  | 开关机5000次无不开机问题  |否  |反复开关机测试过程中打开photo应用，libmedialibrary_proxy.z.so模块异常重启 |https://gitee.com/openharmony/multimedia_medialibrary_standard/issues/I4327J?from=project-issue|
-|稳定性测试 | 开关机测试  | 开关机5000次无不开机问题  |否  |反复执行开关机测试，设备Panic异常卡死 |https://gitee.com/openharmony/community/issues/I4329Z?from=project-issue |
-|稳定性测试 | 开关机测试  | 开关机5000次无不开机问题  |否  |反复执行开关机测试，设备蓝屏不开机 |https://gitee.com/openharmony/community/issues/I4329M?from=project-issue |
-|稳定性测试 | 开关机测试  | 开关机5000次无不开机问题  |否  |反复执行开关机测试，bootanimation进程异常 |https://gitee.com/openharmony/community/issues/I432HF?from=project-issue|
+|标准系统稳定性测试 | 开关机测试  | 开关机5000次无不开机问题  |否  |反复开关机测试过程中打开photo应用，libmedialibrary_proxy.z.so模块异常重启，该问题还在定位当中|https://gitee.com/openharmony/multimedia_medialibrary_standard/issues/I4327J?from=project-issue|
+|标准系统稳定性测试 | 开关机测试  | 开关机5000次无不开机问题  |否  |反复执行开关机测试，设备Panic异常卡死，该问题还在定位当中 |https://gitee.com/openharmony/community/issues/I4329Z?from=project-issue |
+|标准系统稳定性测试 | 开关机测试  | 开关机5000次无不开机问题  |否  |反复执行开关机测试，设备蓝屏不开机，该问题初步定位是公板DDR的问题 |https://gitee.com/openharmony/community/issues/I4329M?from=project-issue |
+|标准系统稳定性测试 | 开关机测试  | 开关机5000次无不开机问题  |否  |反复执行开关机测试，bootanimation进程异常，该问题还在定位当中 |https://gitee.com/openharmony/community/issues/I432HF?from=project-issue|
 ## 4.5   性能专项测试结论
 
 *以表格形式汇总各专项测试执行情况及遗留问题情况的评估，给出专项质量评估结论*
