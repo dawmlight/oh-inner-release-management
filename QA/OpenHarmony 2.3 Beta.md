@@ -97,13 +97,31 @@ XXX子系统：特性质量良好
 
 *要求：无严重的隐私安全问题遗留，版本通过漏洞扫描，未解决的漏洞满足以下要求：*
 
-*a）无严重及以上公开漏洞；*
+本版本共涉及9个子系统（安全需关注）有新增需求，所有子系统均已完成安全合规测试，安全合规组并进行了整机测试，当前遗留18个安全issue没有关闭。
+公开漏洞方面，有两个组件存在大量漏洞没有修复：Kernel 4.19存在14个CVE漏洞，其中7个严重级别以上、ffmpeg 4.2.2存在78个CVE漏洞,其中12个严重级别以上。
+安全编码告警和危险函数方面，Linux内核、启动恢复、驱动、轻内核等子系统存在危险函数未清零；轻图形、轻内核、驱动、分页式调试等子系统存静态告警未清零。
+综合以上结论，安全测试结果评估为不通过。
+遗留问题列表如下：
+问题描述	问题类型	状态	URL
+/etc/passwd里面存在UID一样的用户账号，与规范要求冲突	安全问题	开启的	https://gitee.com/openharmony/startup_init_lite/issues/I42ZO7?from=project-issue
+CVE-2021-21781	安全问题	进行中	https://gitee.com/openharmony/kernel_linux/issues/I42HM6?from=project-issue
+CVE-2021-22555	安全问题	进行中	https://gitee.com/openharmony/kernel_linux/issues/I42HLL?from=project-issue
+CVE-2021-35039	安全问题	进行中	https://gitee.com/openharmony/kernel_linux/issues/I42HL9?from=project-issue
+CVE-2021-3609	安全问题	进行中	https://gitee.com/openharmony/kernel_linux/issues/I42H1R?from=project-issue
+CVE-2021-33624	安全问题	进行中	https://gitee.com/openharmony/kernel_linux/issues/I42H19?from=project-issue
+CVE-2021-34693	安全问题	进行中	https://gitee.com/openharmony/kernel_linux/issues/I42GZO?from=project-issue
+CVE-2021-32078	安全问题	进行中	https://gitee.com/openharmony/kernel_linux/issues/I42GYZ?from=project-issue
+CVE-2021-33200	安全问题	进行中	https://gitee.com/openharmony/kernel_linux/issues/I421HX?from=project-issue
+CVE-2020-36385	安全问题	进行中	https://gitee.com/openharmony/kernel_linux/issues/I421HO?from=project-issue
+CVE-2021-3587	安全问题	进行中	https://gitee.com/openharmony/kernel_linux/issues/I421HG?from=project-issue
+CVE-2021-0512	安全问题	进行中	https://gitee.com/openharmony/kernel_linux/issues/I421GE?from=project-issue
+CVE-2021-3573	安全问题	进行中	https://gitee.com/openharmony/kernel_linux/issues/I421FB?from=project-issue
+CVE-2021-0129	安全问题	进行中	https://gitee.com/openharmony/kernel_linux/issues/I421FG?from=project-issue
+CVE-2021-3564	安全问题	进行中	https://gitee.com/openharmony/kernel_linux/issues/I421EH?from=project-issue
+【OpenHarmony】【版本号：2.3.0.3】组件ffmpeg 4.2.2存在78个未修复漏洞	安全问题	开启的	https://gitee.com/openharmony/device_hisilicon_third_party_ffmpeg/issues/I4213Q?from=project-issue
+liteipc的创建需要ioctl方式，否则会暴露内核地址。	安全问题	开启的	https://gitee.com/openharmony/communication_ipc_lite/issues/I3SNO5?from=project-issue
+构建时ffmpeg目录下的文件属性都变成了rwxrwxrwx	安全问题	开启的	https://gitee.com/openharmony/device_hisilicon_modules/issues/I2C7NP?from=project-issue
 
-*b）无已公开60天但未修复的一般（CVSS得分4及以上）安全漏洞；*
-
-*c）不存在已知CVE安全漏洞，业界未解决的已知CVE安全漏洞可例外；*
-
-*d）无法修复，且经过社区开发团队综合评估备案允许遗留的漏洞；*
 
 ## 4.4   稳定性专项测试结论
 
