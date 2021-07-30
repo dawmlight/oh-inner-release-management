@@ -66,6 +66,7 @@ XXX子系统：特性质量良好
 | *3*  | 泛sensor服务子系统 | 没有新增特性，XTS用例测试通过，特性质量良好 |   小型系统   |
 | *4* | 电源子系统 | 无新增特性，测试用例执行通过，特性质量良好 | |
 | *5*  | 启动恢复子系统 | 没有新增特性，L0L1设备XTS测试用例测试通过，特性质量良好，L2设备XTS用例测试通过（设备信息获取和系统属性获取测试通过，特性质量良好），恢复出厂和清除用户数据的两个api（因调用api，设备会重启，用例不在xts，本地手动编译hap包测试）测试不通过，api调用设备未重启，用户数据未清除，已提严重单 | https://gitee.com/openharmony/community/issues/I430Z5?from=project-issue     |
+| *6* | 驱动子系统 | 1、camera、audio、usb驱动基本功能正常，遗留少量问题<br />2、WiFi驱动基本功能正常，resetDriver接口调用失败问题<br />3、马达sensor特性质量良好 | 遗留问题参考issue |
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
@@ -112,6 +113,27 @@ XXX子系统：特性质量良好
 | [I3XM34](https://gitee.com/openharmony/multimedia_media_standard/issues/I3XM34) | 【多媒体子系统】MediaService播放服务 |特性基本可用，遗留少量问题 | |（1）Media模块功能测试场景下设置音量异常（2）Media模块执行hstmediatest /data/1.mp4 win报错：player is null（3）Media模块执行ActsMedia模块用例报错Segmentation fault|
 | [I3XM2V](https://gitee.com/openharmony/multimedia_media_standard/issues/I3XM2V) | 【多媒体子系统】Media媒体处理模块及API |特性质量良好 | | |
 | [I41GOS](https://gitee.com/openharmony/distributeddatamgr_file/issues/I41GOS) |【分布式文件子系统】（需求）基于JS语言实现system.file接口|特性基本功能可用，遗留少量问题|              |缺少完整的稳定性测试，待后续阶段补充验证|
+| [I3WHJS](https://gitee.com/open_harmony/dashboard?issue_id=I3WHJS) | 基于HDF驱动框架提供马达驱动程序适配 | 特性质量良好 | | |
+| [I3ZRA7](https://gitee.com/open_harmony/dashboard?issue_id=I3ZRA7) | 基于HDF驱动框架提供加速度传感器驱动程序适配                  | 特性质量良好 | | |
+| [I41HBJ](https://gitee.com/open_harmony/dashboard?issue_id=I41HBJ) | 【驱动子系统】提供Audio HDI接口实现 | 特性基本可用 | | |
+| [I41HBK](https://gitee.com/open_harmony/dashboard?issue_id=I41HBK) | 【驱动子系统】Audio 驱动框架用户态接口库 | 特性基本可用 | | |
+| [I41HBM](https://gitee.com/open_harmony/dashboard?issue_id=I41HBM) | 【驱动子系统】提供支持MPI接口的用户态接口库 | 特性基本可用 | | |
+| [I41HBN](https://gitee.com/open_harmony/dashboard?issue_id=I41HBN) | 【驱动子系统】HDI接口支持跨进程通信 | 特性基本可用 | | |
+| [I41HBH](https://gitee.com/open_harmony/dashboard?issue_id=I41HBH) | 【驱动子系统】基于HDF驱动框架提供WIFI支持HDI接口能力 | 特性基本可用，遗留少量问题 | | |
+| [I41HBG](https://gitee.com/open_harmony/dashboard?issue_id=I41HBG) | 【驱动子系统】基于HDF驱动框架提供WIFI支持P2P驱动能力 | 无法测试，暂不评估 | | |
+| [I41HBI](https://gitee.com/open_harmony/dashboard?issue_id=I41HBI) | 【驱动子系统】提供Audio Driver Model驱动模型框架 | 特性基本可用 | | |
+| [I41HBA](https://gitee.com/open_harmony/dashboard?issue_id=I41HBA) | 【驱动子系统】基于HDF驱动框架提供keyboard驱动能力 | 特性基本可用 | | |
+| [I41HBZ](https://gitee.com/open_harmony/dashboard?issue_id=I41HBZ) | 【驱动子系统】基于HDF框架提供USB device DDK | 特性基本可用 | | |
+| [I41HBU](https://gitee.com/open_harmony/dashboard?issue_id=I41HBU) | 【驱动子系统】基于HDF驱动框架提供Camera设备驱动模型框架层BufferManager | 特性基本可用 | | |
+| [I41HBV](https://gitee.com/open_harmony/dashboard?issue_id=I41HBV) | 【驱动子系统】基于HDF驱动框架提供Camera设备驱动模型框架层utils通用组件(thread、event、watchdog) | 特性基本可用 | | |
+| [I41HBX](https://gitee.com/open_harmony/dashboard?issue_id=I41HBX) | 【驱动子系统】基于HDF驱动框架提供Camera驱动多平台扩展平台适配 | 特性基本可用 | | |
+| [I41HBY](https://gitee.com/open_harmony/dashboard?issue_id=I41HBY) | 【驱动子系统】基于HDF框架提供USB host DDK | 特性基本可用 | | |
+| [I41HBP](https://gitee.com/open_harmony/dashboard?issue_id=I41HBP) | 【驱动子系统】基于HDF驱动框架提供相机标准南向接口Camera设备控制（CameraDevice） | 特性基本可用 | | |
+| [I41HBQ](https://gitee.com/open_harmony/dashboard?issue_id=I41HBQ) | 【驱动子系统】基于HDF驱动框架提供相机标准南向接口Image流控制（StreamOperator） | 特性基本可用 | | |
+| [I41HBR](https://gitee.com/open_harmony/dashboard?issue_id=I41HBR) | 【驱动子系统】基于HDF驱动框架提供相机标准南向接口Camera HDI接口 | 特性基本可用 | | |
+| [ I41HBS](https://gitee.com/open_harmony/dashboard?issue_id=I41HBS) | 【驱动子系统】基于HDF驱动框架提供Pipeline管理 | 特性基本可用 | | |
+| [I41HBT](https://gitee.com/open_harmony/dashboard?issue_id=I41HBT) | 【驱动子系统】基于HDF驱动框架提供Camera设备驱动模型框架层设备管理DeviceManager | 特性基本可用 | | |
+| [I41HBO](https://gitee.com/open_harmony/dashboard?issue_id=I41HBO) | 【驱动子系统】基于HDF驱动框架提供相机标准南向接口Camera设备管理（CameraHost） | 特性基本可用 | | |
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
@@ -232,3 +254,9 @@ shell命令相关问题单：
 [【OpenHarmony】【2.3 beta】【多媒体子系统】Media模块执行hstmediatest /data/1.mp4 win报错：player is null](https://gitee.com/openharmony/multimedia_media_standard/issues/I4344Z?from=project-issue)
 
 [【OpenHarmony】【2.3 beta】【多媒体子系统】Media模块执行ActsMedia模块用例报错Segmentation fault](https://gitee.com/openharmony/multimedia_media_standard/issues/I43489?from=project-issue)
+
+[【OpenHarmony 2.2 Beta2】【驱动子系统】L2单板camera DFx测试用例失败](https://gitee.com/openharmony/drivers_peripheral/issues/I43339?from=project-issue)
+
+[【OpenHarmony 2.2 Beta2】【驱动子系统】L2单板audio接口测试用例失败](https://gitee.com/openharmony/drivers_peripheral/issues/I4331P?from=project-issue)
+
+[【OpenHarmony 2.3 Beta 】【驱动子系统】L2单板上wifi ResetDriver接口测试失败](https://gitee.com/openharmony/drivers_peripheral/issues/I422US?from=project-issue)
