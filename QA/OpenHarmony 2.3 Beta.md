@@ -67,6 +67,7 @@ XXX子系统：特性质量良好
 | *4* | 电源子系统 | 无新增特性，测试用例执行通过，特性质量良好 | |
 | *5*  | 启动恢复子系统 | 没有新增特性，L0L1设备XTS测试用例测试通过，特性质量良好，L2设备XTS用例测试通过（设备信息获取和系统属性获取测试通过，特性质量良好），恢复出厂和清除用户数据的两个api（因调用api，设备会重启，用例不在xts，本地手动编译hap包测试）测试不通过，api调用设备未重启，用户数据未清除，已提严重单 | https://gitee.com/openharmony/community/issues/I430Z5?from=project-issue     |
 | *6* | 驱动子系统 | 1、camera、audio、usb驱动基本功能正常，遗留少量问题<br />2、WiFi驱动基本功能正常，resetDriver接口调用失败问题<br />3、马达sensor特性质量良好 | 遗留问题参考issue |
+| *7*  | *数据管理子系统* | *新增特性测试通过，基本功能可用* |      |
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
@@ -136,6 +137,12 @@ XXX子系统：特性质量良好
 | [I41HBO](https://gitee.com/open_harmony/dashboard?issue_id=I41HBO) | 【驱动子系统】基于HDF驱动框架提供相机标准南向接口Camera设备管理（CameraHost） | 特性基本可用 | | |
 | 无  | 软总线-支持自组网 | 特性基本可用,特定场景下风险高 |                                                      | 1、开发自测：在wlan（网线直连）连接下，自组网功能稳定，重启设备/开关网络典型场景可以成功自组网；  2、在wifi组网下，基本功能可用，但是在开关网络/重启设备典型场景下自组网失败，涉及4个缺陷issue：[I4312A](https://gitee.com/openharmony/communication_dsoftbus/issues/I4312A), [I4311S](https://gitee.com/openharmony/communication_dsoftbus/issues/I4311S) , [I43118](https://gitee.com/openharmony/communication_dsoftbus/issues/I43118), [I43107](https://gitee.com/openharmony/communication_dsoftbus/issues/I43107)                                                 |
 | 无  | 软总线-支持IPC/RPC | 特性质量良好 |                                 |  1、本特性代码复用富鸿蒙代码，当前开发自测用例全部pass，上层分布式音乐使用RPC特性，无RPC遗留问题；2、特性的JS API未交付，测试侧将基于JS API进行特性测试                   |
+| [I3ZMUM](https://gitee.com/open_harmony/dashboard?issue_id=I3ZMUM) |【本地数据库轻量级数据库JS API交付，对标开源+小程序 | 特性基本可用 |      |      |
+| [I3ZMW4](https://gitee.com/open_harmony/dashboard?issue_id=I3ZMW4) |【本地数据库】提供RDB和PREFERENCES的能力 | 特性基本可用 |              |      |
+| [I3ZMX5](https://gitee.com/open_harmony/dashboard?issue_id=I3ZMX5) |【本地数据库】 支持ResultSet滑动窗口能力 | 特性基本可用 |              |      |
+| [I3YC8O](https://gitee.com/open_harmony/dashboard?issue_id=I3YC8O) |【分布式数据库】支持JS接口创建分布式数据库 | 特性基本可用 |              |      |
+| [I3ZN3M](https://gitee.com/open_harmony/dashboard?issue_id=I3ZN3M) |【分布式数据管理子系统】【分布式数据库】鸿蒙单框架支持分布式数据管理能力 | 特性基本可用 |              |      |
+
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
 ## 4.2   兼容性测试结论
