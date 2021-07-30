@@ -74,7 +74,7 @@ XXX子系统：特性质量良好
 | [I3NT48](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT48) | 【轻内核子系统】proc文件系统增强                          | 特性基本可用，遗留少量问题 |              | 由于toybox相关需求未合入,top/ps/free命令不可用 |
 | [I3WLDI](https://gitee.com/openharmony/kernel_liteos_m/issues/I3WLDI) | 【轻内核子系统】轻量系统支持轻量级shell框架和常用调测命令 | 无法测试                   |              | wifiiot_hispark_pegasus上不支持，无法测试      |
 | [I3WLCN](https://gitee.com/openharmony/kernel_liteos_m/issues/I3WLCN) | 【轻内核子系统】轻量系统LiteOS-M支持ARM9架构              | 特性不稳定，风险高         |              |                                                |
-|                                                              |                                                           |                            |              |                                                |
+| [I41GOS](https://gitee.com/openharmony/distributeddatamgr_file/issues/I41GOS) |【分布式文件子系统】（需求）基于JS语言实现system.file接口|特性基本功能可用，遗留少量问题|              |缺少完整的稳定性测试，待后续阶段补充验证|
 |                                                              |                                                           |                            |              |                                                |
 |                                                              |                                                           |                            |              |                                                |
 
