@@ -144,6 +144,8 @@ XXX子系统：特性质量良好
 | [I3ZMX5](https://gitee.com/open_harmony/dashboard?issue_id=I3ZMX5) |【本地数据库】 支持ResultSet滑动窗口能力 | 特性基本可用 |              |      |
 | [I3YC8O](https://gitee.com/open_harmony/dashboard?issue_id=I3YC8O) |【分布式数据库】支持JS接口创建分布式数据库 | 特性基本可用 |              |      |
 | [I3ZN3M](https://gitee.com/open_harmony/dashboard?issue_id=I3ZN3M) |【分布式数据管理子系统】【分布式数据库】鸿蒙单框架支持分布式数据管理能力 | 特性基本可用 |              |      |
+| [I42IMT](https://gitee.com/open_harmony/dashboard?issue_id=I42IMT) |RQ-[Demo&应用子系统][分布式]OpenHarmony版本分布式计算器| 特性不稳定，风险高 |              |分布式计算器，本端计算器可以调起对端设备的计算器，但数据不能同步，必现问题|
+| [I42IKN](https://gitee.com/open_harmony/dashboard?issue_id=I42IKN) |RQ-[Demo&应用子系统][分布式]OpenHarmony版本分布式音乐播放器| 特性不稳定，风险高 |              |1：分布式音乐，本端正在播放的音乐，点击流转，无法流转到对端设备播放，必现问题；2：分布式音乐，本端无播放任务，点击流转到对端设备，对端设备音乐正常拉起后退出，概率问题|
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
