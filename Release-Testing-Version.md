@@ -3,9 +3,9 @@
 | **转测试版本号：OpenHarmony 2.3.0.6                   |
 | ------------------------------------------------------------ |
 | **版本用途：**OpenHarmony码云master迭代三第一轮测试，验收:分布式调度、安全校验等特性|
-|L2:|
+|L2:事件通知、软总线、DEMO&应用、语言编译运行时、账号、用户程序框架、ACE、分布式文件、驱动等子系统|
 | **API变更：**：本次转测特性不涉及API变更，具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
-| **L2转测试时间：2021-07-29**                                   |
+| **L0L1转测试时间：2021-07-29**                                   |
 | **L0L1转测试版本获取路径：**                                   |
 | hispark_taurus版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210731_183305/version-Master_Version-OpenHarmony_2.3.0.6-20210731_183305-hispark_taurus.tar.gz|
 | hispark_taurus_linux版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210731_182050/version-Master_Version-OpenHarmony_2.3.0.6-20210731_182050-hispark_taurus_linux.tar.gz|
@@ -13,13 +13,54 @@
 | hispark_aries版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210731_182132/version-Master_Version-OpenHarmony_2.3.0.6-20210731_182132-hispark_aries.tar.gz|
 | **L2转测试时间：2021-07-29**                                   |
  **L2转测试版本获取路径：**                                   |
-| hi3516dv300-L2版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210728_092319/version-Master_Version-OpenHarmony_2.3.0.6-20210728_092319-L2_hi3516dv300.tar.gz   |
+| hi3516dv300-L2版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210729_092257/version-Master_Version-OpenHarmony_2.3.0.6-20210729_092257-L2_hi3516dv300.tar.gz   |
 
 ## OpenHarmony 2.3.0.6 版本特性清单：
 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
+
+L0/L1需求列表：
 | no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
 | :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
 | 1    | [I3QEVG](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3QEVG) | 【分布式调度】轻设备获取调用者APP的APPID并传输到富设备      | developing | SIG_AppFramework     | [@lijiarun](https://gitee.com/lijiarun)            |
+
+L2需求列表：
+| no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
+| :--- | ------------------------------------------------------------ | :----------------------------------------------------------- | :--------- | :------------------- | :------------------------------------------------ |
+| 1 | [I40PAV](https://gitee.com/open_harmony/dashboard?issue_id=I40PAV) | 发布开启一个有页面的Ability的WantAgent通知 | Testing | SIG_ApplicationFramework | [@autumn330](https://gitee.com/autumn330) |
+| 2 | [I40PAW](https://gitee.com/open_harmony/dashboard?issue_id=I40PAW) | 通知删除接口 | Testing | SIG_ApplicationFramework | [@autumn330](https://gitee.com/autumn330) |
+| 3 | [I40PAX](https://gitee.com/open_harmony/dashboard?issue_id=I40PAX) | 查看Active通知内容和Active通知个数的接口 | Testing | SIG_ApplicationFramework | [@autumn330](https://gitee.com/autumn330) |
+| 4 | [I40PAY](https://gitee.com/open_harmony/dashboard?issue_id=I40PAY) | 通知取消订阅 | Testing | SIG_ApplicationFramework | [@autumn330](https://gitee.com/autumn330) |
+| 5 | [I40PAZ](https://gitee.com/open_harmony/dashboard?issue_id=I40PAZ) | 通知订阅 | Testing | SIG_ApplicationFramework | [@autumn330](https://gitee.com/autumn330) |
+| 6 | [I426IT](https://gitee.com/open_harmony/dashboard?issue_id=I426IT) | 【组网】组网单框架FWK | Testing | SIG_SoftBus | [@maerlii](https://gitee.com/maerlii) |
+| 7 | [I426IM](https://gitee.com/open_harmony/dashboard?issue_id=I426IM) | 【组网】组网框架构建：安全 | Testing | SIG_SoftBus | [@maerlii](https://gitee.com/maerlii) |
+| 8 | [I426IQ](https://gitee.com/open_harmony/dashboard?issue_id=I426IQ) | 【组网】节点信息管理 | Testing | SIG_SoftBus | [@maerlii](https://gitee.com/maerlii) |
+| 9 | [I3NIMY](https://gitee.com/open_harmony/dashboard?issue_id=I3NIMY) | 【连接】BR/EDR模块管理 | Testing | SIG_SoftBus | [@tianmeimimi](https://gitee.com/tianmeimimi) |
+| 10 | [I426J0](https://gitee.com/open_harmony/dashboard?issue_id=I426J0) | 【传输】通道管理 | Testing | SIG_SoftBus | [@maerlii](https://gitee.com/maerlii) |
+| 11 | [I3NIZD](https://gitee.com/open_harmony/dashboard?issue_id=I3NIZD) | 【连接】连接策略的定义与管理 | Testing | SIG_SoftBus | [@tianmeimimi](https://gitee.com/tianmeimimi) |
+| 12 | [I426IW](https://gitee.com/open_harmony/dashboard?issue_id=I426IW) | 【连接】连接状态机功能实现 | Testing | SIG_SoftBus | [@maerlii](https://gitee.com/maerlii) |
+| 13 | [I42UO1](https://gitee.com/open_harmony/dashboard?issue_id=I42UO1) | RQ-[Demo&应用子系统][JSUI][容器组件]JS堆叠容器（stack） | Testing | SIG_SystemApplication | [@adslk](https://gitee.com/adslk) |
+| 14 | [I42X0C](https://gitee.com/open_harmony/dashboard?issue_id=I42X0C) | RQ-[Demo&应用子系统][JSUI][容器组件]JS步骤导航器（stepper） | Testing | SIG_SystemApplication | [@gaohui100](https://gitee.com/gaohui100) |
+| 15 | [I42WY6](https://gitee.com/open_harmony/dashboard?issue_id=I42WY6) | RQ-[Demo&应用子系统][JSUI][容器组件]JS滑动容器（swiper） | Testing | SIG_SystemApplication | [@gaohui100](https://gitee.com/gaohui100) |
+| 16 | [I42UNK](https://gitee.com/open_harmony/dashboard?issue_id=I42UNK) | RQ-[Demo&应用子系统][JSUI][容器组件]JS页签容器（tabs） | Testing | SIG_SystemApplication | [@adslk](https://gitee.com/adslk) |
+| 17 | [I42S96](https://gitee.com/open_harmony/dashboard?issue_id=I42S96) | RQ-[Demo&应用子系统][数据][HarmonyOS]融合搜索 | Testing | SIG_SystemApplication | [@guojin26](https://gitee.com/guojin26) |
+| 18 | [I40PB6](https://gitee.com/open_harmony/dashboard?issue_id=I40PB6) | 应用侧增加slot | Testing | SIG_ApplicationFramework | [@autumn330](https://gitee.com/autumn330) |
+| 19 | [I40PB7](https://gitee.com/open_harmony/dashboard?issue_id=I40PB7) | 应用侧删除slot | Testing | SIG_ApplicationFramework | [@autumn330](https://gitee.com/autumn330) |
+| 20 | [I42WA2](https://gitee.com/open_harmony/dashboard?issue_id=I42WA2) | L2 提供 OHOS LLVM编译 | Testing | SIG_CompileRuntime | [@zhuoli72](https://gitee.com/zhuoli72) |
+| 21 | [I3U4DP](https://gitee.com/open_harmony/dashboard?issue_id=I3U4DP) | musl侵入式修改分离 | Testing | SIG_CompileRuntime | [@caoruihong](https://gitee.com/caoruihong) |
+| 22 | [I42WDD](https://gitee.com/open_harmony/dashboard?issue_id=I42WDD) | L2 musl c库支持 | Testing | SIG_CompileRuntime | [@zhuoli72](https://gitee.com/zhuoli72) |
+| 23 | [I4014F](https://gitee.com/open_harmony/dashboard?issue_id=I4014F) | 【帐号子系统】JS API交付，开源+小程序 | Testing | SIG_BasicSoftwareService | [@verystone](https://gitee.com/verystone) |
+| 24 | [I436VH](https://gitee.com/open_harmony/dashboard?issue_id=I436VH) | 创建串行任务分发器，使用串行任务分发器执行任务 | Testing | SIG_ApplicationFramework | [@autumn330](https://gitee.com/autumn330) |
+| 25 | [I436VI](https://gitee.com/open_harmony/dashboard?issue_id=I436VI) | 创建专有任务分发器，使用专有任务分发器执行任务 | Testing | SIG_ApplicationFramework | [@autumn330](https://gitee.com/autumn330) |
+| 26 | [I436VJ](https://gitee.com/open_harmony/dashboard?issue_id=I436VJ) | 创建全局并发任务分发器，使用全局并发任务分发器执行任务 | Testing | SIG_ApplicationFramework | [@autumn330](https://gitee.com/autumn330) |
+| 27 | [I436VK](https://gitee.com/open_harmony/dashboard?issue_id=I436VK) | 创建并发任务分发器，使用并发任务分发器执行任务 | Testing | SIG_ApplicationFramework | [@autumn330](https://gitee.com/autumn330) |
+| 28 | [I436VL](https://gitee.com/open_harmony/dashboard?issue_id=I436VL) | ces部件化改造 | Testing | SIG_ApplicationFramework | [@autumn330](https://gitee.com/autumn330) |
+| 29 | [I436VM](https://gitee.com/open_harmony/dashboard?issue_id=I436VM) | ans部件化改造 | Testing | SIG_ApplicationFramework | [@autumn330](https://gitee.com/autumn330) |
+| 30 | [I436VX](https://gitee.com/open_harmony/dashboard?issue_id=I436VX) | 提供分布式的回调Native接口 | Testing | SIG_ApplicationFramework | [@autumn330](https://gitee.com/autumn330) |
+| 31 | [I436N0](https://gitee.com/open_harmony/dashboard?issue_id=I436N0) | 支持应用包信息分布式存储能力 | Testing | SIG_ApplicationFramework | [@fuzhangHW](https://gitee.com/fuzhangHW) |
+| 32 | [I4312I](https://gitee.com/open_harmony/dashboard?issue_id=I4312I) | 支持全新开发范式 | Testing | SIG_ApplicationFramework | [@zhanghaibo0](https://gitee.com/zhanghaibo0) |
+| 33 | [I4313W](https://gitee.com/open_harmony/dashboard?issue_id=I4313W) | 【分布式文件子系统】（需求）ext4&f2fs拍包工具 | Testing | SIG_DataManagement | [@panqinxu](https://gitee.com/panqinxu) |
+| 34 | [I41H57](https://gitee.com/open_harmony/dashboard?issue_id=I41H57) | 【驱动子系统】基于HDF驱动框架提供ADC平台总线驱动 | Testing | SIG_DriverFramework | [@zianed](https://gitee.com/zianed) |
+
 
 # OpenHarmony 2.2 Beta2 版本转测试信息：
 
