@@ -7,10 +7,10 @@
 | **API变更：**：本次转测特性不涉及API变更，具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
 | **L2转测试时间：2021-07-29**                                   |
 | **L0L1转测试版本获取路径：**                                   |
-| hispark_taurus版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210728_092412/version-Master_Version-OpenHarmony_2.3.0.6-20210728_092412-hispark_taurus.tar.gz  |
-| hispark_taurus_linux版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210728_092206/version-Master_Version-OpenHarmony_2.3.0.6-20210728_092206-hispark_taurus_linux.tar.gz     |
-| hispark_pegasus版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210728_092200/version-Master_Version-OpenHarmony_2.3.0.6-20210728_092200-hispark_pegasus.tar.gz |
-| hispark_aries版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210728_092314/version-Master_Version-OpenHarmony_2.3.0.6-20210728_092314-hispark_aries.tar.gz   |
+| hispark_taurus版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210731_183305/version-Master_Version-OpenHarmony_2.3.0.6-20210731_183305-hispark_taurus.tar.gz|
+| hispark_taurus_linux版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210731_182050/version-Master_Version-OpenHarmony_2.3.0.6-20210731_182050-hispark_taurus_linux.tar.gz|
+| hispark_pegasus版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210731_181855/version-Master_Version-OpenHarmony_2.3.0.6-20210731_181855-hispark_pegasus.tar.gz |
+| hispark_aries版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210731_182132/version-Master_Version-OpenHarmony_2.3.0.6-20210731_182132-hispark_aries.tar.gz|
 | **L2转测试时间：2021-07-29**                                   |
  **L2转测试版本获取路径：**                                   |
 | hi3516dv300-L2版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210728_092319/version-Master_Version-OpenHarmony_2.3.0.6-20210728_092319-L2_hi3516dv300.tar.gz   |
