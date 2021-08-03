@@ -7,7 +7,7 @@
 | **API变更：**：本次转测特性不涉及API变更，具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
 | **L0L1转测试时间：2021-07-29**                                   |
 | **L0L1转测试版本获取路径：**                                   |
-| hispark_taurus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210731_183305/version-Master_Version-OpenHarmony_2.3.0.6-20210731_183305-hispark_taurus.tar.gz|
+| hispark_taurus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210803_091007/version-Master_Version-OpenHarmony_2.3.0.6-20210803_091007-hispark_taurus.tar.gz  z|
 | hispark_taurus_linux版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210803_091007/version-Master_Version-OpenHarmony_2.3.0.6-20210803_091007-hispark_taurus.tar.gz |
 | hispark_pegasus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210803_090712/version-Master_Version-OpenHarmony_2.3.0.6-20210803_090712-hispark_pegasus.tar.gz |
 | hispark_aries版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210803_090827/version-Master_Version-OpenHarmony_2.3.0.6-20210803_090827-hispark_aries.tar.gz  |
