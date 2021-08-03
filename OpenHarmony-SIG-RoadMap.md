@@ -198,7 +198,7 @@ L2需求列表:
 | 4 | [I40K2A](https://gitee.com/open_harmony/dashboard?issue_id=I40K2A) | 【Samples】【数据】【HarmonyOS】轻量级偏好数据库 | Testing | SIG_Samples | [@illybyy](https://gitee.com/illybyy) |
 | 5 | [I40NBW](https://gitee.com/open_harmony/dashboard?issue_id=I40NBW) | 【应用子系统】鸿蒙单框架L2系统应用-设置开源-WLAN | Testing | SIG_SysApplication | [@nicolaswang](https://gitee.com/nicolaswang) |
 
-## OpenHarmony 2.3 Beta版本特性清单：
+## OpenHarmony 2.3.0.3版本特性清单：
 
 L2需求列表：
 | no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
@@ -265,7 +265,7 @@ L2需求列表：
 |51|[I41JBB](https://gitee.com/openharmony/applications_photos/issues/I41JBB)|【应用子系统】【图库】图库基础功能-Toolbar操作|Testing|SIG_SystemApplication|[@sunjunxiong](https://gitee.com/sunjunxiong)|
 
 
-## OpenHarmony 2.3.0.6版本特性清单：
+## OpenHarmony 3.0.0.1版本特性清单：
 | no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
 | :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
 | 1    | [I3QEVG](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3QEVG) | 【分布式调度】轻设备获取调用者APP的APPID并传输到富设备      | developing | SIG_AppFramework     | [@lijiarun](https://gitee.com/lijiarun)            |
@@ -308,11 +308,6 @@ L2需求列表：
 | 33 | [I4313W](https://gitee.com/open_harmony/dashboard?issue_id=I4313W) | 【分布式文件子系统】（需求）ext4&f2fs拍包工具 | Testing | SIG_DataManagement | [@panqinxu](https://gitee.com/panqinxu) |
 | 34 | [I41H57](https://gitee.com/open_harmony/dashboard?issue_id=I41H57) | 【驱动子系统】基于HDF驱动框架提供ADC平台总线驱动 | Testing | SIG_DriverFramework | [@zianed](https://gitee.com/zianed) |
 
-## OpenHarmony 2.3.0.7版本特性清单：
-
-
-## OpenHarmony 3.0.0.1版本特性清单：
-暂无
 
 ## OpenHarmony 3.0.0.2版本特性清单：
 
@@ -336,10 +331,12 @@ L2需求列表：
 暂无
 
 ## OpenHarmony 3.0.0.6版本特性清单：
-
-| 3    | [I3NN1Z](https://gitee.com/openharmony/aafwk_aafwk_lite/issues/I3NN1Z) | 【应用程序框架】轻量级实现弹窗授权动态授权机制               | developing | SIG_AppFramework     | [@autumn](https://gitee.com/autumn330)              |
-| 4    | [I3O2G8](https://gitee.com/openharmony/aafwk_aafwk_lite/issues/I3O2G8?from=project-issue) | 【应用程序框架】轻量级应用实现entity标签                     | developing | SIG_AppFramework     | [@autumn](https://gitee.com/autumn330)|
-| 7    | [I3NTAZ](https://gitee.com/openharmony/security_huks/issues/I3NTAZ) | 【安全】轻量级实现弹窗授权动态授权机制                       | developing | SIG_Security         | [@scuteehuangjun](https://gitee.com/scuteehuangjun) |
+状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
+| no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
+| :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
+| 1    | [I3NN1Z](https://gitee.com/openharmony/aafwk_aafwk_lite/issues/I3NN1Z) | 【应用程序框架】轻量级实现弹窗授权动态授权机制               | developing | SIG_AppFramework     | [@autumn](https://gitee.com/autumn330)              |
+| 2    | [I3O2G8](https://gitee.com/openharmony/aafwk_aafwk_lite/issues/I3O2G8?from=project-issue) | 【应用程序框架】轻量级应用实现entity标签                     | developing | SIG_AppFramework     | [@autumn](https://gitee.com/autumn330)|
+| 3    | [I3NTAZ](https://gitee.com/openharmony/security_huks/issues/I3NTAZ) | 【安全】轻量级实现弹窗授权动态授权机制                       | developing | SIG_Security         | [@scuteehuangjun](https://gitee.com/scuteehuangjun) |
 
 ## OpenHarmony 3.0.0.7版本特性清单:
 暂无
@@ -351,7 +348,7 @@ L2需求列表：
 | 1    | [I3ND6Y](https://gitee.com/openharmony/kernel_liteos_a/issues/I3ND6Y) | 【性能】OS内核&驱动启动优化                           | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)             |
 | 2    | [I3NT3F](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT3F) | 【轻内核子系统】内核支持trace功能                            | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)               |
 | 3    | [I3NT63](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT63) | 【轻内核子系统】pagecache功能完善                            | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)               |
-| 7    | [I3NTCT](https://gitee.com/openharmony/startup_appspawn_lite/issues/I3NTCT) | 【启动恢复子系统】Linux版本init支持热插拔                    | developing | SIG_BscSoftSrv       | [@handyohos](https://gitee.com/handyohos)         |
+| 4    | [I3NTCT](https://gitee.com/openharmony/startup_appspawn_lite/issues/I3NTCT) | 【启动恢复子系统】Linux版本init支持热插拔                    | developing | SIG_BscSoftSrv       | [@handyohos](https://gitee.com/handyohos)         |
 
 ## OpenHarmony 3.0 LTS版本特性清单：
 
@@ -373,8 +370,9 @@ L2需求列表：
 暂无
 
 ## OpenHarmony 3.1.0.2版本特性清单：
-
-| 15   | [I3NTDP](https://gitee.com/openharmony/communication_wifi_aware/issues/I3NTDP) | 【电话服务】支持轻量级mbed TLS协议栈                      | developing | SIG_SoftBus          | [@rain_myf](https://gitee.com/rain_myf) |
+| no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
+| :--- | ------------------------------------------------------------ | :----------------------------------------------------------- | :--------- | :------------------- | :------------------------------------------------ |
+| 1   | [I3NTDP](https://gitee.com/openharmony/communication_wifi_aware/issues/I3NTDP) | 【电话服务】支持轻量级mbed TLS协议栈                      | developing | SIG_SoftBus          | [@rain_myf](https://gitee.com/rain_myf) |
 
 ## OpenHarmony 3.1.0.3版本特性清单：
 
