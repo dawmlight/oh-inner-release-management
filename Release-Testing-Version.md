@@ -1,21 +1,21 @@
-# OpenHarmony 2.3.0.6 版本转测试信息：
+# OpenHarmony 3.0.0.1 版本转测试信息：
 
-| **转测试版本号：OpenHarmony 2.3.0.6                   |
+| **转测试版本号：OpenHarmony 3.0.0.1                   |
 | ------------------------------------------------------------ |
-| **版本用途：**OpenHarmony码云master迭代三第一轮测试，验收:分布式调度、安全校验等特性|
+| **版本用途：**OpenHarmony码云master迭代三第一轮测试，验收:分布式调度特性|
 |L2:事件通知、软总线、DEMO&应用、语言编译运行时、账号、用户程序框架、ACE、分布式文件、驱动等子系统|
 | **API变更：**：本次转测特性不涉及API变更，具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
 | **L0L1转测试时间：2021-07-29**                                   |
 | **L0L1转测试版本获取路径：**                                   |
-| hispark_taurus版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210731_183305/version-Master_Version-OpenHarmony_2.3.0.6-20210731_183305-hispark_taurus.tar.gz|
-| hispark_taurus_linux版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210731_182050/version-Master_Version-OpenHarmony_2.3.0.6-20210731_182050-hispark_taurus_linux.tar.gz|
-| hispark_pegasus版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210731_181855/version-Master_Version-OpenHarmony_2.3.0.6-20210731_181855-hispark_pegasus.tar.gz |
-| hispark_aries版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210731_182132/version-Master_Version-OpenHarmony_2.3.0.6-20210731_182132-hispark_aries.tar.gz|
+| hispark_taurus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210731_183305/version-Master_Version-OpenHarmony_2.3.0.6-20210731_183305-hispark_taurus.tar.gz|
+| hispark_taurus_linux版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210803_091007/version-Master_Version-OpenHarmony_2.3.0.6-20210803_091007-hispark_taurus.tar.gz |
+| hispark_pegasus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210803_090712/version-Master_Version-OpenHarmony_2.3.0.6-20210803_090712-hispark_pegasus.tar.gz |
+| hispark_aries版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210803_090827/version-Master_Version-OpenHarmony_2.3.0.6-20210803_090827-hispark_aries.tar.gz  |
 | **L2转测试时间：2021-07-29**                                   |
  **L2转测试版本获取路径：**                                   |
 | hi3516dv300-L2版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_2.3.0.6/20210729_092257/version-Master_Version-OpenHarmony_2.3.0.6-20210729_092257-L2_hi3516dv300.tar.gz   |
 
-## OpenHarmony 2.3.0.6 版本特性清单：
+## OpenHarmony 3.0.0.1 版本特性清单：
 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
 
 L0/L1需求列表：
