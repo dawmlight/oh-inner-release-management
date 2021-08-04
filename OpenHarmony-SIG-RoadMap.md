@@ -311,6 +311,9 @@ L2需求列表：
 
 ## OpenHarmony 3.0.0.2版本特性清单：
 
+暂无
+## OpenHarmony 3.0.0.3版本特性清单：
+
 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
 | no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
 | :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
@@ -321,11 +324,6 @@ L2需求列表：
 | 5   | [I3NM73](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NM73) | 【多媒体子系统】相机图像帧管理                               | developing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang)   |
 | 6   | [I3NM8J](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NM8J) | 【多媒体子系统】本地mp3播放支持                              | developing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang)   |
 | 7   | [I3NMMU](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NMMU) | 【多媒体子系统】编码视频流和音频流处理支持                   | developing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang)   |
-
-
-## OpenHarmony 3.0.0.3版本特性清单：
-
-暂无
 ## OpenHarmony 3.0 Beta1版本特性清单：
 
 暂无
