@@ -5,7 +5,7 @@
 | ------------------------------------------------------------ |
 | **版本用途：**OpenHarmony码云master迭代三第一轮测试，验收:|
 |L0L1:分布式调度                                                |
-|L2:    |
+|L2: Demo&应用子系统、驱动子系统   |
 | **API变更：**：本次转测特性不涉及API变更，具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
 | **L0L1转测试时间：2021-08-04**                                   |
 | **L0L1转测试版本获取路径：**                                   |
@@ -15,7 +15,7 @@
 | hispark_aries版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.2/20210804_161041/version-Master_Version-OpenHarmony_3.0.0.2-20210804_161041-hispark_aries.tar.gz     |
 | **L2转测试时间：2021-08-04**                                   |
  **L2转测试版本获取路径：**                                   |
-| hi3516dv300-L2版本：<br>    |
+| hi3516dv300-L2版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.2/20210804_161930/version-Master_Version-OpenHarmony_3.0.0.2-20210804_161930-L2_hi3516dv300.tar.gz   |
 
 ## OpenHarmony 3.0.0.2 版本特性清单：
 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
@@ -25,7 +25,13 @@ L0L1 需求列表
 | :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
 | 1    | [I3QEVG](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3QEVG) | 【分布式调度】轻设备获取调用者APP的APPID并传输到富设备      | developing | SIG_AppFramework     | [@lijiarun](https://gitee.com/lijiarun)            |
 
-
+L2需求列表：
+| no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
+| :--- | ------------------------------------------------------------ | :----------------------------------------------------------- | :--------- | :------------------- | :------------------------------------------------ |
+|1|[I43W4L](https://gitee.com/open_harmony/dashboard?issue_id=I43W4L)|RQ-[Demo&应用子系统][JSUI][基础组件]JS基础组件|Testing|SIG_SystemApplication|[@guojin26](https://gitee.com/guojin26)|
+|2|[I43XA7](https://gitee.com/open_harmony/dashboard?issue_id=I43XA7)|RQ-[Demo&应用子系统][JSUI][图表组件]chart|Testing|SIG_SystemApplication|[@adslk](https://gitee.com/adslk)|
+|3|[I43W8L](https://gitee.com/open_harmony/dashboard?issue_id=I43W8L)|RQ-[Demo&应用子系统][JSUI][滑动选择器组件] picker|Testing|SIG_SystemApplication|[@gaohui100](https://gitee.com/gaohui100)|
+|4|[I41HBB](https://gitee.com/open_harmony/dashboard?issue_id=I41HBB)|【驱动子系统】基于HDF驱动框架提供mouse驱动能力|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
 
 
 # OpenHarmony 3.0.0.1 版本转测试信息：
