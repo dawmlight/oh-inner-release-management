@@ -312,6 +312,14 @@ L2需求列表：
 | :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
 | 1    | [I3QEVG](https://gitee.com/openharmony/distributedschedule_dms_fwk_lite/issues/I3QEVG) | 【分布式调度】轻设备获取调用者APP的APPID并传输到富设备      | developing | SIG_AppFramework     | [@lijiarun](https://gitee.com/lijiarun)            |
 
+L2需求列表：
+| no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
+| :--- | ------------------------------------------------------------ | :----------------------------------------------------------- | :--------- | :------------------- | :------------------------------------------------ |
+|1|[I43W4L](https://gitee.com/open_harmony/dashboard?issue_id=I43W4L)|RQ-[Demo&应用子系统][JSUI][基础组件]JS基础组件|Testing|SIG_SystemApplication|[@guojin26](https://gitee.com/guojin26)|
+|2|[I43XA7](https://gitee.com/open_harmony/dashboard?issue_id=I43XA7)|RQ-[Demo&应用子系统][JSUI][图表组件]chart|Testing|SIG_SystemApplication|[@adslk](https://gitee.com/adslk)|
+|3|[I43W8L](https://gitee.com/open_harmony/dashboard?issue_id=I43W8L)|RQ-[Demo&应用子系统][JSUI][滑动选择器组件] picker|Testing|SIG_SystemApplication|[@gaohui100](https://gitee.com/gaohui100)|
+|4|[I41HBB](https://gitee.com/open_harmony/dashboard?issue_id=I41HBB)|【驱动子系统】基于HDF驱动框架提供mouse驱动能力|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+
 ## OpenHarmony 3.0.0.3版本特性清单：
 
 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
