@@ -33,6 +33,25 @@ L2需求列表：
 |3|[I43W8L](https://gitee.com/open_harmony/dashboard?issue_id=I43W8L)|RQ-[Demo&应用子系统][JSUI][滑动选择器组件] picker|Testing|SIG_SystemApplication|[@gaohui100](https://gitee.com/gaohui100)|
 |4|[I41HBB](https://gitee.com/open_harmony/dashboard?issue_id=I41HBB)|【驱动子系统】基于HDF驱动框架提供mouse驱动能力|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
 
+## 针对OpenHarmony 3.0.0.2版本解决的缺陷ISSUE列表：
+| ISSUE                                                        | 问题描述                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [I420PQ](https://gitee.com/openharmony/kernel_liteos_m/issues/I420PQ) | 【openHarmony】【2.3.0.3】【轻内核子系统】集成测试/kernel/arch/arm/arm9/gcc下的代码存在函数冲突 |
+| [I41PQT](https://gitee.com/openharmony/third_party_musl/issues/I41PQT) | 【OpenHarmony】【2.3.0.3】【轻内核子系统】集成测试linux内核的L1设备不支持sched_setscheduler |
+| [I40QOM](https://gitee.com/openharmony/kernel_liteos_a/issues/I40QOM) | 【OpenHarmony】【20210701】【轻内核子系统】集成测试testBarrierAlwaysWait在执行时会挂住，不往下执行 |
+| [I42G3N](https://gitee.com/openharmony/kernel_liteos_a/issues/I42G3N) | 【OpenHarmony】【2.3_Beta】【轻内核子系统】集成测试pread函数返回值与之前版本不一致|
+| [I40YD4](https://gitee.com/openharmony/kernel_liteos_a/issues/I40YD4) | 【OpenHarmony】【2.3.0.2】【轻内核子系统】集成测试benchmark测试用例执行命令./lat_fs /test_root/kernel|
+| [I3ZQDA](https://gitee.com/openharmony/kernel_liteos_a/issues/I3ZQDA) |【OpenHarmony】【2.3.0.1】【轻内核子系统】集成测试关于在mq_open失败后，会占用消息队列符，最终导致xml文件打不开|
+| [I3M12H](https://gitee.com/openharmony/kernel_liteos_a/issues/I3M12H) |【OpenHarmony】【20210419】【轻内核子系统】集成测试发送两个不同的信号，sigwait第二次等到的仍是第一个信号|
+| [I42OHU](https://gitee.com/openharmony/third_party_toybox/issues/I42OHU) |【OpenHarmony】【20210726】【轻内核子系统】集成测试每日构建20210726版本toybox umount失败|
+| [I42V8S](https://gitee.com/openharmony/third_party_toybox/issues/I42V8S) |【OpenHarmony】【1.1.541】【轻内核子系统】集成测试toybox命令cp文件到不存在的目录，没有报错，并且在cp的当前目录下生成了一个名为...|
+| [I42V89](https://gitee.com/openharmony/third_party_toybox/issues/I42V89) |【OpenHarmony】【1.1.541】【轻内核子系统】集成测试toybox 命令chmod修改文件权限后查出与预期不一致以及nfs挂载目录下的文件权...|
+| [I42TTN](https://gitee.com/openharmony/third_party_toybox/issues/I42TTN) |【OpenHarmony】【1.1.541】【轻内核子系统】集成测试toybox 命令rmdir删除mount路径下的mkdir的子目录失败，rm -r同...|
+| [I42OOU](https://gitee.com/openharmony/third_party_toybox/issues/I42OOU) |【OpenHarmony】【20210726】【轻内核子系统】集成测试toybox ls -l查看自己创建的文件目录大小时间日期以及total统计不正确|
+| [I42OMN](https://gitee.com/openharmony/third_party_toybox/issues/I42OMN) |【OpenHarmony】【20210726】【轻内核子系统】集成测试uname r v top a支持,help中缺少,chmod R不支持,help中有|
+| [I41U0R](https://gitee.com/openharmony/kernel_liteos_a/issues/I41U0R) |【openHarmony】【2.3.0.3】【轻内核子系统】集成测试nanosleep函数实现存在缺陷|
+| [I41U0R](https://gitee.com/openharmony/kernel_liteos_a/issues/I41U0R) |【openHarmony】【2.3.0.3】【轻内核子系统】集成测试 在执行ActsMemApiTest.bin脚本，出现大量多余日志|
+| [I42ZO7](https://gitee.com/openharmony/startup_init_lite/issues/I42ZO7) |/etc/passwd里面存在UID一样的用户账号，与规范要求冲突|
 
 # OpenHarmony 3.0.0.1 版本转测试信息：
 
