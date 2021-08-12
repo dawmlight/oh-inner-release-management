@@ -1,3 +1,22 @@
+# OpenHarmony 3.0.0.3 版本转测试信息：
+
+| **转测试版本号：OpenHarmony 3.0.0.3                   |
+| ------------------------------------------------------------ |
+| **版本用途：**OpenHarmony码云master迭代三第三轮测试，验收:|
+|L0L1:应程序框架、多媒体等特性                                                |
+|L2: Demo&应用子系统、驱动子系统   |
+| **API变更：**：本次转测特性不涉及API变更，具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
+| **L0L1转测试时间：2021-08-12**                                   |
+| **L0L1转测试版本获取路径：**                                   |
+| hispark_taurus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.3/20210811_093832/version-Master_Version-OpenHarmony_3.0.0.3-20210811_093832-hispark_taurus.tar.gz   |
+| hispark_taurus_linux版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.3/20210811_093621/version-Master_Version-OpenHarmony_3.0.0.3-20210811_093621-hispark_taurus_linux.tar.gz   |
+| hispark_pegasus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.3/20210811_093636/version-Master_Version-OpenHarmony_3.0.0.3-20210811_093636-hispark_pegasus.tar.gz   |
+| hispark_aries版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.3/20210811_093757/version-Master_Version-OpenHarmony_3.0.0.3-20210811_093757-hispark_aries.tar.gz  |
+| **L2转测试时间：2021-08-04**                                   |
+ **L2转测试版本获取路径：**                                   |
+| hi3516dv300-L2版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.3/20210811_094238/version-Master_Version-OpenHarmony_3.0.0.3-20210811_094238-L2_hi3516dv300.tar.gz  |
+
+## OpenHarmony 3.0.0.3 版本特性清单：
 
 # OpenHarmony 3.0.0.2 版本转测试信息：
 
