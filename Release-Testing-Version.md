@@ -4,7 +4,7 @@
 | ------------------------------------------------------------ |
 | **版本用途：**OpenHarmony码云master迭代三第三轮测试，验收:|
 |L0L1:应程序框架、多媒体等特性                                                |
-|L2: Demo&应用子系统、驱动子系统   |
+|L2:     |
 | **API变更：**：本次转测特性不涉及API变更，具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
 | **L0L1转测试时间：2021-08-12**                                   |
 | **L0L1转测试版本获取路径：**                                   |
@@ -17,6 +17,35 @@
 | hi3516dv300-L2版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.3/20210811_094238/version-Master_Version-OpenHarmony_3.0.0.3-20210811_094238-L2_hi3516dv300.tar.gz  |
 
 ## OpenHarmony 3.0.0.3 版本特性清单：
+
+L0L1 需求列表：
+状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
+| no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
+| :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
+| 1   | [I3XCB5](https://gitee.com/openharmony/appexecfwk_appexecfwk_lite/issues/I3XCB5) | 【应用程序框架】按照应用粒度的存储资源使用统计       | testing | SIG_AppFramework     | [@autumn](https://gitee.com/autumn330)            |
+| 2   | [I3NK7D](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NK7D) | 【多媒体子系统】适配新南向接口                           | testing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang)   |
+| 3   | [I3NM60](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NM60) | 【多媒体子系统】相机metadata管理及相机静态能力查询        | testing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang)   |
+| 4   | [I3NM6F](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NM6F) | 【多媒体子系统】相机设备管理                            | testing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang)   |
+| 5   | [I3NM73](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NM73) | 【多媒体子系统】相机图像帧管理                           | testing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang)   |
+| 6   | [I3NM8J](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NM8J) | 【多媒体子系统】本地mp3播放支持                          | testing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang)   |
+| 7   | [I3NMMU](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NMMU) | 【多媒体子系统】编码视频流和音频流处理支持                 | testing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang)   |
+
+L2 需求列表：
+
+
+## 针对OpenHarmony 3.0.0.3版本解决的缺陷ISSUE列表：
+
+L0L1 issue列表：
+| ISSUE                                                        | 问题描述                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [I42OMN](https://gitee.com/open_harmony/dashboard?issue_id=I42OMN) |【OpenHarmony】【20210726】【轻内核子系统】集成测试uname r v top a支持,help中缺少,chmod R不支持,help中有 |
+| [I42SJL](https://gitee.com/open_harmony/dashboard?issue_id=I42SJL) |3516DV300图形子系统未在3分钟内完全启动，导致内存测试数据偏低 |		
+| [I42TP2](https://gitee.com/open_harmony/dashboard?issue_id=I42TP2) |【OpenHarmony】【1.1.541】【轻内核子系统】集成测试toybox 命令kill -s 9 10杀10号进程不生效，kill  9 10可以，其他  |
+| [I42UIE](https://gitee.com/open_harmony/dashboard?issue_id=I42UIE) |3516DV300包管理bundle_daemon内存数据超过转维前的版本60kb（6.5%）|
+| [I42UIZ](|https://gitee.com/open_harmony/dashboard?issue_id=I42UIZ) |3516DV300轻量级系统服务框架foundation内存数据超过转维前版本352kb（10%）| 
+| [I42V8S](https://gitee.com/open_harmony/dashboard?issue_id=I42V8S ) |【OpenHarmony】【1.1.541】【轻内核子系统】集成测试toybox命令cp文件到不存在的目录，没有报错，并且在cp的当前目录下生成了一个名为目的目录的文件|
+| [I430Z5]( https://gitee.com/open_harmony/dashboard?issue_id=I430Z5) |【startup_standard】【master】L2-Beta2版本测试恢复出厂和清楚用户数据的api测试失败|
+
 
 # OpenHarmony 3.0.0.2 版本转测试信息：
 
