@@ -16,3 +16,10 @@
 | powermgr_powermgr_lite                                   | BOOL AcquireRunningLock(const RunningLock *lock); | 新增                                       | 新增接口                                                     |
 | powermgr_powermgr_lite                                   | BOOL ReleaseRunningLock(const RunningLock *lock); | 新增                                       | 新增接口                                                     |
 | powermgr_powermgr_lite                                   | BOOL IsRunningLockHolding(const RunningLock *lock); | 新增                                       | 新增接口                                                     |
+| multimedia_camera_lite                                   | std::list<int32_t> GetSupportedAfModes() const; | 新增                                       | 新增接口      
+| multimedia_camera_lite                                   | std::list<int32_t> GetSupportedAeModes() const; | 新增                                       | 新增接口      
+| multimedia_camera_lite                                   | virtual int32_t GetCameraType() const; | 新增                                       | 新增接口   
+| multimedia_camera_lite                                   | virtual int32_t GetCameraFacingType() const; | 新增                                       | 新增接口      
+| multimedia_camera_lite                                   | const CameraInfo *GetCameraInfo(std::string cameraId); | 新增                                       | 新增接口         
+| multimedia_camera_lite                                   | void SetVendorParameter(uint8_t *value, uint32_t len); | 新增                                       | 新增接口 
+| multimedia_camera_lite                                   | void GetVendorParameter(uint8_t *value, uint32_t len); | 新增                                       | 新增接口                                       |
