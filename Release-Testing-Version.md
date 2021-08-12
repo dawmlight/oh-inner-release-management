@@ -42,9 +42,9 @@ L0L1 issue列表：
 | [I42SJL](https://gitee.com/open_harmony/dashboard?issue_id=I42SJL) |3516DV300图形子系统未在3分钟内完全启动，导致内存测试数据偏低 |		
 | [I42TP2](https://gitee.com/open_harmony/dashboard?issue_id=I42TP2) |【OpenHarmony】【1.1.541】【轻内核子系统】集成测试toybox 命令kill -s 9 10杀10号进程不生效，kill  9 10可以，其他  |
 | [I42UIE](https://gitee.com/open_harmony/dashboard?issue_id=I42UIE) |3516DV300包管理bundle_daemon内存数据超过转维前的版本60kb（6.5%）|
-| [I42UIZ](|https://gitee.com/open_harmony/dashboard?issue_id=I42UIZ) |3516DV300轻量级系统服务框架foundation内存数据超过转维前版本352kb（10%）| 
-| [I42V8S](https://gitee.com/open_harmony/dashboard?issue_id=I42V8S ) |【OpenHarmony】【1.1.541】【轻内核子系统】集成测试toybox命令cp文件到不存在的目录，没有报错，并且在cp的当前目录下生成了一个名为目的目录的文件|
-| [I430Z5]( https://gitee.com/open_harmony/dashboard?issue_id=I430Z5) |【startup_standard】【master】L2-Beta2版本测试恢复出厂和清楚用户数据的api测试失败|
+| [I42UIZ](https://gitee.com/open_harmony/dashboard?issue_id=I42UIZ) |3516DV300轻量级系统服务框架foundation内存数据超过转维前版本352kb（10%）| 
+| [I42V8S](https://gitee.com/open_harmony/dashboard?issue_id=I42V8S) |【OpenHarmony】【1.1.541】【轻内核子系统】集成测试toybox命令cp文件到不存在的目录，没有报错，并且在cp的当前目录下生成了一个名为目的目录的文件|
+| [I430Z5](https://gitee.com/open_harmony/dashboard?issue_id=I430Z5) |【startup_standard】【master】L2-Beta2版本测试恢复出厂和清楚用户数据的api测试失败|
 
 
 # OpenHarmony 3.0.0.2 版本转测试信息：
