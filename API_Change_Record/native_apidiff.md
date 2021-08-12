@@ -23,3 +23,4 @@
 | multimedia_camera_lite                                   | const CameraInfo *GetCameraInfo(std::string cameraId); | 新增                                       | 新增接口         
 | multimedia_camera_lite                                   | void SetVendorParameter(uint8_t *value, uint32_t len); | 新增                                       | 新增接口 
 | multimedia_camera_lite                                   | void GetVendorParameter(uint8_t *value, uint32_t len); | 新增                                       | 新增接口                                       |
+| appexecfwk_appexecfwk_lite                                   | uint32_t GetBundleSize(const char *bundleName); | 新增                                       | 新增接口                                       |
