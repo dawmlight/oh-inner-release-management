@@ -332,6 +332,19 @@ L2需求列表：
 | 5   | [I3NM73](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NM73) | 【多媒体子系统】相机图像帧管理                               | developing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang)   |
 | 6   | [I3NM8J](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NM8J) | 【多媒体子系统】本地mp3播放支持                              | developing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang)   |
 | 7   | [I3NMMU](https://gitee.com/openharmony/multimedia_utils_lite/issues/I3NMMU) | 【多媒体子系统】编码视频流和音频流处理支持                   | developing | SIG_GraphicsAndMedia | [@zhu-mingliang](https://gitee.com/zhu-mingliang)   |
+
+L2 需求列表：
+| no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
+| :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
+|1|[I43G6T](https://gitee.com/open_harmony/dashboard?issue_id=I43G6T)|WM Client架构演进|Testing|SIG_GraphicsandMedia|[@lz-230](https://gitee.com/lz-230)|
+|2|[I43HMM](https://gitee.com/open_harmony/dashboard?issue_id=I43HMM)|WM Server架构演进|Testing|SIG_GraphicsandMedia|[@lz-230](https://gitee.com/lz-230)|
+|3|[I43HPQ](https://gitee.com/open_harmony/dashboard?issue_id=I43HPQ)|支持创建应用多窗|Testing|SIG_GraphicsandMedia|[@lz-230](https://gitee.com/lz-230)|
+|4|[I44TNC](https://gitee.com/open_harmony/dashboard?issue_id=I44TNC)|RQ-[Demo&应用子系统][JSUI][Menu/Option]JSMenu|Testing|SIG_SystemApplication|[@guojin26](https://gitee.com/guojin26)|
+|5|[I452UD](https://gitee.com/open_harmony/dashboard?issue_id=I452UD)|RQ-[Demo&应用子系统][JSUI]【OpenHarmony】工具栏|Testing|SIG_SystemApplication|[@adslk](https://gitee.com/adslk)|
+|6|[I44TN0](https://gitee.com/open_harmony/dashboard?issue_id=I44TN0)|RQ-[Demo&应用子系统][JSUI][滑动条] slider|Testing|SIG_SystemApplication|[@gaohui100](https://gitee.com/gaohui100)|
+|7|[I41HC0](https://gitee.com/open_harmony/dashboard?issue_id=I41HC0)|【驱动子系统】基于HDF驱动框架提供Display HDI的服务化|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|8|[I41LWL](https://gitee.com/open_harmony/dashboard?issue_id=I41LWL)|【SystemUI】状态栏最大最小化|Testing|SIG_SystemApplication|[@liuzhenyu2021](https://gitee.com/liuzhenyu2021)|
+
 ## OpenHarmony 3.0 Beta1版本特性清单：
 
 暂无
