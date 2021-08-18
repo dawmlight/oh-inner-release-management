@@ -346,8 +346,12 @@ L2 需求列表：
 |8|[I41LWL](https://gitee.com/open_harmony/dashboard?issue_id=I41LWL)|【SystemUI】状态栏最大最小化|Testing|SIG_SystemApplication|[@liuzhenyu2021](https://gitee.com/liuzhenyu2021)|
 
 ## OpenHarmony 3.0 Beta1版本特性清单：
+L1需求列表
 
-暂无
+| no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
+| :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
+|1|[I3NIOF](https://gitee.com/openharmony/communication_dsoftbus/issues/I3NIOF)|【传输】传输SDK|developing|SIG_SoftBus|[@jiangkuaixue](https://gitee.com/jiangkuaixue)|
+
 
 ## OpenHarmony 3.0.0.6版本特性清单：
 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
