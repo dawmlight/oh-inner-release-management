@@ -35,7 +35,7 @@ L2 需求列表：
 | :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
 |1|[I43G6T](https://gitee.com/open_harmony/dashboard?issue_id=I43G6T)|WM Client架构演进|Testing|SIG_GraphicsandMedia|[@lz-230](https://gitee.com/lz-230)|
 |2|[I43HMM](https://gitee.com/open_harmony/dashboard?issue_id=I43HMM)|WM Server架构演进|Testing|SIG_GraphicsandMedia|[@lz-230](https://gitee.com/lz-230)|
-|3|[I43HPQ](https://gitee.com/open_harmony/dashboard?issue_id=I43HPQ)|支持创建应用多窗|Testing|SIG_GraphicsandMedia|[@lz-230](https://gitee.com/lz-230)|
+|3|[I43I3O](https://gitee.com/open_harmony/dashboard?issue_id=I43I3O)|RQ-[图形子系统][vsync模块][vsync]vsync架构演进|Testing|SIG_GraphicsandMedia|[@lz-230](https://gitee.com/lz-230)|
 |4|[I44TNC](https://gitee.com/open_harmony/dashboard?issue_id=I44TNC)|RQ-[Demo&应用子系统][JSUI][Menu/Option]JSMenu|Testing|SIG_SystemApplication|[@guojin26](https://gitee.com/guojin26)|
 |5|[I452UD](https://gitee.com/open_harmony/dashboard?issue_id=I452UD)|RQ-[Demo&应用子系统][JSUI]【OpenHarmony】工具栏|Testing|SIG_SystemApplication|[@adslk](https://gitee.com/adslk)|
 |6|[I44TN0](https://gitee.com/open_harmony/dashboard?issue_id=I44TN0)|RQ-[Demo&应用子系统][JSUI][滑动条] slider|Testing|SIG_SystemApplication|[@gaohui100](https://gitee.com/gaohui100)|
