@@ -352,6 +352,12 @@ L1需求列表
 | :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
 |1|[I3NIOF](https://gitee.com/openharmony/communication_dsoftbus/issues/I3NIOF)|【传输】传输SDK|developing|SIG_SoftBus|[@jiangkuaixue](https://gitee.com/jiangkuaixue)|
 
+L2 需求列表：
+| no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
+| :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
+|1|[I3XHVJ](https://gitee.com/open_harmony/dashboard?issue_id=I3XHVJ)|支持全量升级包升级|Testing|SIG_BasicSoftwareService|[@ailorna](https://gitee.com/ailorna)|
+|2|[I3XHVP](https://gitee.com/open_harmony/dashboard?issue_id=I3XHVP)|支持差分升级包升级|Testing|SIG_BasicSoftwareService|[@ailorna](https://gitee.com/ailorna)|
+|3|[I436VT](https://gitee.com/open_harmony/dashboard?issue_id=I436VT)|安装读取shortcut信息|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
 
 ## OpenHarmony 3.0.0.6版本特性清单：
 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
