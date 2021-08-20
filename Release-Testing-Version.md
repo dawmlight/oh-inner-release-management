@@ -3,16 +3,17 @@
 | ------------------------------------------------------------ |
 | **版本用途：**OpenHarmony码云master迭代三Beta1测试，验收:|
 |L0L1:软总线                                                |
-|L2:      |
+|L2: 升级、用户程序框架等子系统特性     |
 | **API变更：**：本次转测特性不涉及API变更，具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
-| **L0L1转测试时间：2021-08-19**                                   |
+| **L0L1转测试时间：2021-08-20**                                   |
 | **L0L1转测试版本获取路径：**                                   |
 | hispark_taurus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0_Beta1/20210819_101714/version-Master_Version-OpenHarmony_3.0_Beta1-20210819_101714-hispark_taurus.tar.gz |
 | hispark_taurus_linux版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0_Beta1/20210819_101510/version-Master_Version-OpenHarmony_3.0_Beta1-20210819_101510-hispark_taurus_linux.tar.gz  |
 | hispark_pegasus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0_Beta1/20210819_101448/version-Master_Version-OpenHarmony_3.0_Beta1-20210819_101448-hispark_pegasus.tar.gz |
 | hispark_aries版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0_Beta1/20210819_101610/version-Master_Version-OpenHarmony_3.0_Beta1-20210819_101610-hispark_aries.tar.gz     |
-| **L2转测试时间：2021-08-19**                                   |
+| **L2转测试时间：2021-08-20**                                   |
  **L2转测试版本获取路径：**                                   |
+| hi3516dv300-L2版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0_Beta1/20210820_104612/version-Master_Version-OpenHarmony_3.0_Beta1-20210820_104612-L2_hi3516dv300.tar.gz|
 |         |
 
 ## OpenHarmony 3.0 Beta1版本特性清单：
@@ -22,6 +23,12 @@ L1需求列表
 | :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
 |1|[I3NIOF](https://gitee.com/openharmony/communication_dsoftbus/issues/I3NIOF)|【传输】传输SDK|developing|SIG_SoftBus|[@jiangkuaixue](https://gitee.com/jiangkuaixue)|
 
+L2 需求列表：
+| no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
+| :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
+|1|[I3XHVJ](https://gitee.com/open_harmony/dashboard?issue_id=I3XHVJ)|支持全量升级包升级|Testing|SIG_BasicSoftwareService|[@ailorna](https://gitee.com/ailorna)|
+|2|[I3XHVP](https://gitee.com/open_harmony/dashboard?issue_id=I3XHVP)|支持差分升级包升级|Testing|SIG_BasicSoftwareService|[@ailorna](https://gitee.com/ailorna)|
+|3|[I436VT](https://gitee.com/open_harmony/dashboard?issue_id=I436VT)|安装读取shortcut信息|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
 
 ## 针对OpenHarmony 3.0 Beta1版本解决的缺陷ISSUE列表：
 
@@ -31,7 +38,15 @@ L0L1 issue列表：
 | [I43KLC](https://gitee.com/open_harmony/dashboard?issue_id=I43KLC) |【2.2 Beta2】【软总线】注册节点状态监听，设备上线，设备再离线，offline回调调用了2次|
 | [I43V23](https://gitee.com/open_harmony/dashboard?issue_id=I43V23) |【OpenHarmony】【3.0.0.1】【轻内核子系统】集成测试benchmark稳定性有个别命令存在执行异常和长时间跑不出结果的情况 |		
 | [I43WIJ](https://gitee.com/open_harmony/dashboard?issue_id=I43WIJ) |【2.2 Beta2】【软总线】已组网，一端切换网络再切回，过程中组网未下线(无上下线回调)  |
-	
+
+L2 issue列表：
+| ISSUE                                                        | 问题描述                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+|[I4312A](https://gitee.com/open_harmony/dashboard?issue_id=I4312A)|【2.2 Beta2】【软总线】已组网，断1端网络后，自组网失败(GetAllNodeDeviceInfo返回null) |
+|[I43WIJ](https://gitee.com/open_harmony/dashboard?issue_id=I43WIJ)|【2.2 Beta2】【软总线】已组网，一端切换网络再切回，过程中组网未下线(无上下线回调)|
+|[I43KLC](https://gitee.com/open_harmony/dashboard?issue_id=I43KLC)|【2.2 Beta2】【软总线】注册节点状态监听，设备上线，设备再离线，offline回调调用了2次|
+|[I43118](https://gitee.com/open_harmony/dashboard?issue_id=I43118)|【2.2 Beta2】【软总线】已组网，重启设备配网后，自组网不成功|
+
 # OpenHarmony 3.0.0.3 版本转测试信息：
 
 | **转测试版本号：OpenHarmony 3.0.0.3                   |
