@@ -380,20 +380,9 @@ L2 需求列表：
 | 4    | [I3NTCT](https://gitee.com/openharmony/startup_appspawn_lite/issues/I3NTCT) | 【启动恢复子系统】Linux版本init支持热插拔                    | developing | SIG_BscSoftSrv       | [@handyohos](https://gitee.com/handyohos)         |
 
 ## OpenHarmony 3.0 LTS版本特性清单：
+暂无
 
-状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
 
-| no   | issue                                                        | feture description                                        | status     | sig                  | owner                                   |
-| :--- | ------------------------------------------------------------ | :-------------------------------------------------------- | :--------- | :------------------- | :-------------------------------------- |
-| 1    | [I3NTOO](https://gitee.com/openharmony/sensors_sensor_lite/issues/I3NTOO) | 【多模输入子系统】服务框架                                | developing | SIG_GraphicsAndMedia | [@zianed](https://gitee.com/zianed)     |
-| 2    | [I3NTR7](https://gitee.com/openharmony/sensors_sensor_lite/issues/I3NTR7) | 【多模输入子系统】输入管理器                              | developing | SIG_GraphicsAndMedia | [@zianed](https://gitee.com/zianed)     |
-| 3    | [I3NTS8](https://gitee.com/openharmony/sensors_sensor_lite/issues/I3NTS8) | 【多模输入子系统】窗口状态管理                            | developing | SIG_GraphicsAndMedia | [@zianed](https://gitee.com/zianed)     |
-| 4   | [I3NTT2](https://gitee.com/openharmony/sensors_sensor_lite/issues/I3NTT2) | 【多模输入子系统】事件采集与分发                          | developing | SIG_GraphicsAndMedia | [@zianed](https://gitee.com/zianed)     |
-| 5   | [I3NTUA](https://gitee.com/openharmony/sensors_sensor_lite/issues/I3NTUA) | 【多模输入子系统】多模事件分发到合适的窗口上              | developing | SIG_GraphicsAndMedia | [@zianed](https://gitee.com/zianed)     |
-| 6   | [I3NTTQ](https://gitee.com/openharmony/sensors_sensor_lite/issues/I3NTTQ) | 【ACE子系统】支持JS多模能力                               | developing | SIG_AppFramework     | [@borne](https://gitee.com/borne)       |
-| 7  | [I3NTEK](https://gitee.com/openharmony/communication_wifi_aware/issues/I3NTEK) | 【电话服务】wifi服务支持STA模式                           | developing | SIG_SoftBus          | [@rain_myf](https://gitee.com/rain_myf) |
-| 8   | [I3NTFH](https://gitee.com/openharmony/communication_wifi_aware/issues/I3NTFH) | 【电话服务】WIFI管理服务支持AP模式                        | developing | SIG_SoftBus          | [@rain_myf](https://gitee.com/rain_myf) |
-| 9   | [I3NTG9](https://gitee.com/openharmony/communication_wifi_aware/issues/I3NTG9) | 【电话服务】WIFI服务支持LINUX内核                         | developing | SIG_SoftBus          | [@rain_myf](https://gitee.com/rain_myf) |
 ## OpenHarmony 3.1.0.1版本特性清单：
 
 暂无
