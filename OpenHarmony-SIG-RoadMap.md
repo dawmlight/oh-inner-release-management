@@ -367,7 +367,10 @@ L2 需求列表：
 | 2    | [I3NTAZ](https://gitee.com/openharmony/security_huks/issues/I3NTAZ) | 【安全】轻量级实现弹窗授权动态授权机制                       | developing | SIG_Security         | [@scuteehuangjun](https://gitee.com/scuteehuangjun) |
 
 ## OpenHarmony 3.0.0.7版本特性清单:
-暂无
+状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
+| no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
+| :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
+| 1    | [I46W6Q](https://gitee.com/openharmony/global_i18n_lite/issues/I46W6Q) | 【全球化】新增31种语言支持              | developing | SIG_AppFramework     | [@zhiweilai](https://gitee.com/zhiweilai)              |
 
 ## OpenHarmony 3.0.0.8 版本特性清单：
 
