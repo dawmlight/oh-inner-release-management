@@ -1,8 +1,8 @@
 ## OpenHarmony 3.0.0.6版本转测试信息：
 | **转测试版本号：OpenHarmony 3.0.0.6                |
 | ------------------------------------------------------------ |
-| **版本用途：**OpenHarmony码云master迭代三Beta1测试，验收:|
-|L0L1:软总线                                                |
+| **版本用途：**OpenHarmony码云master迭代二第五轮测试，验收:|
+|L0L1:本次转测试涉及应用程序框架和安全动态弹窗需求验收                                                |
 |L2: 升级、用户程序框架等子系统特性     |
 | **API变更：**：本次转测特性不涉及API变更，具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
 | **L0L1转测试时间：2021-08-28**                                   |
