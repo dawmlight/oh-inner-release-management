@@ -1,3 +1,31 @@
+## OpenHarmony 3.0.0.6版本转测试信息：
+| **转测试版本号：OpenHarmony 3.0.0.6                |
+| ------------------------------------------------------------ |
+| **版本用途：**OpenHarmony码云master迭代三Beta1测试，验收:|
+|L0L1:软总线                                                |
+|L2: 升级、用户程序框架等子系统特性     |
+| **API变更：**：本次转测特性不涉及API变更，具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
+| **L0L1转测试时间：2021-08-28**                                   |
+| **L0L1转测试版本获取路径：**                                   |
+| hispark_taurus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210826_140808/version-Master_Version-OpenHarmony_3.0.0.6-20210826_140808-hispark_taurus.tar.gz |
+| hispark_taurus_linux版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210826_140527/version-Master_Version-OpenHarmony_3.0.0.6-20210826_140527-hispark_taurus_linux.tar.gz |
+| hispark_pegasus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210826_140428/version-Master_Version-OpenHarmony_3.0.0.6-20210826_140428-hispark_pegasus.tar.gz  |
+| hispark_aries版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210826_140548/version-Master_Version-OpenHarmony_3.0.0.6-20210826_140548-hispark_aries.tar.g|
+| **L2转测试时间：2021-08-28**                                   |
+ **L2转测试版本获取路径：**                                   |
+| hi3516dv300-L2版本：<br>|
+|         |
+
+## OpenHarmony 3.0.0.6版本特性清单：
+L1需求列表:
+状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
+| no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
+| :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
+| 1    | [I3NN1Z](https://gitee.com/openharmony/aafwk_aafwk_lite/issues/I3NN1Z) | 【应用程序框架】轻量级实现弹窗授权动态授权机制               | developing | SIG_AppFramework     | [@autumn](https://gitee.com/autumn330)              |
+| 2    | [I3NTAZ](https://gitee.com/openharmony/security_huks/issues/I3NTAZ) | 【安全】轻量级实现弹窗授权动态授权机制                       | developing | SIG_Security         | [@scuteehuangjun](https://gitee.com/scuteehuangjun) |
+
+L2需求列表:
+
 ## OpenHarmony 3.0 Beta1版本转测试信息：
 | **转测试版本号：OpenHarmony 3.0 Beta1                 |
 | ------------------------------------------------------------ |
