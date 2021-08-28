@@ -366,6 +366,33 @@ L2 需求列表：
 | 1    | [I3NN1Z](https://gitee.com/openharmony/aafwk_aafwk_lite/issues/I3NN1Z) | 【应用程序框架】轻量级实现弹窗授权动态授权机制               | developing | SIG_AppFramework     | [@autumn](https://gitee.com/autumn330)              |
 | 2    | [I3NTAZ](https://gitee.com/openharmony/security_huks/issues/I3NTAZ) | 【安全】轻量级实现弹窗授权动态授权机制                       | developing | SIG_Security         | [@scuteehuangjun](https://gitee.com/scuteehuangjun) |
 
+L2 需求列表：
+| no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
+| :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
+|1|[I45ZKP](https://gitee.com/open_harmony/dashboard?issue_id=I45ZKP)|RQ-[Demo&应用子系统][JSUI][画布组件] JsCanvas|Testing|SIG_SystemApplication|[@gaohui100](https://gitee.com/gaohui100)|
+|2|[I466KX](https://gitee.com/open_harmony/dashboard?issue_id=I466KX)|RQ-[Demo&应用子系统][JSUI]【OpenHarmony】 栅格布局|Testing|SIG_SystemApplication|[@adslk](https://gitee.com/adslk)|
+|3|[I45YM2](https://gitee.com/open_harmony/dashboard?issue_id=I45YM2)|RQ-[Demo&应用子系统][JS UI]【OpenHarmony】JS自定义组件（JSUICustomComponent）|Testing|SIG_SystemApplication|[@guojin26](https://gitee.com/guojin26)|
+|4|[I44Y4J](https://gitee.com/open_harmony/dashboard?issue_id=I44Y4J)|RQ-[Demo&应用子系统][JS UI]【HarmonyOS】自适应卡片（AdaptiveServiceWidget）|Testing|SIG_SystemApplication|[@caopan_com](https://gitee.com/caopan_com)|
+|5|[I44Y0N](https://gitee.com/open_harmony/dashboard?issue_id=I44Y0N)|RQ-[Demo&应用子系统][JS UI]【HarmonyOS】自适应页面（AdaptivePortalPage）|Testing|SIG_SystemApplication|[@wangli325](https://gitee.com/wangli325)|
+|6|[I44Y15](https://gitee.com/open_harmony/dashboard?issue_id=I44Y15)|RQ-[Demo&应用子系统][JS UI]【HarmonyOS】自适应效率型首页（AdaptivePortalList）|Testing|SIG_SystemApplication|[@wangli325](https://gitee.com/wangli325)|
+|7|[I46ZCN](https://gitee.com/open_harmony/dashboard?issue_id=I46ZCN)|RQ-[Demo&应用子系统][JAVA UI]【HarmonyOS】添加NativeLayer示例|Testing|SIG_SystemApplication|[@guojin26](https://gitee.com/guojin26)|
+|8|[I3ZVTJ](https://gitee.com/open_harmony/dashboard?issue_id=I3ZVTJ)|【分布式任务调度子系统】接收远端拉起FA请求，跨设备拉起远端FA|Testing|SIG_DataManagement|[@zjucx](https://gitee.com/zjucx)|
+|9|[I3ZVTT](https://gitee.com/open_harmony/dashboard?issue_id=I3ZVTT)|【分布式任务调度子系统】鸿蒙单框架L2分布式能力建设-SAMGR模块构建|Testing|SIG_DataManagement|[@zjucx](https://gitee.com/zjucx)|
+|10|[I3ZMY9](https://gitee.com/open_harmony/dashboard?issue_id=I3ZMY9)|【分布式数据管理子系统】【本地数据库】 XTS测试用例|Testing|SIG_DataManagement|[@widecode](https://gitee.com/widecode)|
+|11|[I41H55](https://gitee.com/open_harmony/dashboard?issue_id=I41H55)|【驱动子系统】基于HDF驱动框架提供I2S/PCM平台总线驱动|Testing|SIG_DistributedHardwareManagement|[@zianed](https://gitee.com/zianed)|
+|12|[I41HBF](https://gitee.com/open_harmony/dashboard?issue_id=I41HBF)|【驱动子系统】基于HDF驱动框架提供Display驱动模型兼容DRM显示框架|Testing|SIG_DistributedHardwareManagement|[@zianed](https://gitee.com/zianed)|
+|13|[I46J19](https://gitee.com/open_harmony/dashboard?issue_id=I46J19)|add jsapi in compileruntime|Testing|SIG_CompileRuntime|[@xliu-huanwei](https://gitee.com/xliu-huanwei)|
+|14|[I46N37](https://gitee.com/open_harmony/dashboard?issue_id=I46N37)|升级quickjs使用worker|Testing|SIG_CompileRuntime|[@wpyhuawei](https://gitee.com/wpyhuawei)|
+|15|[I40PBC](https://gitee.com/open_harmony/dashboard?issue_id=I40PBC)|应用侧发布本地分组的普通通知|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
+|16|[I40PBF](https://gitee.com/open_harmony/dashboard?issue_id=I40PBF)|在免打扰模式下发布通知|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
+|17|[I40PBG](https://gitee.com/open_harmony/dashboard?issue_id=I40PBG)|发布开启一个无页面的Ability的wantAgent|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
+|18|[I40PBH](https://gitee.com/open_harmony/dashboard?issue_id=I40PBH)|取消WantAgent的实例|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
+|19|[I40PBI](https://gitee.com/open_harmony/dashboard?issue_id=I40PBI)|发布公共事件的WantAgent通知|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
+|20|[I40PBM](https://gitee.com/open_harmony/dashboard?issue_id=I40PBM)|应用侧取消本地通知|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
+|21|[I40PBN](https://gitee.com/open_harmony/dashboard?issue_id=I40PBN)|应用侧发布声音通知|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
+|22|[I40PBO](https://gitee.com/open_harmony/dashboard?issue_id=I40PBO)|应用侧发布振动通知|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
+|23|[I40PBP](https://gitee.com/open_harmony/dashboard?issue_id=I40PBP)|应用侧发布本地有输入框的通知（NotificationUserInput）|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
+
 ## OpenHarmony 3.0.0.7版本特性清单:
 暂无
 
