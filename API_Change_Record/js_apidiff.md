@@ -231,5 +231,87 @@
 |音频管理|readonly deviceRole: DeviceRole|新增|-|
 |音频管理|readonly deviceType: DeviceType|新增|-|
 |音频管理|AudioDeviceDescriptors |新增|-|
+|语言编译器运行时-worker|postMessage(obj):void|新增|宿主线程与worker通信，传递数据|
+|语言编译器运行时-worker|postMessage(message: Object, options?: PostMessageOptions):void|新增|宿主线程与worker通信，转移arrayBuffer的数据控制权|
+|语言编译器运行时-worker|terminate():void|新增|宿主线程主动停止worker|
+|语言编译器运行时-worker|on(type: string, listener: EventListener): void|新增|向worker添加回调接口|
+|语言编译器运行时-worker|once(type: string, listener: EventListener): void|新增|向worker添加回调接口，并且在回调一次会释放回调|
+|语言编译器运行时-worker|off(type: string, listener?: EventListener): void|新增|删除worker已添加的回调接口|
+|语言编译器运行时-worker|addEventListener(type: string, listener: EventListener): void|新增|向worker添加回调接口|
+|语言编译器运行时-worker|removeEventListener(type: string, listener?: EventListener): void|新增|删除worker已添加的回调接口|
+|语言编译器运行时-worker|removeAllListener(): void|新增|删除worker所有的回调接口|
+|语言编译器运行时-worker|dispatchEvent(event: Event): boolean|新增|向worker发送指定事件，触发回调接口|
+|语言编译器运行时-parentPort|postMessage(obj):void|新增|worker与宿主线程通信，传递数据|
+|语言编译器运行时-parentPort|postMessage(message: Object, options?: PostMessageOptions):void|新增|worker与宿主线程通信，转移arrayBuffer的数据控制权|
+|语言编译器运行时-parentPort|close(): void|新增|worker主动终止|
+|语言编译器运行时-Util|printf(format: string, ...args: Object[]): string|新增|-|
+|语言编译器运行时-Util|getErrorString(errno: number): string|新增|-|
+|语言编译器运行时-Util|callbackWrapper(original: Function): (err: Object, value: Object) => void|新增|-|
+|语言编译器运行时-Util|promiseWrapper(original: (err: Object, value: Object) => void): Object|新增|-|
+|语言编译器运行时-Util|new TextDecoder([encoding[, options]])|新增|-|
+|语言编译器运行时-Util|decode([input[, options]]):string|新增|-|
+|语言编译器运行时-Util|new TextEncoder()|新增|-|
+|语言编译器运行时-Util|encode(input?: string): Uint8Array;|新增|-|
+|语言编译器运行时-Util|"encodeInto(input: string,dest: Uint8Array,): { read: number; written: number };"|新增|-|
+|语言编译器运行时-Util|readonly encoding: string;|新增|-|
+|语言编译器运行时-Util|readonly fatal: boolean;|新增|-|
+|语言编译器运行时-Util|readonly ignoreBOM = false;|新增|-|
+|语言编译器运行时-Util|readonly encoding = "utf-8";|新增|-|
+|语言编译器运行时-URL|new URL(url: string, base?: string/URL)|新增|-|
+|语言编译器运行时-URL|toString(): string;|新增|-|
+|语言编译器运行时-URL|toJSON(): string;|新增|-|
+|语言编译器运行时-URL|new URSearchParams()|新增|-|
+|语言编译器运行时-URL|new URSearchParams(string)|新增|-|
+|语言编译器运行时-URL|new URSearchParams(obj)|新增|-|
+|语言编译器运行时-URL|new URSearchParams(iterable)|新增|-|
+|语言编译器运行时-URL|append(name: string, value: string): void;|新增|-|
+|语言编译器运行时-URL|delete(name: string): void;|新增|-|
+|语言编译器运行时-URL|entries(): IterableIterator<[string, string]>;|新增|-|
+|语言编译器运行时-URL|forEach(callbackfn: (value: string, key: string, parent: this) => void, thisArg?: any,): void;|新增|-|
+|语言编译器运行时-URL|get(name: string): string / null;|新增|-|
+|语言编译器运行时-URL|getAll(name: string): string[];|新增|-|
+|语言编译器运行时-URL|has(name: string): boolean;|新增|-|
+|语言编译器运行时-URL|keys(): IterableIterator<string>;|新增|-|
+|语言编译器运行时-URL|set(name: string, value: string): void;|新增|-|
+|语言编译器运行时-URL|sort():void;|新增|-|
+|语言编译器运行时-URL|toString():string|新增|-|
+|语言编译器运行时-URL|values(): IterableIterator<string>;|新增|-|
+|语言编译器运行时-URL|URSearchParams[Symbol.iterator]()|新增|-|
+|语言编译器运行时-URL|hash: string;|新增|-|
+|语言编译器运行时-URL|host: string;|新增|-|
+|语言编译器运行时-URL|hostname: string;|新增|-|
+|语言编译器运行时-URL|href: string;|新增|-|
+|语言编译器运行时-URL|readonly origin: string;|新增|-|
+|语言编译器运行时-URL|password: string;|新增|-|
+|语言编译器运行时-URL|pathname: string;|新增|-|
+|语言编译器运行时-URL|port: string;|新增|-|
+|语言编译器运行时-URL|protocol: string;|新增|-|
+|语言编译器运行时-URL|search: string;|新增|-|
+|语言编译器运行时-URL|readonly searchParams: URLSearchParams;|新增|-|
+|语言编译器运行时-URL|username: string;|新增|-|
+|语言编译器运行时-ChildProcess|readonly pid: number;|新增|-|
+|语言编译器运行时-ChildProcess|readonly ppid: number;|新增|-|
+|语言编译器运行时-ChildProcess|readonly exitCode: number;|新增|-|
+|语言编译器运行时-ChildProcess|readonly killed: boolean;|新增|-|
+|语言编译器运行时-ChildProcess|wait(): Promise<number>;|新增|-|
+|语言编译器运行时-ChildProcess|getOutput(): Promise<Uint8Array>;|新增|-|
+|语言编译器运行时-ChildProcess|getErrorOutput(): Promise<Uint8Array>;|新增|-|
+|语言编译器运行时-ChildProcess|close(): void;|新增|-|
+|语言编译器运行时-ChildProcess|kill(signal: number): void;|新增|-|
+|语言编译器运行时-process|runCmd(command: string,options?: { timeout : number, killSignal : number / string, maxBuffer : number }): ChildProcess;|新增|-|
+|语言编译器运行时-process|getPid(): number;|新增|-|
+|语言编译器运行时-process|getPpid(): number;|新增|-|
+|语言编译器运行时-process|abort(): void;|新增|-|
+|语言编译器运行时-process|on(type: string, listener: EventListener): void;|新增|-|
+|语言编译器运行时-process|exit(code?:number): void;|新增|-|
+|语言编译器运行时-process|cwd(): string;|新增|-|
+|语言编译器运行时-process|chdir(dir: string): void;|新增|-|
+|语言编译器运行时-process|getEgid(): number;|新增|-|
+|语言编译器运行时-process|getEuid(): number;|新增|-|
+|语言编译器运行时-process|getGid(): number|新增|-|
+|语言编译器运行时-process|getUid(): number;|新增|-|
+|语言编译器运行时-process|uptime(): number;|新增|-|
+|语言编译器运行时-process|getGroups(): number[];|新增|-|
+|语言编译器运行时-process|kill(signal?: number, pid?: number): boolean;|新增|-|
 
 
