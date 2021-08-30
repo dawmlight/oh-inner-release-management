@@ -13,7 +13,7 @@
 | hispark_aries版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210826_140548/version-Master_Version-OpenHarmony_3.0.0.6-20210826_140548-hispark_aries.tar.gz|
 | **L2转测试时间：2021-08-28**                                   |
  **L2转测试版本获取路径：**                                   |
-| hi3516dv300-L2版本：<br>|
+| hi3516dv300-L2版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210825_154426/version-Master_Version-OpenHarmony_3.0.0.6-20210825_154426-L2_hi3516dv300.tar.gz|
 |         |
 
 ## OpenHarmony 3.0.0.6版本特性清单：
