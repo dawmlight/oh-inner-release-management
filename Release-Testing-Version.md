@@ -3,8 +3,8 @@
 | ------------------------------------------------------------ |
 | **版本用途：**OpenHarmony码云master迭代二第五轮测试，验收:|
 |L0L1:本次转测试涉及应用程序框架和安全动态弹窗需求验收                                                |
-|L2: 升级、用户程序框架等子系统特性     |
-| **API变更：**：本次转测特性不涉及API变更，具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
+|L2: Demo&应用、分布式任务调度、分布式数据管理、语言编译器运行时、驱动、事件通知等子系统特性    |
+| **API变更：**：本次转测特性L2的语言编译器运行时涉及API变更，具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
 | **L0L1转测试时间：2021-08-28**                                   |
 | **L0L1转测试版本获取路径：**                                   |
 | hispark_taurus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210826_140808/version-Master_Version-OpenHarmony_3.0.0.6-20210826_140808-hispark_taurus.tar.gz |
@@ -25,6 +25,14 @@ L1需求列表:
 | 2    | [I3NTAZ](https://gitee.com/openharmony/security_huks/issues/I3NTAZ) | 【安全】轻量级实现弹窗授权动态授权机制                       | developing | SIG_Security         | [@scuteehuangjun](https://gitee.com/scuteehuangjun) |
 
 L2需求列表:
+L2 issue列表：
+| ISSUE                                                        | 问题描述                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+|[I44BYM](https://gitee.com/open_harmony/dashboard?issue_id=I44BYM)|【2.2 Beta2】【软总线】L2与手机已组网，开关L2网络后无法再发现手机|
+|[I46C6R](https://gitee.com/open_harmony/dashboard?issue_id=I46C6R)|【2.2 Beta2】【软总线】【发现】手机默认状态无法被L2发现，需要在超级终端中修改设置|
+|[I45GRF](https://gitee.com/open_harmony/dashboard?issue_id=I45GRF)|【2.2 Beta2】【软总线】存在未close的session，remove session server无close回调，与上个版本不一致 |
+|[I4311S](https://gitee.com/open_harmony/dashboard?issue_id=I4311S)|【2.2 Beta2】【软总线】发送数据成功后，close session必现无回调|
+|[I46C6R](https://gitee.com/open_harmony/dashboard?issue_id=I46C6R)|【2.2 Beta2】【软总线】【发现】手机默认状态无法被L2发现，需要在超级终端中修改设置|
 
 ## OpenHarmony 3.0 Beta1版本转测试信息：
 | **转测试版本号：OpenHarmony 3.0 Beta1                 |
