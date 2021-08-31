@@ -1,64 +1,28 @@
 ## OpenHarmony 3.0.0.6版本转测试信息：
 | **转测试版本号：OpenHarmony 3.0.0.6                |
 | ------------------------------------------------------------ |
-| **版本用途：**OpenHarmony码云master迭代二第五轮测试，验收:|
-|L0L1:本次转测试涉及应用程序框架和安全动态弹窗需求验收                                                |
-|L2: Demo&应用、分布式任务调度、分布式数据管理、语言编译器运行时、驱动、事件通知等子系统特性    |
-| **API变更：**：本次转测特性L2的语言编译器运行时涉及API变更，具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
+| **版本用途：**OpenHarmony码云master迭代三Beta1测试，验收:|
+|L0L1:软总线                                                |
+|L2: 升级、用户程序框架等子系统特性     |
+| **API变更：**：本次转测特性不涉及API变更，具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
 | **L0L1转测试时间：2021-08-28**                                   |
 | **L0L1转测试版本获取路径：**                                   |
-| hispark_taurus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210826_140808/version-Master_Version-OpenHarmony_3.0.0.6-20210826_140808-hispark_taurus.tar.gz |
-| hispark_taurus_linux版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210826_140527/version-Master_Version-OpenHarmony_3.0.0.6-20210826_140527-hispark_taurus_linux.tar.gz |
-| hispark_pegasus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210826_140428/version-Master_Version-OpenHarmony_3.0.0.6-20210826_140428-hispark_pegasus.tar.gz  |
-| hispark_aries版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210826_140548/version-Master_Version-OpenHarmony_3.0.0.6-20210826_140548-hispark_aries.tar.gz|
+| hispark_taurus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210831_085054/version-Master_Version-OpenHarmony_3.0.0.6-20210831_085054-hispark_taurus.tar.gz   |
+| hispark_taurus_linux版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210831_084738/version-Master_Version-OpenHarmony_3.0.0.6-20210831_084738-hispark_taurus_linux.tar.gz  |
+| hispark_pegasus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210831_084848/version-Master_Version-OpenHarmony_3.0.0.6-20210831_084848-hispark_pegasus.tar.gz   |
+| hispark_aries版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210831_085010/version-Master_Version-OpenHarmony_3.0.0.6-20210831_085010-hispark_aries.tar.gz  |
 | **L2转测试时间：2021-08-28**                                   |
  **L2转测试版本获取路径：**                                   |
-| hi3516dv300-L2版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210825_154426/version-Master_Version-OpenHarmony_3.0.0.6-20210825_154426-L2_hi3516dv300.tar.gz|
+| hi3516dv300-L2版本：<br>|
 |         |
 
-## OpenHarmony 3.0.0.6版本特性清单：
-L1需求列表:
-状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
+## OpenHarmony 3.0 Beta1版本特性清单：
+L1需求列表
+
 | no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
 | :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
-| 1    | [I3NN1Z](https://gitee.com/openharmony/aafwk_aafwk_lite/issues/I3NN1Z) | 【应用程序框架】轻量级实现弹窗授权动态授权机制               | developing | SIG_AppFramework     | [@autumn](https://gitee.com/autumn330)              |
-| 2    | [I3NTAZ](https://gitee.com/openharmony/security_huks/issues/I3NTAZ) | 【安全】轻量级实现弹窗授权动态授权机制                       | developing | SIG_Security         | [@scuteehuangjun](https://gitee.com/scuteehuangjun) |
+|1|[I3NIOF](https://gitee.com/openharmony/communication_dsoftbus/issues/I3NIOF)|【传输】传输SDK|developing|SIG_SoftBus|[@jiangkuaixue](https://gitee.com/jiangkuaixue)|
 
-L2需求列表:
-| no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
-| :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
-|1|[I45ZKP](https://gitee.com/open_harmony/dashboard?issue_id=I45ZKP)|RQ-[Demo&应用子系统][JSUI][画布组件] JsCanvas|Testing|SIG_SystemApplication|[@gaohui100](https://gitee.com/gaohui100)|
-|2|[I466KX](https://gitee.com/open_harmony/dashboard?issue_id=I466KX)|RQ-[Demo&应用子系统][JSUI]【OpenHarmony】 栅格布局|Testing|SIG_SystemApplication|[@adslk](https://gitee.com/adslk)|
-|3|[I45YM2](https://gitee.com/open_harmony/dashboard?issue_id=I45YM2)|RQ-[Demo&应用子系统][JS UI]【OpenHarmony】JS自定义组件（JSUICustomComponent）|Testing|SIG_SystemApplication|[@guojin26](https://gitee.com/guojin26)|
-|4|[I44Y4J](https://gitee.com/open_harmony/dashboard?issue_id=I44Y4J)|RQ-[Demo&应用子系统][JS UI]【HarmonyOS】自适应卡片（AdaptiveServiceWidget）|Testing|SIG_SystemApplication|[@caopan_com](https://gitee.com/caopan_com)|
-|5|[I44Y0N](https://gitee.com/open_harmony/dashboard?issue_id=I44Y0N)|RQ-[Demo&应用子系统][JS UI]【HarmonyOS】自适应页面（AdaptivePortalPage）|Testing|SIG_SystemApplication|[@wangli325](https://gitee.com/wangli325)|
-|6|[I44Y15](https://gitee.com/open_harmony/dashboard?issue_id=I44Y15)|RQ-[Demo&应用子系统][JS UI]【HarmonyOS】自适应效率型首页（AdaptivePortalList）|Testing|SIG_SystemApplication|[@wangli325](https://gitee.com/wangli325)|
-|7|[I46ZCN](https://gitee.com/open_harmony/dashboard?issue_id=I46ZCN)|RQ-[Demo&应用子系统][JAVA UI]【HarmonyOS】添加NativeLayer示例|Testing|SIG_SystemApplication|[@guojin26](https://gitee.com/guojin26)|
-|8|[I3ZVTJ](https://gitee.com/open_harmony/dashboard?issue_id=I3ZVTJ)|【分布式任务调度子系统】接收远端拉起FA请求，跨设备拉起远端FA|Testing|SIG_DataManagement|[@zjucx](https://gitee.com/zjucx)|
-|9|[I3ZVTT](https://gitee.com/open_harmony/dashboard?issue_id=I3ZVTT)|【分布式任务调度子系统】鸿蒙单框架L2分布式能力建设-SAMGR模块构建|Testing|SIG_DataManagement|[@zjucx](https://gitee.com/zjucx)|
-|10|[I3ZMY9](https://gitee.com/open_harmony/dashboard?issue_id=I3ZMY9)|【分布式数据管理子系统】【本地数据库】 XTS测试用例|Testing|SIG_DataManagement|[@widecode](https://gitee.com/widecode)|
-|11|[I41H55](https://gitee.com/open_harmony/dashboard?issue_id=I41H55)|【驱动子系统】基于HDF驱动框架提供I2S/PCM平台总线驱动|Testing|SIG_DistributedHardwareManagement|[@zianed](https://gitee.com/zianed)|
-|12|[I41HBF](https://gitee.com/open_harmony/dashboard?issue_id=I41HBF)|【驱动子系统】基于HDF驱动框架提供Display驱动模型兼容DRM显示框架|Testing|SIG_DistributedHardwareManagement|[@zianed](https://gitee.com/zianed)|
-|13|[I46J19](https://gitee.com/open_harmony/dashboard?issue_id=I46J19)|add jsapi in compileruntime|Testing|SIG_CompileRuntime|[@xliu-huanwei](https://gitee.com/xliu-huanwei)|
-|14|[I46N37](https://gitee.com/open_harmony/dashboard?issue_id=I46N37)|升级quickjs使用worker|Testing|SIG_CompileRuntime|[@wpyhuawei](https://gitee.com/wpyhuawei)|
-|15|[I40PBC](https://gitee.com/open_harmony/dashboard?issue_id=I40PBC)|应用侧发布本地分组的普通通知|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
-|16|[I40PBF](https://gitee.com/open_harmony/dashboard?issue_id=I40PBF)|在免打扰模式下发布通知|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
-|17|[I40PBG](https://gitee.com/open_harmony/dashboard?issue_id=I40PBG)|发布开启一个无页面的Ability的wantAgent|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
-|18|[I40PBH](https://gitee.com/open_harmony/dashboard?issue_id=I40PBH)|取消WantAgent的实例|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
-|19|[I40PBI](https://gitee.com/open_harmony/dashboard?issue_id=I40PBI)|发布公共事件的WantAgent通知|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
-|20|[I40PBM](https://gitee.com/open_harmony/dashboard?issue_id=I40PBM)|应用侧取消本地通知|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
-|21|[I40PBN](https://gitee.com/open_harmony/dashboard?issue_id=I40PBN)|应用侧发布声音通知|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
-|22|[I40PBO](https://gitee.com/open_harmony/dashboard?issue_id=I40PBO)|应用侧发布振动通知|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
-|23|[I40PBP](https://gitee.com/open_harmony/dashboard?issue_id=I40PBP)|应用侧发布本地有输入框的通知（NotificationUserInput）|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
-
-L2 issue列表：
-| ISSUE                                                        | 问题描述                                                     |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-|[I44BYM](https://gitee.com/open_harmony/dashboard?issue_id=I44BYM)|【2.2 Beta2】【软总线】L2与手机已组网，开关L2网络后无法再发现手机|
-|[I46C6R](https://gitee.com/open_harmony/dashboard?issue_id=I46C6R)|【2.2 Beta2】【软总线】【发现】手机默认状态无法被L2发现，需要在超级终端中修改设置|
-|[I45GRF](https://gitee.com/open_harmony/dashboard?issue_id=I45GRF)|【2.2 Beta2】【软总线】存在未close的session，remove session server无close回调，与上个版本不一致 |
-|[I4311S](https://gitee.com/open_harmony/dashboard?issue_id=I4311S)|【2.2 Beta2】【软总线】发送数据成功后，close session必现无回调|
-|[I46C6R](https://gitee.com/open_harmony/dashboard?issue_id=I46C6R)|【2.2 Beta2】【软总线】【发现】手机默认状态无法被L2发现，需要在超级终端中修改设置|
 
 ## OpenHarmony 3.0 Beta1版本转测试信息：
 | **转测试版本号：OpenHarmony 3.0 Beta1                 |
