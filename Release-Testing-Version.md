@@ -5,7 +5,7 @@
 |L0L1:软总线                                                |
 |L2: Demo&应用、分布式任务调度、分布式数据管理、语言编译器运行时、驱动、事件通知等子系统特性     |
 | **API变更：**：本次转测特性L2的语言编译器运行时涉及API变更，具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
-| **L0L1转测试时间：2021-08-28**                                   |
+| **L0L1转测试时间：2021-08-31**                                   |
 | **L0L1转测试版本获取路径：**                                   |
 | hispark_taurus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210831_085054/version-Master_Version-OpenHarmony_3.0.0.6-20210831_085054-hispark_taurus.tar.gz   |
 | hispark_taurus_linux版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210831_084738/version-Master_Version-OpenHarmony_3.0.0.6-20210831_084738-hispark_taurus_linux.tar.gz  |
