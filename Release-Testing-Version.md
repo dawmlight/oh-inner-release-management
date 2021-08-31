@@ -13,8 +13,31 @@
 | hispark_aries版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210831_085010/version-Master_Version-OpenHarmony_3.0.0.6-20210831_085010-hispark_aries.tar.gz  |
 | **L2转测试时间：2021-08-31**                                   |
  **L2转测试版本获取路径：**                                   |
-| hi3516dv300-L2版本：<br>|
+| hi3516dv300-L2版本：<br>|http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210825_154426/version-Master_Version-OpenHarmony_3.0.0.6-20210825_154426-L2_hi3516dv300.tar.gz|
 |         |
+
+L1需求列表:
+状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
+| no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
+| :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
+| 1    | [I3NN1Z](https://gitee.com/openharmony/aafwk_aafwk_lite/issues/I3NN1Z) | 【应用程序框架】轻量级实现弹窗授权动态授权机制               | developing | SIG_AppFramework     | [@autumn](https://gitee.com/autumn330)              |
+| 2    | [I3NTAZ](https://gitee.com/openharmony/security_huks/issues/I3NTAZ) | 【安全】轻量级实现弹窗授权动态授权机制                       | developing | SIG_Security         | [@scuteehuangjun](https://gitee.com/scuteehuangjun) |
+
+L2需求列表:
+| no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
+| :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
+|1|[I45ZKP](https://gitee.com/open_harmony/dashboard?issue_id=I45ZKP)|RQ-[Demo&应用子系统][JSUI][画布组件] JsCanvas|Testing|SIG_SystemApplication|[@gaohui100](https://gitee.com/gaohui100)|
+|2|[I466KX](https://gitee.com/open_harmony/dashboard?issue_id=I466KX)|RQ-[Demo&应用子系统][JSUI]【OpenHarmony】 栅格布局|Testing|SIG_SystemApplication|[@adslk](https://gitee.com/adslk)|
+|3|[I45YM2](https://gitee.com/open_harmony/dashboard?issue_id=I45YM2)|RQ-[Demo&应用子系统][JS UI]【OpenHarmony】JS自定义组件（JSUICustomComponent）|Testing|SIG_SystemApplication|[@guojin26](https://gitee.com/guojin26)|
+|4|[I44Y4J](https://gitee.com/open_harmony/dashboard?issue_id=I44Y4J)|RQ-[Demo&应用子系统][JS UI]【HarmonyOS】自适应卡片（AdaptiveServiceWidget）|Testing|SIG_SystemApplication|[@caopan_com](https://gitee.com/caopan_com)|
+|5|[I44Y0N](https://gitee.com/open_harmony/dashboard?issue_id=I44Y0N)|RQ-[Demo&应用子系统][JS UI]【HarmonyOS】自适应页面（AdaptivePortalPage）|Testing|SIG_SystemApplication|[@wangli325](https://gitee.com/wangli325)|
+|6|[I44Y15](https://gitee.com/open_harmony/dashboard?issue_id=I44Y15)|RQ-[Demo&应用子系统][JS UI]【HarmonyOS】自适应效率型首页（AdaptivePortalList）|Testing|SIG_SystemApplication|[@wangli325](https://gitee.com/wangli325)|
+|7|[I46ZCN](https://gitee.com/open_harmony/dashboard?issue_id=I46ZCN)|RQ-[Demo&应用子系统][JAVA UI]【HarmonyOS】添加NativeLayer示例|Testing|SIG_SystemApplication|[@guojin26](https://gitee.com/guojin26)|
+|8|[I3ZVTJ](https://gitee.com/open_harmony/dashboard?issue_id=I3ZVTJ)|【分布式任务调度子系统】接收远端拉起FA请求，跨设备拉起远端FA|Testing|SIG_DataManagement|[@zjucx](https://gitee.com/zjucx)|
+|9|[I3ZVTT](https://gitee.com/open_harmony/dashboard?issue_id=I3ZVTT)|【分布式任务调度子系统】鸿蒙单框架L2分布式能力建设-SAMGR模块构建|Testing|SIG_DataManagement|[@zjucx](https://gitee.com/zjucx)|
+|10|[I3ZMY9](https://gitee.com/open_harmony/dashboard?issue_id=I3ZMY9)|【分布式数据管理子系统】【本地数据库】 XTS测试用例|Testing|SIG_DataManagement|[@widecode](https://gitee.com/widecode)|
+
+
 
 ## OpenHarmony 3.0 Beta1版本特性清单：
 L1需求列表
