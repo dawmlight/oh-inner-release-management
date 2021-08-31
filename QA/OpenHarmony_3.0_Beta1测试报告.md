@@ -61,7 +61,7 @@ XXX子系统：特性质量良好
 
 | 序号 | 特性名称    | 特性质量评估                             | 备注 |
 | ---- | ----------- | ---------------------------------------- | ---- |
-| *1*  | *XXX子系统* | *没有新增特性，XX测试通过，基本功能可用* |      |
+| 1  | 驱动子系统 | 没有新增特性，camera驱动功能不可用（预览白屏、xts失败），其他audio、usb等基本功能可用 |  安全扫描和用例失败问题参考issue    |
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
@@ -129,4 +129,6 @@ XXX子系统：特性质量良好
 
 # 5   问题单统计
 
-不涉及 NA
+https://gitee.com/openharmony/drivers_peripheral/issues/I43339 【OpenHarmony 2.2 Beta2】【驱动子系统】L2单板camera DFx测试用例失败
+https://gitee.com/openharmony/drivers_peripheral/issues/I47DE6 【OpenHarmony 3.0 Beta1】【驱动子系统】不安全函数和安全编译选项
+https://gitee.com/openharmony/drivers_peripheral/issues/I46HH7 【OpenHarmony 3.0.0.3】【驱动子系统】L2单板wifi测试用例失败
