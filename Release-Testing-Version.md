@@ -11,7 +11,7 @@
 | hispark_taurus_linux版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210831_084738/version-Master_Version-OpenHarmony_3.0.0.6-20210831_084738-hispark_taurus_linux.tar.gz  |
 | hispark_pegasus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210831_084848/version-Master_Version-OpenHarmony_3.0.0.6-20210831_084848-hispark_pegasus.tar.gz   |
 | hispark_aries版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210831_085010/version-Master_Version-OpenHarmony_3.0.0.6-20210831_085010-hispark_aries.tar.gz  |
-| **L2转测试时间：2021-08-28**                                   |
+| **L2转测试时间：2021-08-31**                                   |
  **L2转测试版本获取路径：**                                   |
 | hi3516dv300-L2版本：<br>|
 |         |
