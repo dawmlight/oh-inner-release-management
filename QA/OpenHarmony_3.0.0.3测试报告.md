@@ -61,6 +61,7 @@
 | 序号 | 特性名称    | 特性质量评估                             | 备注 |
 | ---- | ----------- | ---------------------------------------- | ---- |
 |  1  |  用户程序框架子系统  |  没有新增特性，ACTS测试通过，基本功能可用，稳定性进行开关机验证、ACTS反复压力测试，无功能问题  |      |
+|  2  |  DFX子系统  |全量自动化用例测试，无问题，反复开关机压力测试，无问题、特性XTS压测，测试不通过| 运行hilog压力测试，多次出现hilogd进程的cppcrash异常,https://e.gitee.com/open_harmony/dashboard?issue=I469W0  执行hilog落盘之后hilog命令执行失败,https://e.gitee.com/open_harmony/dashboard?issue=I45AVP    |
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
@@ -97,13 +98,30 @@
 
 ## 4.4   稳定性专项测试结论
 
-*a）执行反复开关机压力测试，运行5000次，无不开机问题；*
+*a）执行单模块应用界面随机压力测试，无卡死、Crash问题；*
+当前由于无界面随机压测工具，该测试项暂时无法评估
+
+*b）执行整机应用界面随机压力测试，无卡死、Crash问题；*
+当前由于无界面随机压测工具，该测试项暂时无法评估
+
+*c）执行反复开关机压力测试，运行50000次，无不开机问题；*
+反复执行开关机压力测试，未达到质量要求，最多一次执行到72次就出现异常，主要有以下几个问题
 
 | 测试分类 | 测试评估项 | 质量目标 | 是否满足 | 测试结果及关键遗留问题/风险 | 备注issue |
 | -------- | ---------- | -------- | -------- | --------------------------- | --------- |
+| 稳定性测试 |反复开关机测试 |运行50000次，无不开机问题 |否 |反复开关机压测过程中distributeddata服务出现cppcrash异常|https://e.gitee.com/open_harmony/dashboard?issue=I46AGA|
+| 稳定性测试 |反复开关机测试 |运行50000次，无不开机问题 |否 |反复执行开关机压测，测试过程中多次上报bootanimation的cppcrash故障|https://e.gitee.com/open_harmony/dashboard?issue=I46CGB|
+| 稳定性测试 |反复开关机测试 |运行50000次，无不开机问题 |否 |反复执行开关机压测，测试到第57次的时候，hdc无法连接|https://e.gitee.com/open_harmony/dashboard?issue=I46AIF|
 |          |            |          |          |                             |           |
-|          |            |          |          |                             |           |
+*d）执行整机XTS MTBF压力测试，无卡死、Crash问题；*
+反复执行开机XTS MTBF压力测试，主要有以下几个问题
 
+| 测试分类 | 测试评估项 | 质量目标 | 是否满足 | 测试结果及关键遗留问题/风险 | 备注issue |
+| -------- | ---------- | -------- | -------- | --------------------------- | --------- |
+|稳定性测试|整机XTS MTBF压力测试|无卡死、Crash问题|否 |XTS压测过程中libace.z.so异常导致ohos.samples.flashlight出现cppcrash异常|https://e.gitee.com/open_harmony/dashboard?issue=I46A6H|
+|稳定性测试|整机XTS MTBF压力测试|无卡死、Crash问题|否 |XTS压测过程中camera_service出现cppcrash异常|https://e.gitee.com/open_harmony/dashboard?issue=I46A3W|
+|稳定性测试|整机XTS MTBF压力测试|无卡死、Crash问题|否 |运行hilog压力测试，多次出现hilogd进程的cppcrash异常|https://e.gitee.com/open_harmony/dashboard?issue=I469W0|
+|稳定性测试|整机XTS MTBF压力测试|无卡死、Crash问题|否 |执行hilog落盘之后hilog命令执行失败|https://e.gitee.com/open_harmony/dashboard?issue=I45AVP|
 ## 4.5   性能专项测试结论
 
 *以表格形式汇总各专项测试执行情况及遗留问题情况的评估，给出专项质量评估结论*
