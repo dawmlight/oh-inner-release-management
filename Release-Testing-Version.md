@@ -36,7 +36,7 @@ L2需求列表:
 |8|[I3ZVTJ](https://gitee.com/open_harmony/dashboard?issue_id=I3ZVTJ)|【分布式任务调度子系统】接收远端拉起FA请求，跨设备拉起远端FA|Testing|SIG_DataManagement|[@zjucx](https://gitee.com/zjucx)|
 |9|[I3ZVTT](https://gitee.com/open_harmony/dashboard?issue_id=I3ZVTT)|【分布式任务调度子系统】鸿蒙单框架L2分布式能力建设-SAMGR模块构建|Testing|SIG_DataManagement|[@zjucx](https://gitee.com/zjucx)|
 |10|[I3ZMY9](https://gitee.com/open_harmony/dashboard?issue_id=I3ZMY9)|【分布式数据管理子系统】【本地数据库】 XTS测试用例|Testing|SIG_DataManagement|[@widecode](https://gitee.com/widecode)|
-
+|11|[I41H55](https://gitee.com/open_harmony/dashboard?issue_id=I41H55)|【驱动子系统】基于HDF驱动框架提供I2S/PCM平台总线驱动|Testing|SIG_DistributedHardwareManagement|[@zianed](https://gitee.com/zianed)|
 
 
 ## OpenHarmony 3.0 Beta1版本特性清单：
