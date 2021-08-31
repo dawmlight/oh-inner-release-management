@@ -14,7 +14,6 @@
 | **L2转测试时间：2021-08-31**                                   |
  **L2转测试版本获取路径：**                                   |
 | hi3516dv300-L2版本：<br>|http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.6/20210825_154426/version-Master_Version-OpenHarmony_3.0.0.6-20210825_154426-L2_hi3516dv300.tar.gz|
-|         |
 
 L1需求列表:
 状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
