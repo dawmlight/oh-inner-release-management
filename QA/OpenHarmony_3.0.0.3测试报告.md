@@ -63,6 +63,7 @@
 |  1  |  用户程序框架子系统  |  没有新增特性，ACTS测试通过，基本功能可用，稳定性进行开关机验证、ACTS反复压力测试，无功能问题  |      |
 |  2  |  DFX子系统  |全量自动化用例测试，无问题，反复开关机压力测试，无问题、特性XTS压测，测试不通过| 运行hilog压力测试，多次出现hilogd进程的cppcrash异常,https://e.gitee.com/open_harmony/dashboard?issue=I469W0  执行hilog落盘之后hilog命令执行失败,https://e.gitee.com/open_harmony/dashboard?issue=I45AVP    |
 |  3  |  驱动子系统  |  新增特性，测试通过，基本功能可用  |      |
+|  4  |  分布式调度子系统  |  没有新增特性，轻设备拉起富设备FA，轻富设备免安装，appID校验等基本功能正常  |      |
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
