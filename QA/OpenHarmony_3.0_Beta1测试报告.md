@@ -69,6 +69,7 @@ XXX子系统：特性质量良好
 | 序号 | 特性名称    | 特性质量评估                             | 备注 |
 | ---- | ----------- | ---------------------------------------- | ---- |
 | 2  | 分布式任务调度子系统 | 没有新增特性，轻设备拉起富设备FA，轻拉富免安装等基本功能可用 |  安全扫描和用例失败问题参考issue    |
+| 3 | 内核子系统 | 没有新增特性，基本功能可用 |  |
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
@@ -98,7 +99,7 @@ XXX子系统：特性质量良好
 
 遗留问题列表如下：
 | 标题 | 问题类型 | 归属子系统 | 状态属性 | URL |
-| ---- | -------- | ---------- | -------- | --- | 
+| ---- | -------- | ---------- | -------- | --- |
 |Softbus_server在执行socketfuzz时，出现crash	|安全|	软总线|开启的|	https://gitee.com/openharmony/communication_dsoftbus/issues/I480Z1?from=project-issue|
 |【openHarmony】【3.0 Beta1】【轻内核子系统】集成测试 在执行ActsIpcShmTest.bin脚本，出现大量未释放的共享内存。|	安全	|内核子系统	|开启的|	https://gitee.com/openharmony/kernel_liteos_a/issues/I47X2Z?from=project-issue|
 |【3.0 beta1】【软总线-传输】session id范围校验不严谨（有效范围1-16，校验时判断的是>17）	|安全	|软总线	|开启的	|https://gitee.com/openharmony/communication_dsoftbus/issues/I47WTY?from=project-issue|
@@ -145,3 +146,16 @@ XXX子系统：特性质量良好
 https://gitee.com/openharmony/drivers_peripheral/issues/I43339 【OpenHarmony 2.2 Beta2】【驱动子系统】L2单板camera DFx测试用例失败
 https://gitee.com/openharmony/drivers_peripheral/issues/I47DE6 【OpenHarmony 3.0 Beta1】【驱动子系统】不安全函数和安全编译选项
 https://gitee.com/openharmony/drivers_peripheral/issues/I46HH7 【OpenHarmony 3.0.0.3】【驱动子系统】L2单板wifi测试用例失败
+
+[【openHarmony】【3.0 Beta1】【轻内核子系统】集成测试 在执行ActsIpcShmTest.bin脚本，出现大量未释放的共享内存](https://gitee.com/openharmony/kernel_liteos_a/issues/I47X2Z)
+
+[【WIP】【OpenHarmony】【3.0.0.2】【轻内核子系统】集成测试toybox需提供用户手册，手册中需要将各命令的限制详细说明，以便更好的指导... ](https://gitee.com/openharmony/third_party_toybox/issues/I44YLY)
+
+[【openHarmony】【轻内核子系统】集成测试开发板移植指导中需增加线程不足的确认方法和配置线程个数的方法 ](https://gitee.com/openharmony/kernel_liteos_m/issues/I42LCU)
+
+[【OpenHarmony】【20210414】【轻内核子系统】集成测试不支持功能需要在.h中说明](https://gitee.com/openharmony/kernel_liteos_m/issues/I3IPD7)
+
+[【OpenHarmony】【20210726】【轻内核子系统】集成测试直接执行cat后无法退出，需要重启设备恢复](https://gitee.com/openharmony/third_party_mksh/issues/I42N33)
+
+[【OpenHarmony】【20210419】【轻内核子系统】集成测试发送两个不同的信号，sigwait第二次等到的仍是第一个信号](https://gitee.com/openharmony/kernel_liteos_a/issues/I3M12H)
+
