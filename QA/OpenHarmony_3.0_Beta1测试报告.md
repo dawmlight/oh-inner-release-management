@@ -85,16 +85,22 @@ XXX子系统：特性质量良好
 *补充兼容性测试报告*
 
 ## 4.3   安全专项测试结论
+专项测试评估结论：不通过
+1、本版本共有8个子系统有新增需求，均已完成测试，当前还有9个安全issue没有关闭。
+2、编码问题较为突出，静态告警和危险函数均未清零。
 
-*要求：无严重的隐私安全问题遗留，版本通过漏洞扫描，未解决的漏洞满足以下要求：*
-
-*a）无严重及以上公开漏洞；*
-
-*b）无已公开60天但未修复的一般（CVSS得分4及以上）安全漏洞；*
-
-*c）不存在已知CVE安全漏洞，业界未解决的已知CVE安全漏洞可例外；*
-
-*d）无法修复，且经过社区开发团队综合评估备案允许遗留的漏洞；*
+遗留问题列表如下：
+| 标题 | 问题类型 | 归属子系统 | 状态属性 | URL |
+| ---- | -------- | ---------- | -------- | --- | 
+|Softbus_server在执行socketfuzz时，出现crash	|安全|	软总线|开启的|	https://gitee.com/openharmony/communication_dsoftbus/issues/I480Z1?from=project-issue|
+|【openHarmony】【3.0 Beta1】【轻内核子系统】集成测试 在执行ActsIpcShmTest.bin脚本，出现大量未释放的共享内存。|	安全	|内核子系统	|开启的|	https://gitee.com/openharmony/kernel_liteos_a/issues/I47X2Z?from=project-issue|
+|【3.0 beta1】【软总线-传输】session id范围校验不严谨（有效范围1-16，校验时判断的是>17）	|安全	|软总线	|开启的	|https://gitee.com/openharmony/communication_dsoftbus/issues/I47WTY?from=project-issue|
+|【OpenHarmony 3.0 Beta1】权限校验没有生效，使用测试 bin 直接调用无权限 hap，期望查询失败返回 0，结果查询成功	|安全|	用户程序框架子系统	|进行中	|https://gitee.com/openharmony/appexecfwk_appexecfwk_lite/issues/I47ETO?from=project-issue|
+|【OpenHarmony 3.0 Beta1】【驱动子系统】不安全函数和安全编译选项	|安全|	驱动子系统	|待办的	|https://gitee.com/openharmony/drivers_peripheral/issues/I47DE6?from=project-issue|
+|【OpenHarmony 3.0 Beta1】安全SecBinaryCheck扫描：libappexecfwk_base.z.so与libeventhandler_native.z.so存在stack-protector疑似告警，需要解决	|安全	|用户程序框架子系统|	进行中	|https://gitee.com/openharmony/appexecfwk_standard/issues/I479YY?from=project-issue|
+|BUG-[轻鸿蒙多媒体子系统][相机] [音频][视频]代码安全编码规范	|安全	|多媒体子系统|	进行中	|https://gitee.com/openharmony/multimedia_media_lite/issues/I46I6K?from=project-issue|
+|L0 内核模块编译添加-Werror编译选项	|安全|	内核子系统	|修复中	|https://gitee.com/openharmony/kernel_liteos_m/issues/I46E6S?from=project-issue|
+|【2.2 Beta2】【软总线】断本端网络，组网未成功（无法获取node），但是却成功opensession发送数据|	安全	|软总线|	修复中	|https://gitee.com/openharmony/communication_dsoftbus/issues/I439J1?from=project-issue|
 
 ## 4.4   稳定性专项测试结论
 
