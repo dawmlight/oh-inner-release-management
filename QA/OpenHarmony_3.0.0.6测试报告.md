@@ -65,6 +65,7 @@ XXX子系统：特性质量良好
 | 2   | DFX子系统 | 新增faultlogger功能，覆盖对应的功能、稳定性压测，性能和安全不涉及，功能正常，无异常，其余继承功能覆盖自动化和稳定性压测，hilog压测之后hilogd进程异常重启，且hilog命令无法执行 |  https://gitee.com/openharmony/hiviewdfx_hilog/issues/I48IM7?from=project-issue    |
 |  3  | 全球化子系统 | 无新增特性，测试用例执行通过，特性质量良好 | |
 |  4  | 驱动子系统 | 新增特性，测试用例执行通过。camera、wifi、display特性不稳定 | |
+|  5  | 多媒体子系统 | 无新增特性，测试用例执行通过，特性质量良好 | |
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
