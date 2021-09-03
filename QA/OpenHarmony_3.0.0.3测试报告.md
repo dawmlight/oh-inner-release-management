@@ -68,6 +68,7 @@
 |  6  | 电源子系统 | 无新增特性，测试用例执行通过，特性质量良好 | |
 |  7  | 全球化子系统 | 无新增特性，测试用例执行通过，特性质量良好 | |
 | 8 | 集成测试 | 本轮主要针对Menu、工具栏、slider功能验收，基本功能正常 | |
+|  9  | 多媒体子系统 | 新增特性，测试通过，基本功能可用 | |
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
@@ -84,6 +85,12 @@
 | [I3XCB5](https://gitee.com/openharmony/appexecfwk_appexecfwk_lite/issues/I3XCB5) | 【应用程序框架】按照应用粒度的存储资源使用统计 | 特性不稳定 | https://gitee.com/openharmony/appexecfwk_appexecfwk_lite/issues/I47ETO?from=project-issue<br />https://gitee.com/openharmony/appexecfwk_appexecfwk_lite/issues/I47EPA?from=project-issue | 小型系统 |
 | [I43G6T](https://gitee.com/open_harmony/dashboard?issue_id=I43G6T) | WM Client架构演进 | 特性质量良好 |              |      |
 | [I43HMM](https://gitee.com/open_harmony/dashboard?issue_id=I43HMM) | WM Server架构演进 | 特性质量良好 |              |      |
+| I3NK7D | 【多媒体子系统】适配新南向接口      |  特性质量良好 |              |      |
+| I3NM60 | 【多媒体子系统】相机metadata管理及相机静态能力查询  |  特性质量良好 |     |      |
+| I3NM6F | 【多媒体子系统】相机设备管理        |  特性质量良好 |              |      |
+| I3NM73 | 【多媒体子系统】相机图像帧管理      |  特性质量良好 |              |      |
+| I3NM8J | 【多媒体子系统】本地mp3播放支持     |  特性质量良好 |              |      |
+| I3NMMU | 【多媒体子系统】编码视频流和音频流处理支持 | 特性质量良好 |         |      |
 |         |          |              |              |      |
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
