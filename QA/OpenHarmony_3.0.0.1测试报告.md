@@ -27,17 +27,17 @@
 
 描述测试版本信息。
 
-| 版本名称 | 测试起始时间 | 测试结束时间 |
-| -------- | ------------ | ------------ |
-|          |              |              |
+| 版本名称            | 测试起始时间 | 测试结束时间 |
+| ------------------- | ------------ | ------------ |
+| OpenHarmony 3.0.0.1 | 2021/7/28    | 2021/8/3     |
 
 描述本次测试的测试环境（包括环境软硬件版本信息，环境组网配置信息, 测试辅助工具等）。
 
-| 硬件型号 | 硬件配置信息 | 备注 |
-| -------- | ------------ | ---- |
-|          |              |      |
-|          |              |      |
-|          |              |      |
+| 硬件型号        | 硬件配置信息 | 备注                                              |
+| --------------- | ------------ | ------------------------------------------------- |
+| hispark_pegasus | Hi3861开发板 | docs/zh-cn/device-dev/quick-start/Hi3861开发板.md |
+| hispark_aries   | Hi3518开发板 | docs/zh-cn/device-dev/quick-start/Hi3518开发板.md |
+| hispark_taurus  | Hi3516开发板 | docs/zh-cn/device-dev/quick-start/Hi3516开发板.md |
 
  
 
@@ -67,6 +67,9 @@ XXX子系统：特性质量良好
 |  4  | DFX子系统 | 无新增功能，覆盖hilog、hiappevent特性的自动化用例 |      |
 |  5  | 全球化子系统 | 无新增特性，测试用例执行通过，特性质量良好 | |
 |  6  | 驱动子系统 | 新增特性，测试用例执行通过，特性质量良好 | |
+| 7 | 用户程序框架子系统 | 无新增特性，测试用例执行通过，特性质量良好 | 小型系统 |
+
+
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
@@ -77,11 +80,22 @@ XXX子系统：特性质量良好
 | lssue号 | 特性名称 | 特性质量评估 | 约束依赖说明 | 备注 |
 | ------- | -------- | ------------ | ------------ | ---- |
 |    I41H57     |  【驱动子系统】基于HDF驱动框架提供ADC平台总线驱动        |      特性质量良好        |       不涉及       |      |
-|         |          |              |              |      |
-|         |          |              |              |      |
-|         |          |              |              |      |
-|         |          |              |              |      |
-|         |          |              |              |      |
+| [I40PAV](https://gitee.com/open_harmony/dashboard?issue_id=I40PAV) | 发布开启一个有页面的Ability的WantAgent通知 | 需求未交付，版本计划错误 |              | 标准系统 |
+| [I40PAW](https://gitee.com/open_harmony/dashboard?issue_id=I40PAW) | 通知删除接口 | 需求未交付，版本计划错误 |              | 标准系统 |
+| [I40PAX](https://gitee.com/open_harmony/dashboard?issue_id=I40PAX) | 查看Active通知内容和Active通知个数的接口 | 需求未交付，版本计划错误 |              | 标准系统 |
+| [I40PAY](https://gitee.com/open_harmony/dashboard?issue_id=I40PAY) | 通知取消订阅 | 需求未交付，版本计划错误 |              | 标准系统 |
+| [40PAZ](https://gitee.com/open_harmony/dashboard?issue_id=I40PAZ) | 通知订阅 | 需求未交付，版本计划错误 |              | 标准系统 |
+| [I40PB6](https://gitee.com/open_harmony/dashboard?issue_id=I40PB6) | 应用侧增加slot | 需求未交付，版本计划错误 | | 标准系统 |
+| [I40PB7](https://gitee.com/open_harmony/dashboard?issue_id=I40PB7) | 应用侧删除slot | 需求未交付，版本计划错误 | | 标准系统 |
+| [I4014F](https://gitee.com/open_harmony/dashboard?issue_id=I4014F) | 【帐号子系统】JS API交付，开源+小程序 | 特性质量良好 | | |
+| [ I436VH](https://gitee.com/open_harmony/dashboard?issue_id=I436VH) | 创建串行任务分发器，使用串行任务分发器执行任务 | 需求未交付，版本计划错误 | | 标准系统 |
+| [I436VI](https://gitee.com/open_harmony/dashboard?issue_id=I436VI) | 创建全局并发任务分发器，使用全局并发任务分发器执行任务 | 需求未交付，版本计划错误 | | 标准系统 |
+| [I436VK](https://gitee.com/open_harmony/dashboard?issue_id=I436VK) | 创建并发任务分发器，使用并发任务分发器执行任务 | 需求未交付，版本计划错误 | | 标准系统 |
+| [I436VL](https://gitee.com/open_harmony/dashboard?issue_id=I436VL) | ces部件化改造 | 需求未交付，版本计划错误 | | 标准系统 |
+| [I436VM](https://gitee.com/open_harmony/dashboard?issue_id=I436VM) | ans部件化改造 | 需求未交付，版本计划错误 | | 标准系统 |
+| [I436VX](https://gitee.com/open_harmony/dashboard?issue_id=I436VX) | 提供分布式的回调Native接口 | 需求未交付，版本计划错误 | | 标准系统 |
+| [I436N0](https://gitee.com/open_harmony/dashboard?issue_id=I436N0) | 支持应用包信息分布式存储能力 | 需求未交付，版本计划错误 | | 标准系统 |
+|  |  | | | |
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
