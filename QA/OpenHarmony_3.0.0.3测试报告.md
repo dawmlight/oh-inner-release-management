@@ -27,17 +27,17 @@
 
 描述测试版本信息。
 
-| 版本名称 | 测试起始时间 | 测试结束时间 |
-| -------- | ------------ | ------------ |
-|          |              |              |
+| 版本名称            | 测试起始时间 | 测试结束时间 |
+| ------------------- | ------------ | ------------ |
+| OpenHarmony 3.0.0.3 | 2021/8/11    | 2021/8/17    |
 
 描述本次测试的测试环境（包括环境软硬件版本信息，环境组网配置信息, 测试辅助工具等）。
 
-| 硬件型号 | 硬件配置信息 | 备注 |
-| -------- | ------------ | ---- |
-|          |              |      |
-|          |              |      |
-|          |              |      |
+| 硬件型号        | 硬件配置信息 | 备注                                              |
+| --------------- | ------------ | ------------------------------------------------- |
+| hispark_pegasus | Hi3861开发板 | docs/zh-cn/device-dev/quick-start/Hi3861开发板.md |
+| hispark_aries   | Hi3518开发板 | docs/zh-cn/device-dev/quick-start/Hi3518开发板.md |
+| hispark_taurus  | Hi3516开发板 | docs/zh-cn/device-dev/quick-start/Hi3516开发板.md |
 
  
 
@@ -60,7 +60,7 @@
 
 | 序号 | 特性名称    | 特性质量评估                             | 备注 |
 | ---- | ----------- | ---------------------------------------- | ---- |
-|  1  |  用户程序框架子系统  |  没有新增特性，ACTS测试通过，基本功能可用，稳定性进行开关机验证、ACTS反复压力测试，无功能问题  |      |
+|  1  |  用户程序框架子系统  |  ACTS测试通过，基本功能可用，稳定性进行开关机验证、ACTS反复压力测试，无功能问题  | 小型系统 |
 |  2  |  DFX子系统  |全量自动化用例测试，无问题，反复开关机压力测试，无问题、特性XTS压测，测试不通过| 运行hilog压力测试，多次出现hilogd进程的cppcrash异常,https://e.gitee.com/open_harmony/dashboard?issue=I469W0  执行hilog落盘之后hilog命令执行失败,https://e.gitee.com/open_harmony/dashboard?issue=I45AVP    |
 |  3  |  驱动子系统  |  新增特性，测试通过，基本功能可用  |      |
 |  4  |  分布式调度子系统  |  没有新增特性，轻设备拉起富设备FA，轻富设备免安装，appID校验等基本功能正常  |      |
@@ -81,9 +81,9 @@
 | I44TNC | [Demo&应用子系统][JSUI][Menu/Option]JSMenu | 特性质量良好 | | |
 | I452UD | [Demo&应用子系统][JSUI]【OpenHarmony】工具栏 | 特性质量良好 | | |
 | I44TN0 | RQ-[Demo&应用子系统][JSUI][滑动条] slider | 特性质量良好 | | |
-|         |          |              |              |      |
-|         |          |              |              |      |
-|         |          |              |              |      |
+| [I3XCB5](https://gitee.com/openharmony/appexecfwk_appexecfwk_lite/issues/I3XCB5) | 【应用程序框架】按照应用粒度的存储资源使用统计 | 特性不稳定 | https://gitee.com/openharmony/appexecfwk_appexecfwk_lite/issues/I47ETO?from=project-issue<br />https://gitee.com/openharmony/appexecfwk_appexecfwk_lite/issues/I47EPA?from=project-issue | 小型系统 |
+| [I43G6T](https://gitee.com/open_harmony/dashboard?issue_id=I43G6T) | WM Client架构演进 | 特性质量良好 |              |      |
+| [I43HMM](https://gitee.com/open_harmony/dashboard?issue_id=I43HMM) | WM Server架构演进 | 特性质量良好 |              |      |
 |         |          |              |              |      |
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
