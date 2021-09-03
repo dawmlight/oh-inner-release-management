@@ -72,32 +72,21 @@ XXX子系统：特性质量良好
 
 *以表格的形式汇总新特性测试执行情况及遗留问题情况的评估,给出特性质量评估结论。*
 
-<<<<<<< HEAD
-| lssue号 | 特性名称 | 特性质量评估 | 约束依赖说明 | 备注 |
-| ------- | -------- | ------------ | ------------ | ---- |
-|   I41H55      |  【驱动子系统】基于HDF驱动框架提供I2S/PCM平台总线驱动        |     特性基本可用         |      不涉及        |      |
-|   I41HBF      |   【驱动子系统】基于HDF驱动框架提供Display驱动模型兼容DRM显示框架       |     特性基本可用         |    不涉及          |      |
-|         |          |              |              |      |
-|         |          |              |              |      |
-|         |          |              |              |      |
-|         |          |              |              |      |
-|         |          |              |              |      |
-=======
-| lssue号                                                      | 特性名称                                              | 特性质量评估             | 约束依赖说明 | 备注     |
-| ------------------------------------------------------------ | ----------------------------------------------------- | ------------------------ | ------------ | -------- |
-| [I3NN1Z](https://gitee.com/openharmony/aafwk_aafwk_lite/issues/I3NN1Z) | 【应用程序框架】轻量级实现弹窗授权动态授权机制        | 需求未交付，版本计划错误 |              | 小型系统 |
-| [I40PBC](https://gitee.com/open_harmony/dashboard?issue_id=I40PBC) | 应用侧发布本地分组的普通通知                          | 需求未交付，版本计划错误 |              | 标准系统 |
-| [I40PBF](https://gitee.com/open_harmony/dashboard?issue_id=I40PBF) | 在免打扰模式下发布通知                                | 需求未交付，版本计划错误 |              | 标准系统 |
-| [I40PBG](https://gitee.com/open_harmony/dashboard?issue_id=I40PBG) | 发布开启一个无页面的Ability的wantAgent                | 需求未交付，版本计划错误 |              | 标准系统 |
-| [I40PBH](https://gitee.com/open_harmony/dashboard?issue_id=I40PBH) | 取消WantAgent的实例                                   | 需求未交付，版本计划错误 |              | 标准系统 |
-| [I40PBI](https://gitee.com/open_harmony/dashboard?issue_id=I40PBI) | 发布公共事件的WantAgent通知                           | 需求未交付，版本计划错误 |              | 标准系统 |
-| [I40PBM](https://gitee.com/open_harmony/dashboard?issue_id=I40PBM) | 应用侧取消本地通知                                    | 需求未交付，版本计划错误 |              | 标准系统 |
-| [I40PBN](https://gitee.com/open_harmony/dashboard?issue_id=I40PBN) | 应用侧发布声音通知                                    | 需求未交付，版本计划错误 |              | 标准系统 |
-| [I40PBO](https://gitee.com/open_harmony/dashboard?issue_id=I40PBO) | 应用侧发布振动通知                                    | 需求未交付，版本计划错误 |              | 标准系统 |
-| [I40PBP](https://gitee.com/open_harmony/dashboard?issue_id=I40PBP) | 应用侧发布本地有输入框的通知（NotificationUserInput） | 需求未交付，版本计划错误 |              | 标准系统 |
-|                                                              |                                                       |                          |              |          |
->>>>>>> pr_229
-
+| lssue号                                                      | 特性名称                                                     | 特性质量评估             | 约束依赖说明 | 备注     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------ | ------------ | -------- |
+| [I3NN1Z](https://gitee.com/openharmony/aafwk_aafwk_lite/issues/I3NN1Z) | 【应用程序框架】轻量级实现弹窗授权动态授权机制               | 需求未交付，版本计划错误 |              | 小型系统 |
+| [I40PBC](https://gitee.com/open_harmony/dashboard?issue_id=I40PBC) | 应用侧发布本地分组的普通通知                                 | 需求未交付，版本计划错误 |              | 标准系统 |
+| [I40PBF](https://gitee.com/open_harmony/dashboard?issue_id=I40PBF) | 在免打扰模式下发布通知                                       | 需求未交付，版本计划错误 |              | 标准系统 |
+| [I40PBG](https://gitee.com/open_harmony/dashboard?issue_id=I40PBG) | 发布开启一个无页面的Ability的wantAgent                       | 需求未交付，版本计划错误 |              | 标准系统 |
+| [I40PBH](https://gitee.com/open_harmony/dashboard?issue_id=I40PBH) | 取消WantAgent的实例                                          | 需求未交付，版本计划错误 |              | 标准系统 |
+| [I40PBI](https://gitee.com/open_harmony/dashboard?issue_id=I40PBI) | 发布公共事件的WantAgent通知                                  | 需求未交付，版本计划错误 |              | 标准系统 |
+| [I40PBM](https://gitee.com/open_harmony/dashboard?issue_id=I40PBM) | 应用侧取消本地通知                                           | 需求未交付，版本计划错误 |              | 标准系统 |
+| [I40PBN](https://gitee.com/open_harmony/dashboard?issue_id=I40PBN) | 应用侧发布声音通知                                           | 需求未交付，版本计划错误 |              | 标准系统 |
+| [I40PBO](https://gitee.com/open_harmony/dashboard?issue_id=I40PBO) | 应用侧发布振动通知                                           | 需求未交付，版本计划错误 |              | 标准系统 |
+| [I40PBP](https://gitee.com/open_harmony/dashboard?issue_id=I40PBP) | 应用侧发布本地有输入框的通知（NotificationUserInput）        | 需求未交付，版本计划错误 |              | 标准系统 |
+| I41H55                                                       | 【驱动子系统】基于HDF驱动框架提供I2S/PCM平台总线驱动         | 特性基本可用             | 不涉及       |          |
+| I41HBF                                                       | 【驱动子系统】基于HDF驱动框架提供Display驱动模型兼容DRM显示框架 | 特性基本可用             | 不涉及       |          |
+|                                                              |                                                              |                          |              |          |
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
 ## 4.2   兼容性测试结论
