@@ -64,6 +64,8 @@ XXX子系统：特性质量良好
 | 1    | 内核子系统 | 没有新增特性，基本功能可用 |      |
 | 2   | DFX子系统 | 新增faultlogger功能，覆盖对应的功能、稳定性压测，性能和安全不涉及，功能正常，无异常，其余继承功能覆盖自动化和稳定性压测，hilog压测之后hilogd进程异常重启，且hilog命令无法执行 |  https://gitee.com/openharmony/hiviewdfx_hilog/issues/I48IM7?from=project-issue    |
 |  3  | 全球化子系统 | 无新增特性，测试用例执行通过，特性质量良好 | |
+|  4  | 驱动子系统 | 新增特性，测试用例执行通过。camera、wifi、display特性不稳定 | |
+
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
 ### 4.1.2   新需求评价
@@ -72,7 +74,8 @@ XXX子系统：特性质量良好
 
 | lssue号 | 特性名称 | 特性质量评估 | 约束依赖说明 | 备注 |
 | ------- | -------- | ------------ | ------------ | ---- |
-|         |          |              |              |      |
+|   I41H55      |  【驱动子系统】基于HDF驱动框架提供I2S/PCM平台总线驱动        |     特性基本可用         |      不涉及        |      |
+|   I41HBF      |   【驱动子系统】基于HDF驱动框架提供Display驱动模型兼容DRM显示框架       |     特性基本可用         |    不涉及          |      |
 |         |          |              |              |      |
 |         |          |              |              |      |
 |         |          |              |              |      |
@@ -129,5 +132,7 @@ XXX子系统：特性质量良好
 |          |            |          |          |                             |           |
 
 # 5   问题单统计
-
-NA
+https://gitee.com/openharmony/drivers_peripheral/issues/I43339 【OpenHarmony 2.2 Beta2】【驱动子系统】L2单板camera DFx测试用例失败
+https://gitee.com/openharmony/drivers_peripheral/issues/I48A2I 【OpenHarmony 3.0.0.6】【驱动子系统】L1 3516DV300单板liteos版本调用AllocMem接口测试，单板挂死
+https://gitee.com/openharmony/drivers_peripheral/issues/I47DE6 【OpenHarmony 3.0 Beta1】【驱动子系统】不安全函数和安全编译选项
+https://gitee.com/openharmony/drivers_peripheral/issues/I46HH7 【OpenHarmony 3.0.0.3】【驱动子系统】L2单板wifi测试用例失败
