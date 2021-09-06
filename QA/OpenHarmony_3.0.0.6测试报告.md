@@ -124,8 +124,12 @@ XXX子系统：特性质量良好
 
 | 测试分类 | 测试评估项 | 质量目标 | 是否满足 | 测试结果及关键遗留问题/风险 | 备注issue |
 | -------- | ---------- | -------- | -------- | --------------------------- | --------- |
-|          |            |          |          |                             |           |
-|          |            |          |          |                             |           |
+| 基础性能 | 轻量系统静态模型 | 静态KPI通过率100% | 满足   |  轻量系统无感配网满足版本质量 |           |
+| 基础性能 | 小型系统静态模型 | 静态KPI通过率100% | 不满足 |  小型系统图库、查看图片、拍照、录像均满足测试要求|   |
+| 基础性能 | 标准系统静态模型 | 静态KPI通过率100% | 无法评估 |  标准系统在当前版本间无劣化正常 | 当前标准系统无静态基线 |
+| 基础性能 | 轻量系统内存专项 | 开机以及动态内存整机达标，子系统无严重问题 | 满足   |  轻量系统无感配网满足版本质量 |           |
+| 基础性能 | 小型系统内存专项 | 开机以及动态内存整机达标，子系统无严重问题 | 不满足 |  3516以及3518常驻内存均未达标 | https://gitee.com/openharmony/community/issues/I434AD  https://gitee.com/openharmony/community/issues/I434P1|
+| 基础性能 | 标准系统静态模型 | 开机以及动态内存整机达标，子系统无严重问题 | 无法评估 |   开机以及动态内存整机达标，子系统无严重问题 | 当前标准系统无内存基线 |
 
 ## 4.6   功耗专项测试结论
 
@@ -135,11 +139,13 @@ XXX子系统：特性质量良好
 
 | 测试分类 | 测试评估项 | 质量目标 | 是否满足 | 测试结果及关键遗留问题/风险 | 备注issue |
 | -------- | ---------- | -------- | -------- | --------------------------- | --------- |
-|          |            |          |          |                             |           |
-|          |            |          |          |                             |           |
+| 待机/场景功耗 | 小型系统待机/场景功耗 | 待机功耗达标 |  满足  | 待机/场景质量满足版本质量要 |           |
+| 待机/场景功耗 | 标准系统待机/场景功耗 | 待机功耗达标 |  无法评估  | 标准系统无待机/场景功耗基线  |           |
 
 # 5   问题单统计
 https://gitee.com/openharmony/drivers_peripheral/issues/I43339 【OpenHarmony 2.2 Beta2】【驱动子系统】L2单板camera DFx测试用例失败
 https://gitee.com/openharmony/drivers_peripheral/issues/I48A2I 【OpenHarmony 3.0.0.6】【驱动子系统】L1 3516DV300单板liteos版本调用AllocMem接口测试，单板挂死
 https://gitee.com/openharmony/drivers_peripheral/issues/I47DE6 【OpenHarmony 3.0 Beta1】【驱动子系统】不安全函数和安全编译选项
 https://gitee.com/openharmony/drivers_peripheral/issues/I46HH7 【OpenHarmony 3.0.0.3】【驱动子系统】L2单板wifi测试用例失败
+https://gitee.com/openharmony/multimedia_camera_lite/issues/I434AD  HI3516DV300 L1常驻内存超基线
+https://gitee.com/openharmony/multimedia_camera_lite/issues/I434P1  HI3518EV300常驻内存超基线
