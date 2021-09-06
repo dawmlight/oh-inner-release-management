@@ -75,22 +75,8 @@ XXX子系统：特性质量良好
 | 5  | 多媒体子系统 | 无新增特性，测试用例执行通过，特性质量良好 | |
 | 6  | 数据管理子系统 | 无新增特性，测试用例执行通过，特性质量良好 | |
 | 7  | 启动恢复子系统 | 无新增特性，测试用例执行通过，特性质量良好 | |
-| 8  | 软总线子系统 | 本轮对目前已转测软总线平台化能力进行验收，包括：CoAP发现和自组网，WiFi下的连接和Mesaage/Byte传输，整体质量较差，目前遗留关键问题较多 | 
-1、【2.2 Beta2】【软总线-传输】断本端网络，组网未成功（无法获取node），但是却成功opensession发送数据 https://gitee.com/openharmony/communication_dsoftbus/issues/I439J1
+| 8  | 软总线子系统 | 本轮对目前已转测软总线平台化能力进行验收，包括：CoAP发现和自组网，WiFi下的连接和Mesaage/Byte传输，整体质量较差，目前遗留关键问题较多 | 关键问题：[关键问题](https://gitee.com/openharmony/communication_dsoftbus/issues?assignee_id=&author_id=&branch=&collaborator_ids=&issue_search=&label_ids=&label_text=&milestone_id=&priority=&private_issue=&program_id=&project_type=&scope=&sort=&state=progressing&target_project=)|
 
-2、【2.2 Beta2】【软总线-发现】L2与手机已组网，开关L2网络后，无法发现手机 https://gitee.com/openharmony/communication_dsoftbus/issues/I44BYM
-
-3、【2.2 Beta2】【软总线-组网】1个设备2个手机-配网后2次回调上线-实际组网失败-再次调用发现组网-发现成功组网失败 https://gitee.com/openharmony/communication_dsoftbus/issues/I46280
-
-4、【3.0 beta1】【软总线-组网】L2从AP1切换到AP2，IP地址未变化的情况下，组网无法感知进行下线（当前监听方案存在一定缺陷） https://gitee.com/openharmony/communication_dsoftbus/issues/I46V97
-
-5、【3.0 beta1】【软总线-传输】传输压测：3个线程间隔500ms发送数据_一段时间后大量返回-999（超时）_用例跑完很久_手机侧还在收到数据 https://gitee.com/openharmony/communication_dsoftbus/issues/I477AF
-
-6、【3.0 beta1】【软总线-组网】自组网上下线压测-20次失败7次 https://gitee.com/openharmony/communication_dsoftbus/issues/I477DX
-
-7、【3.0 beta1】【软总线-传输】3进程传输压测（循环长时时间执行‘OpenSession-发送数据-closesession’）软总线进程crash https://gitee.com/openharmony/communication_dsoftbus/issues/I47LHR
-
-8、【3.0 beta1】【软总线-传输】create session server接口返回值与上个版本不一致（create ss已存在原返回失败，本版本返回成功） https://gitee.com/openharmony/communication_dsoftbus/issues/I47UVI|
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
 ### 4.1.2   新需求评价
