@@ -68,7 +68,7 @@ XXX子系统：特性质量良好
 |  5  | 多媒体子系统 | 无新增特性，测试用例执行通过，特性质量良好 | |
 |  6  | 启动恢复子系统 | 无新增特性，测试用例执行通过，特性质量良好 | |
 |  7  | 数据管理子系统 | 无新增特性，测试用例执行通过，特性质量良好 | |
-
+|  8  | 集成测试 | 新需求基础功功能可用，遗留少量问题，继承性功能分布式设备无法发现，特性不稳定，风险较高 |特性不稳定，风险高 |https://gitee.com/openharmony/app_samples/issues/I48RU8  分布式数据管理模块在跟踪|
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
 ### 4.1.2   新需求评价
@@ -91,6 +91,13 @@ XXX子系统：特性质量良好
 | I41HBF                                                       | 【驱动子系统】基于HDF驱动框架提供Display驱动模型兼容DRM显示框架 | 特性基本可用             | 不涉及       |          |
 |  I3ZVTJ                                                       |   【分布式任务调度子系统】接收远端拉起FA请求，跨设备拉起远端FA  |   特性基本可用      |  不涉及            |          |
 |  I3ZVTT                                                      |   【分布式任务调度子系统】鸿蒙单框架L2分布式能力建设-SAMGR模块构建 |   特性基本可用      |  不涉及            |          |
+| I45ZKP | RQ-[Demo&应用子系统][JSUI][画布组件] JsCanvas| 特性基本可用，遗留少量问题| 不涉及|https://gitee.com/openharmony/app_samples/issues/I48HJN  &  https://gitee.com/openharmony/app_samples/issues/I48HLN|
+| I466KX| RQ-[Demo&应用子系统][JSUI]【OpenHarmony】 栅格布局| 特性质量良好| 不涉及| |
+| I45YM2| RQ-[Demo&应用子系统][JS UI]【OpenHarmony】JS自定义组件（JSUICustomComponent）| 特性质量良好| 不涉及| |
+| I44Y4J|RQ-[Demo&应用子系统][JS UI]【HarmonyOS】自适应卡片（AdaptiveServiceWidget）| 特性质量良好| 不涉及| |
+| I44Y0N| RQ-[Demo&应用子系统][JS UI]【HarmonyOS】自适应页面（AdaptivePortalPage）| 特性质量良好| 不涉及| |
+| I44Y15| RQ-[Demo&应用子系统][JS UI]【HarmonyOS】自适应效率型首页（AdaptivePortalList）| 特性质量良好| 不涉及| |
+| I46ZCN| RQ-[Demo&应用子系统][JAVA UI]【HarmonyOS】添加NativeLayer示例| 特性质量良好| 不涉及| |
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
 ## 4.2   兼容性测试结论
