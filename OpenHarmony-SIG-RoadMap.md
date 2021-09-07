@@ -437,7 +437,8 @@ L2 需求列表：
 暂无
 
 ## OpenHarmony 3.1.1.3版本特性清单：
-
+| no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
+| :--- | ------------------------------------------------------------ | :----------------------------------------------------------- | :--------- | :------------------- | :------------------------------------------------ |
 | 1    | [I3O2G8](https://gitee.com/openharmony/aafwk_aafwk_lite/issues/I3O2G8?from=project-issue) | 【应用程序框架】轻量级应用实现entity标签                     | developing | SIG_AppFramework     | [@autumn](https://gitee.com/autumn330)|
 
 ## OpenHarmony 3.1 Beta2版本特性清单：
