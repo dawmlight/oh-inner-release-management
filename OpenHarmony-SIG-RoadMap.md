@@ -407,7 +407,6 @@ L2 需求列表：
 | 2    | [I3NT3F](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT3F) | 【轻内核子系统】内核支持trace功能                            | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)               |
 | 3    | [I3NT63](https://gitee.com/openharmony/kernel_liteos_a/issues/I3NT63) | 【轻内核子系统】pagecache功能完善                            | developing | SIG_Kernel           | [@kkup180](https://gitee.com/kkup180)               |
 | 4    | [I3NTCT](https://gitee.com/openharmony/startup_appspawn_lite/issues/I3NTCT) | 【启动恢复子系统】Linux版本init支持热插拔                    | developing | SIG_BscSoftSrv       | [@handyohos](https://gitee.com/handyohos)         |
-| 5    | [I3O2G8](https://gitee.com/openharmony/aafwk_aafwk_lite/issues/I3O2G8?from=project-issue) | 【应用程序框架】轻量级应用实现entity标签                     | developing | SIG_AppFramework     | [@autumn](https://gitee.com/autumn330)|
 
 ## OpenHarmony 3.0 LTS版本特性清单：
 暂无
@@ -439,7 +438,7 @@ L2 需求列表：
 
 ## OpenHarmony 3.1.1.3版本特性清单：
 
-暂无
+| 1    | [I3O2G8](https://gitee.com/openharmony/aafwk_aafwk_lite/issues/I3O2G8?from=project-issue) | 【应用程序框架】轻量级应用实现entity标签                     | developing | SIG_AppFramework     | [@autumn](https://gitee.com/autumn330)|
 
 ## OpenHarmony 3.1 Beta2版本特性清单：
 
