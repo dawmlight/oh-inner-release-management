@@ -75,6 +75,7 @@ XXX子系统：特性质量良好
 | 5  | 多媒体子系统 | 无新增特性，测试用例执行通过，特性质量良好 | |
 | 6  | 数据管理子系统 | 无新增特性，测试用例执行通过，特性质量良好 | |
 | 7  | 启动恢复子系统 | 无新增特性，测试用例执行通过，特性质量良好 | |
+| 8  | 软总线子系统 | 本轮对目前已转测软总线平台化能力进行验收，包括：CoAP发现和自组网，WiFi下的连接和Mesaage/Byte传输，整体质量较差，目前遗留关键问题较多 | 关键问题：[关键问题](https://gitee.com/openharmony/communication_dsoftbus/issues?assignee_id=&author_id=&branch=&collaborator_ids=&issue_search=&label_ids=&label_text=&milestone_id=&priority=&private_issue=&program_id=&project_type=&scope=&sort=&state=progressing&target_project=)|
 
 *特性质量评估可选项：特性不稳定，风险高\特性基本可用，遗留少量问题\特性质量良好*
 
