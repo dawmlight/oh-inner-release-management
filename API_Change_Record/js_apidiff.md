@@ -313,5 +313,43 @@
 |语言编译器运行时-process|uptime(): number;|新增|-|
 |语言编译器运行时-process|getGroups(): number[];|新增|-|
 |语言编译器运行时-process|kill(signal?: number, pid?: number): boolean;|新增|-|
+|升级服务子系统-Updater|checkNewVersion(): Promise<NewVersionInfo>;|新增|    -|
+|升级服务子系统-Updater|rebootAndCleanUserData(callback: AsyncCallback<number>): void;|新增|    -|
+|升级服务子系统-Updater|rebootAndCleanCache(): Promise<number>;|新增|    -|
+|升级服务子系统-Updater|function getUpdaterFromOther(device: string, updateType?: UpdateTypes): Updater;|新增|    -|
+|升级服务子系统-Updater|cancel(): void;|新增|    -|
+|升级服务子系统-Updater|upgrade(): void;|新增|    -|
+|升级服务子系统-Updater|off(eventType: 'downloadProgress', callback?: UpdateProgressCallback): void;|新增|    -|
+|升级服务子系统-Updater|getUpdatePolicy(callback: AsyncCallback<UpdatePolicy>): void;|新增|    -|
+|升级服务子系统-Updater|function getUpdaterForOther(device: string, updateType?: UpdateTypes): Updater;|新增|    -|
+|升级服务子系统-Updater|setUpdatePolicy(policy: UpdatePolicy, callback: AsyncCallback<number>): void;|新增|    -|
+|升级服务子系统-Updater|getNewVersionInfo(): Promise<NewVersionInfo>;|新增|    -|
+|升级服务子系统-Updater|function getUpdater(updateType?: UpdateTypes): Updater;|新增|    -|
+|升级服务子系统-Updater|applyNewVersion(callback: AsyncCallback<number>): void;|新增|    -|
+|升级服务子系统-Updater|rebootAndCleanUserData(): Promise<number>;|新增|    -|
+|升级服务子系统-Updater|off(eventType: 'verifyProgress', callback?: UpdateProgressCallback): void;|新增|    -|
+|升级服务子系统-Updater|on(eventType: 'upgradeProgress', callback: UpdateProgressCallback): void;|新增|    -|
+|升级服务子系统-Updater|checkNewVersion(callback: AsyncCallback<NewVersionInfo>): void;|新增|    -|
+|升级服务子系统-Updater|on(eventType: 'downloadProgress', callback: UpdateProgressCallback): void;|新增|    -|
+|升级服务子系统-Updater|getUpdatePolicy(): Promise<UpdatePolicy>;|新增|    -|
+|升级服务子系统-Updater|download(): void;|新增|    -|
+|升级服务子系统-Updater|off(eventType: 'upgradeProgress', callback?: UpdateProgressCallback): void;|新增|    -|
+|升级服务子系统-Updater|getNewVersionInfo(callback: AsyncCallback<NewVersionInfo>): void;|新增|    -|
+|升级服务子系统-Updater|on(eventType: 'verifyProgress', callback: UpdateProgressCallback): void;|新增|    -|
+|升级服务子系统-Updater|verifyUpdatePackage(upgradeFile: string, certsFile: string): void;|新增|    -|
+|升级服务子系统-Updater|setUpdatePolicy(policy: UpdatePolicy): Promise<number>;|新增|    -|
+|升级服务子系统-Updater|rebootAndCleanCache(callback: AsyncCallback<number>): void;|新增|    -|
+|升级服务子系统-Updater|applyNewVersion(): Promise<number>;|新增|    -|
+|全球化子系统-I18n|getSystemLanguages(): Array<string>;|新增|    -|
+|全球化子系统-I18n|getSystemCountries(language: string): Array<string>;|新增|    -|
+|全球化子系统-I18n|isSuggested(language: string, region?: string): boolean;|新增|    -|
+|全球化子系统-I18n|getSystemLanguage(): string;|新增|    -|
+|全球化子系统-I18n|setSystemLanguage(language: string);|新增|    -|
+|全球化子系统-I18n|getSystemRegion(): string;|新增|    -|
+|全球化子系统-I18n|setSystemRegion(region: string);|新增|    -|
+|全球化子系统-I18n|"getDisplayCountry(locale: string, displayLocale: string,sentenceCase?: boolean): string;"|新增|    -|
+|全球化子系统-I18n|getSystemLocale(): string;|新增|    -|
+|全球化子系统-I18n|setSystemLocale(locale: string);|新增|    -|
+|全球化子系统-I18n|"getDisplayLanguage(locale: string, displayLocale: string,sentenceCase?: boolean): string;"|新增|    -|
 
 
