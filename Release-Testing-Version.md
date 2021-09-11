@@ -1,3 +1,28 @@
+## OpenHarmony 3.0.0.7版本转测试信息：
+| **转测试版本号：OpenHarmony 3.0.0.7                |
+| ------------------------------------------------------------ |
+| **版本用途：**OpenHarmony码云master迭代二第六轮测试，验收:|
+|L0L1:涉及全球化子系统                                              |
+|L2: Demo&应用、分布式任务调度、分布式数据管理、语言编译器运行时、驱动、事件通知等子系统特性     |
+| **API变更：**：本次转测特性L2的语言编译器运行时涉及API变更，具体参见：https://gitee.com/openharmony-sig/oh-inner-release-management/blob/master/API_Change_Record/                  |
+| **L0L1转测试时间：2021-09-11**                                   |
+| **L0L1转测试版本获取路径：**                                   |
+| hispark_taurus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.7/20210908_155211/version-Master_Version-OpenHarmony_3.0.0.7-20210908_155211-hispark_taurus.tar.gz   |
+| hispark_taurus_linux版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.7/20210908_154643/version-Master_Version-OpenHarmony_3.0.0.7-20210908_154643-hispark_taurus_linux.tar.gz |
+| hispark_pegasus版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.7/20210908_154608/version-Master_Version-OpenHarmony_3.0.0.7-20210908_154608-hispark_pegasus.tar.gz   |
+| hispark_aries版本：<br> http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.7/20210908_155220/version-Master_Version-OpenHarmony_3.0.0.7-20210908_155220-hispark_aries.tar.gz  |
+| **L2转测试时间：2021-09-11**                                   |
+ **L2转测试版本获取路径：**                                   |
+ | hi3516dv300-L2版本：<br>http://download.ci.openharmony.cn/version/Master_Version/OpenHarmony_3.0.0.7/20210908_160029/version-Master_Version-OpenHarmony_3.0.0.7-20210908_160029-L2_hi3516dv300.tar.gz |
+
+
+L1需求列表:
+状态说明：discussion(方案讨论，需求未接受)，Reject(未纳入版本)，developing(开发中)，Testing(测试中)，Accepted(已验收)
+| no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
+| :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
+| 1    | [I46W6Q](https://gitee.com/openharmony/global_i18n_lite/issues/I46W6Q) | 【全球化】新增31种语言支持              | developing | SIG_AppFramework     | [@zhiweilai](https://gitee.com/zhiweilai)              |
+
+
 ## OpenHarmony 3.0.0.6版本转测试信息：
 | **转测试版本号：OpenHarmony 3.0.0.6                |
 | ------------------------------------------------------------ |
