@@ -457,6 +457,7 @@ L2需求列表:
 |53|[I49HPE](https://gitee.com/open_harmony/dashboard?issue_id=I49HPE)|独立发布SDK能力支持|Testing|SIG_ApplicationFramework|[@zhanghaibo0](https://gitee.com/zhanghaibo0)|
 |54|[I49CTN](https://gitee.com/open_harmony/dashboard?issue_id=I49CTN)|【hdc_std】支持openharmony sdk独立发布|Testing|SIG_R&DToolChain|[@chuxuezhe111](https://gitee.com/chuxuezhe111)|
 |55|[I49HLR](https://gitee.com/open_harmony/dashboard?issue_id=I49HLR)|【Build】OpenHarmony SDK的打包和编译|Testing|SIG_CompileRuntime|[@weichaox](https://gitee.com/weichaox)|
+|56|[I40OWF](https://gitee.com/open_harmony/dashboard?issue_id=I40OWF)|【SIM卡】随卡功能实现，包括获取当前运营商配置等|Testing|SIG_SoftBus|[@zhang-hai-feng](https://gitee.com/zhang-hai-feng)|
 
 ## OpenHarmony 3.0.0.8 版本特性清单：
 
