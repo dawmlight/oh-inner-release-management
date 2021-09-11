@@ -399,6 +399,65 @@ L2 需求列表：
 | :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
 | 1    | [I46W6Q](https://gitee.com/openharmony/global_i18n_lite/issues/I46W6Q) | 【全球化】新增31种语言支持              | developing | SIG_AppFramework     | [@zhiweilai](https://gitee.com/zhiweilai)              |
 
+L2需求列表:
+| no   | issue                                                        | feture description                                | status     | sig            | owner                                 |
+| :--- | ------------------------------------------------------------ | :------------------------------------------------ | :--------- | :------------- | :------------------------------------ |
+|1|[I47B4N](https://gitee.com/open_harmony/dashboard?issue_id=I47B4N)|RQ-[Demo&应用子系统][JSUI]【OpenHarmony】页面路由|Testing|SIG_SystemApplication|[@gaohui100](https://gitee.com/gaohui100)|
+|2|[I479L2](https://gitee.com/open_harmony/dashboard?issue_id=I479L2)|RQ-[Demo&应用子系统][JSUI]【OpenHarmony】 系统时间与定时器|Testing|SIG_SystemApplication|[@adslk](https://gitee.com/adslk)|
+|3|[I48CJ3](https://gitee.com/open_harmony/dashboard?issue_id=I48CJ3)|RQ-[Demo&应用子系统][JSUI]【OpenHarmony】设备信息|Testing|SIG_SystemApplication|[@caopan_com](https://gitee.com/caopan_com)|
+|4|[I48VL4](https://gitee.com/open_harmony/dashboard?issue_id=I48VL4)|RQ-[Demo&应用子系统][JSUI]【OpenHarmony】设置屏幕亮度|Testing|SIG_SystemApplication|[@caopan_com](https://gitee.com/caopan_com)|
+|5|[I49B4X](https://gitee.com/open_harmony/dashboard?issue_id=I49B4X)|RQ-[Demo&应用子系统][JSUI]【OpenHarmony】国际化|Testing|SIG_SystemApplication|[@gaohui100](https://gitee.com/gaohui100)|
+|6|[I3ZXZF](https://gitee.com/open_harmony/dashboard?issue_id=I3ZXZF)|【Kernel升级适配】OpenHarmony L2内核版本升级至5.10|Testing|SIG_Kernel|[@z-jax](https://gitee.com/z-jax)|
+|7|[I41HC1](https://gitee.com/open_harmony/dashboard?issue_id=I41HC1)|【驱动子系统】基于HDF驱动框架提供Codec HDI的服务化|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|8|[I41HB1](https://gitee.com/open_harmony/dashboard?issue_id=I41HB1)|【驱动子系统】基于HDF驱动框架提供陀螺仪Sensor驱动能力|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|9|[I41HBE](https://gitee.com/open_harmony/dashboard?issue_id=I41HBE)|【驱动子系统】基于HDF驱动框架提供backlight驱动能力|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|10|[I41HB5](https://gitee.com/open_harmony/dashboard?issue_id=I41HB5)|【驱动子系统】基于HDF驱动框架提供压力Sensor驱动能力|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|11|[I41HB4](https://gitee.com/open_harmony/dashboard?issue_id=I41HB4)|【驱动子系统】基于HDF驱动框架提供霍尔Sensor驱动能力|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|12|[I41H50](https://gitee.com/open_harmony/dashboard?issue_id=I41H50)|【驱动子系统】驱动hdi-gen开发工具|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|13|[I41HBD](https://gitee.com/open_harmony/dashboard?issue_id=I41HBD)|【驱动子系统】基于HDF驱动框架提供Encoder驱动能力|Testing|SIG_DriverFramework|[@zianed](https://gitee.com/zianed)|
+|14|[I3NJ0R](https://gitee.com/open_harmony/dashboard?issue_id=I3NJ0R)|【发现】发现调度模块功能实现|Testing|SIG_SoftBus|[@tianmeimimi](https://gitee.com/tianmeimimi)|
+|15|[I3NIPH](https://gitee.com/open_harmony/dashboard?issue_id=I3NIPH)|【传输】消息传输|Testing|SIG_SoftBus|[@tianmeimimi](https://gitee.com/tianmeimimi)|
+|16|[I3NIPO](https://gitee.com/open_harmony/dashboard?issue_id=I3NIPO)|【传输】Byte传输|Testing|SIG_SoftBus|[@tianmeimimi](https://gitee.com/tianmeimimi)|
+|17|[I3NIOF](https://gitee.com/open_harmony/dashboard?issue_id=I3NIOF)|【传输】传输SDK|Testing|SIG_SoftBus|[@tianmeimimi](https://gitee.com/tianmeimimi)|
+|18|[I3NINO](https://gitee.com/open_harmony/dashboard?issue_id=I3NINO)|【传输】会话协商|Testing|SIG_SoftBus|[@tianmeimimi](https://gitee.com/tianmeimimi)|
+|19|[I40PBD](https://gitee.com/open_harmony/dashboard?issue_id=I40PBD)|2个不同的slot，加入到同一个Slot组里面|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
+|20|[I40PBJ](https://gitee.com/open_harmony/dashboard?issue_id=I40PBJ)|提供管理角标显示/隐藏的接口|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
+|21|[I40PBK](https://gitee.com/open_harmony/dashboard?issue_id=I40PBK)|提供管理通知许可的接口（设置和查询）|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
+|22|[I40PBL](https://gitee.com/open_harmony/dashboard?issue_id=I40PBL)|应用删除SlotGroup|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
+|23|[I40PBQ](https://gitee.com/open_harmony/dashboard?issue_id=I40PBQ)|发布带ActionButton的本地通知|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
+|24|[I40PBR](https://gitee.com/open_harmony/dashboard?issue_id=I40PBR)|通知流控处理|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
+|25|[I40PBT](https://gitee.com/open_harmony/dashboard?issue_id=I40PBT)|死亡监听|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
+|26|[I40PBU](https://gitee.com/open_harmony/dashboard?issue_id=I40PBU)|通知shell命令|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
+|27|[I49HOX](https://gitee.com/open_harmony/dashboard?issue_id=I49HOX)|工具链提供维测能力|Testing|SIG_CompileRuntime|[@dhy308](https://gitee.com/dhy308)|
+|28|[I40OPG](https://gitee.com/open_harmony/dashboard?issue_id=I40OPG)|【定时服务】非功能性需求|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
+|29|[I40OPH](https://gitee.com/open_harmony/dashboard?issue_id=I40OPH)|【定时服务】时间时区同步|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
+|30|[I40OPI](https://gitee.com/open_harmony/dashboard?issue_id=I40OPI)|【定时服务】定时器功能|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
+|31|[I40OPJ](https://gitee.com/open_harmony/dashboard?issue_id=I40OPJ)|【定时服务】时间时区管理|Testing|SIG_ApplicationFramework|[@autumn330](https://gitee.com/autumn330)|
+|32|[I3ZQED](https://gitee.com/open_harmony/dashboard?issue_id=I3ZQED)|【帐号子系统】添加分布式帐号登录状态IPC消息权限检查|Testing|SIG_BasicSoftwareService|[@verystone](https://gitee.com/verystone)|
+|33|[I40MWK](https://gitee.com/open_harmony/dashboard?issue_id=I40MWK)|构建语言和地区配置和区域显示能力|Testing|SIG_ApplicationFramework|[@mengjingzhimo](https://gitee.com/mengjingzhimo)|
+|34|[I40OWT](https://gitee.com/open_harmony/dashboard?issue_id=I40OWT)|【搜网】Radio状态管理|Testing|SIG_SoftBus|[@zhang-hai-feng](https://gitee.com/zhang-hai-feng)|
+|35|[I40OWU](https://gitee.com/open_harmony/dashboard?issue_id=I40OWU)|【搜网】搜网注册|Testing|SIG_SoftBus|[@zhang-hai-feng](https://gitee.com/zhang-hai-feng)|
+|36|[I40OWN](https://gitee.com/open_harmony/dashboard?issue_id=I40OWN)|【SIM卡】卡状态处理|Testing|SIG_SoftBus|[@zhang-hai-feng](https://gitee.com/zhang-hai-feng)|
+|37|[I40OWO](https://gitee.com/open_harmony/dashboard?issue_id=I40OWO)|【SIM卡】解锁卡pin、puk|Testing|SIG_SoftBus|[@zhang-hai-feng](https://gitee.com/zhang-hai-feng)|
+|38|[I40OWM](https://gitee.com/open_harmony/dashboard?issue_id=I40OWM)|【SIM卡】卡账户处理|Testing|SIG_SoftBus|[@zhang-hai-feng](https://gitee.com/zhang-hai-feng)|
+|39|[I40OX3](https://gitee.com/open_harmony/dashboard?issue_id=I40OX3)|【短彩信】提供小区广播的能力|Testing|SIG_SoftBus|[@zhang-hai-feng](https://gitee.com/zhang-hai-feng)|
+|40|[I40OX6](https://gitee.com/open_harmony/dashboard?issue_id=I40OX6)|【短彩信】提供短信基本配置功能|Testing|SIG_SoftBus|[@zhang-hai-feng](https://gitee.com/zhang-hai-feng)|
+|41|[I40OSY](https://gitee.com/open_harmony/dashboard?issue_id=I40OSY)|【SIM卡】提供拷贝、删除、更新、获取卡短信的能力供电话子系统内部使用|Testing|SIG_SoftBus|[@zhang-hai-feng](https://gitee.com/zhang-hai-feng)|
+|42|[I40OTN](https://gitee.com/open_harmony/dashboard?issue_id=I40OTN)|【通话管理】CS域发送MMI命令|Testing|SIG_SoftBus|[@zhang-hai-feng](https://gitee.com/zhang-hai-feng)|
+|43|[I40OTS](https://gitee.com/open_harmony/dashboard?issue_id=I40OTS)|【通话管理】CS域DTMF功能|Testing|SIG_SoftBus|[@zhang-hai-feng](https://gitee.com/zhang-hai-feng)|
+|44|[I40OTW](https://gitee.com/open_harmony/dashboard?issue_id=I40OTW)|【通话管理】CS通话基础功能|Testing|SIG_SoftBus|[@zhang-hai-feng](https://gitee.com/zhang-hai-feng)|
+|45|[I40OTX](https://gitee.com/open_harmony/dashboard?issue_id=I40OTX)|【通话管理】CS通话扩展功能|Testing|SIG_SoftBus|[@zhang-hai-feng](https://gitee.com/zhang-hai-feng)|
+|46|[I40OTY](https://gitee.com/open_harmony/dashboard?issue_id=I40OTY)|【SIM卡】G/U卡文件信息获取、保存|Testing|SIG_SoftBus|[@zhang-hai-feng](https://gitee.com/zhang-hai-feng)|
+|47|[I40OU3](https://gitee.com/open_harmony/dashboard?issue_id=I40OU3)|【搜网】驻网信息(运营商信息及SPN广播GSM）|Testing|SIG_SoftBus|[@zhang-hai-feng](https://gitee.com/zhang-hai-feng)|
+|48|[I40OU5](https://gitee.com/open_harmony/dashboard?issue_id=I40OU5)|【搜网】网络状态(漫游、GSM/LTE/WCDMA接入技术）|Testing|SIG_SoftBus|[@zhang-hai-feng](https://gitee.com/zhang-hai-feng)|
+|49|[I40OU7](https://gitee.com/open_harmony/dashboard?issue_id=I40OU7)|【搜网】信号强度(WCDMA/GSM/LTE)|Testing|SIG_SoftBus|[@zhang-hai-feng](https://gitee.com/zhang-hai-feng)|
+|50|[I40OUC](https://gitee.com/open_harmony/dashboard?issue_id=I40OUC)|【短彩信】提供发送短信功能|Testing|SIG_SoftBus|[@zhang-hai-feng](https://gitee.com/zhang-hai-feng)|
+|51|[I40OUF](https://gitee.com/open_harmony/dashboard?issue_id=I40OUF)|【短彩信】提供接收短信功能|Testing|SIG_SoftBus|[@zhang-hai-feng](https://gitee.com/zhang-hai-feng)|
+|52|[I40OTT](https://gitee.com/open_harmony/dashboard?issue_id=I40OTT)|【通话管理】CS域呼叫等待功能|Testing|SIG_SoftBus|[@zhang-hai-feng](https://gitee.com/zhang-hai-feng)|
+|53|[I49HPE](https://gitee.com/open_harmony/dashboard?issue_id=I49HPE)|独立发布SDK能力支持|Testing|SIG_ApplicationFramework|[@zhanghaibo0](https://gitee.com/zhanghaibo0)|
+|54|[I49CTN](https://gitee.com/open_harmony/dashboard?issue_id=I49CTN)|【hdc_std】支持openharmony sdk独立发布|Testing|SIG_R&DToolChain|[@chuxuezhe111](https://gitee.com/chuxuezhe111)|
+|55|[I49HLR](https://gitee.com/open_harmony/dashboard?issue_id=I49HLR)|【Build】OpenHarmony SDK的打包和编译|Testing|SIG_CompileRuntime|[@weichaox](https://gitee.com/weichaox)|
+
 ## OpenHarmony 3.0.0.8 版本特性清单：
 
 | no   | issue                                                        | feture description                                           | status     | sig                  | owner                                             |
